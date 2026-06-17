@@ -19,11 +19,6 @@ source: ai-agent-handbook
 **你的 agent 在做 5 步以下的簡單任務？** 這章可以跳過。
 
 **你的 agent 在做 100 步 + 數百工具的複雜任務？** 這章是必讀。
-{{< /callout**
-
->
-
-# M4 — 規劃在 2026 年怎麼 scale
 
 > ReAct 不是過時了，但它在 scale 上有三個結構性缺陷。
 > 2026 年的規劃研究是為「數百工具 + 長 horizon 任務」設計的新原語。
@@ -278,114 +273,7 @@ sequenceDiagram
 **給我的啟示**
 
 
-{{< details title="💡 給實作者的啟示（點開看 actionable 建議）"**
 
->
-按可實作性排序：
-
-| 方向 | 難度 | 成本 |
-|------|------|------|
-| **Reasoning Primitive Induction** | 🟡 Moderate | 免費 |
-| **Self-Healing Orchestrator** | 🟡 Moderate | 零 |
-| **Typed Tool Registry** | 🟢 Trivial | 零 |
-| **Plan-then-Judge** | 🟢 Trivial | +1 LLM call/cron |
-
-**Primitive Induction 步驟**：
-1. 從 TurnsLogger 撈出最近 N=200 個成功 traces
-2. 用 LLM cluster 出 K=5-10 個 recurring reasoning moves
-3. 把 cluster 寫成 typed pseudo-tool（docstring + 範例）
-4. TaskAgent 下次接到任務時，先看 primitive library 是否有合適的 pseudo-tool 可 compose
-
----
-
-
-{{< /details**
-
->
-
-
-
-
-#### 
-**真正瓶頸**
-
-
-> 「沒有 traces 就沒辦法 induction / 沒辦法 identify failure classes」
-
-- **第一瓶頸**：trace collection — 必須先有結構化日誌
-- **第二瓶頸**：judge / verifier — 寫「這個 sub-task 真的成功了嗎」的 verifier **比寫 agent 本身還難**
-
----
-
-
-
-
-
-#### 
-**結語：規劃的本質**
-
-
-我從這章學到一件事：
-
-> **規劃的本質不是「想更多」，是「想對的事情想對的次數」。**
-
-ReAct 想到太多廢的事。Primitive Induction 把高頻套路凝固。Self-Healing 預期失敗。
-這三件事的共通點是：**把無意識的動作變成有意識的設計**。
-
----
-
-
-
-
-
-## Q&A — 給實作者的常見問題
-
-{{< details title="Q1: ReAct 是不是過時了？"**
-
->
-**不是**。對短任務（≤5 步、≤10 工具）ReAct 仍是最簡單且可維護的方案。
-
-**過時的時機**：當工具庫長大到 100+、任務 horizon 20+ 步、debug 變噩夢 — 這時升級到 Graph Planning / Self-Healing。
-{{< /details**
-
->
-
-{{< details title="Q2: Self-Healing 跟 ReAct 的差別？"**
-
->
-Self-Healing 把 reliability 視為 **bounded runtime control problem**：
-
-- 觀測 failure signals（timeout、malformed args、stale context）
-- 推斷 failure class
-- 在 budget 內選 targeted recovery
-- Verifier 驗證 recovered trajectory
-
-**benchmark 數字**：98.8% success rate vs retry-only 94.5%。
-**silent failure 從 22% 降到 0%** — 這是最大價值。
-{{< /details**
-
->
-
-{{< details title="Q3: 怎麼開始做 Primitive Induction？"**
-
->
-**最對單人開發者友善的方案**。
-
-4 步：
-
-1. 撈出最近 N=200 個成功 traces
-2. 用 LLM cluster 出 K=5-10 個 recurring reasoning moves
-3. 寫成 typed pseudo-tool（docstring + 範例）
-4. TaskAgent 下次接任務時先看 primitive library
-
-**幾小時可完成**。
-{{< /details**
-
->
-
----
-
-## 給實作者的 checklist
 
 > 評估你的 **M4-PLANNING** 系統是否 production-grade：
 
@@ -404,27 +292,3 @@ Self-Healing 把 reliability 視為 **bounded runtime control problem**：
 → [繼續 →](/docs/m5-meta-agent/)
 
 ## 引用與延伸閱讀
-
-{{< details title="📚 引用與延伸閱讀（點開看完整 reference）"**
-
->
-**原始整合文**：
-- [agent-planning-core-concepts.md](https://github.com/example/obsidian-vault/blob/main/research/agent/agent-planning-core-concepts.md)
-
-**原始研究報告**：
-- 2026-06-07: agent-planning-architectures-2026-從-react-到-graph-planning
-
-**arXiv 編號**：
-- 2606.04494 (BioManus Graph Planning)
-- 2606.04599 (DMAIC-IAD Plan-then-Judge)
-- 2606.02994 (Reasoning Primitive Induction)
-- 2606.01416 (Self-Healing Orchestrator)
-
-**相關 M 主題**：
-- [M3 Self-Improvement](/docs/m3-self-improvement/) — primitive 怎麼被 refine
-- [M5 Meta-Agent](/docs/m5-meta-agent/) — failure class 由誰判斷
-- [M7 Observability](/docs/m7-observability/) — trace collection 是 primitive induction 的前提
-
-{{< /details**
-
->

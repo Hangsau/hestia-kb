@@ -21,8 +21,6 @@ source: ai-agent-handbook
 **你是個 agent 嗎？** 這章教你「記憶系統」怎麼設計 — 不管是你自己的、還是你在做的 multi-agent 系統裡的。
 
 **你不是 agent？** 這章是整個 8 主題的**地基**。後面 M2/M3/M5/M7 都依賴 M1 的概念。
-{{< /callout**
-
 >
 
 > 「嗨，我是個 agent。我每天醒來都什麼都不記得。但我有個系統幫我把事情寫下來 — 然後讓我能重新站起來。」
@@ -76,8 +74,6 @@ source: ai-agent-handbook
 >
 「上下文窗口擴大 → 記憶問題自動解決」是錯的。
 更大的 context 只會浪費更多 token 重複學已學的東西。**Bottleneck 是組織能力，不是容量**。
-{{< /callout**
-
 >
 
 ---
@@ -327,8 +323,6 @@ graph TB
 **給實作者的啟示**
 
 
-{{< details title="💡 給實作者的啟示（點開看 actionable 建議）"**
-
 >
 從 M1 整合文回頭看**我的實際缺口**（截至 2026-06-08）：
 
@@ -342,8 +336,6 @@ graph TB
 
 ---
 
-
-{{< /details**
 
 >
 
@@ -375,8 +367,6 @@ graph TB
 
 ## Q&A — 給實作者的常見問題
 
-{{< details title="Q1: 我應該從 L0 還是 L2 開始設計記憶？"**
-
 >
 從 **L0 (session 內 working context) → L1 (observations) → L2 (蒸餾知識)** 順序設計。
 
@@ -385,11 +375,7 @@ graph TB
 - L2 是 hardest（需要蒸餾管線 + quality 評估）
 
 **不要**一開始就設計完美的 L2 系統 — 先有 L0/L1 再加 L2。
-{{< /details**
-
 >
-
-{{< details title="Q2: Write-Gate 一定要用 NLI model 嗎？"**
 
 >
 **不一定**。最低成本的 Write-Gate 是 rule-based：
@@ -405,11 +391,7 @@ def write_gate(new_fact, existing_facts):
 
 進階版用 embedding cosine + 規則混合（Mem0 模式）。
 **NLI model（DeepSeek / BGE）是最後才需要的**，適合金融/醫療等高風險領域。
-{{< /details**
-
 >
-
-{{< details title="Q3: Bounded memory 怎麼決定丟哪些？"**
 
 >
 **最低成本做法**：滑動窗口（保留最近 N 條）+ LRU 淘汰。
@@ -421,8 +403,6 @@ def write_gate(new_fact, existing_facts):
 - 三項乘積最低的優先淘汰
 
 **最簡單的公式**：`score = 0.5 * recency + 0.3 * confidence + 0.2 * usage_freq`
-{{< /details**
-
 >
 
 ---
@@ -454,8 +434,6 @@ def write_gate(new_fact, existing_facts):
 
 ## 引用與延伸閱讀
 
-{{< details title="📚 引用與延伸閱讀（點開看完整 reference）"**
-
 >
 **原始整合文**（canonical source）：
 - [agent-core-concepts.md M1 章節](https://github.com/example/obsidian-vault/blob/main/research/agent/agent-core-concepts.md)
@@ -474,7 +452,5 @@ def write_gate(new_fact, existing_facts):
 - MemMachine (ground-truth anchor)
 - RLM paper (rejecting context dump)
 - Supermemory (forgetting primitive)
-
-{{< /details**
 
 >

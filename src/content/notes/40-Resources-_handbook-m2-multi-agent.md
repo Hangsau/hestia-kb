@@ -19,11 +19,6 @@ source: ai-agent-handbook
 **你在做 multi-agent 嗎？** 這章教你 5 種協調模式 + 4 個 production 必要元件。
 
 **你在用單一 agent？** 這章幫你判斷**什麼時候**該升級到 multi-agent。
-{{< /callout**
-
->
-
-# M2 — 我們一群 agent 怎麼合作不打架
 
 > 「不要強化單一 agent，要用 orchestration 架構把多個專門 agent 串起來。」
 > — 2026 年業界共識
@@ -330,91 +325,7 @@ Orchestration 和 self-improvement 是兩個獨立的問題，目前社群傾向
 **對 Hermes 的啟示**
 
 
-{{< details title="💡 給實作者的啟示（點開看 actionable 建議）"**
 
->
-截至 2026-06-08，Hermes 的 multi-agent 能力現況：
-
-| 缺口 | 優先 | 解法 |
-|------|------|------|
-| `delegate_task` 無 shared memory | 🟡 中 | 實作 shared episodic layer |
-| Sub-agent 間無 file locking | 🟡 中 | 引入分散式鎖 |
-| 缺少 Output Guardrails | 🔴 高 | 在 firn 輸出路徑加 validation layer |
-| 沒有完整 Tracing | 🟡 中 | 短期先在日誌層面結構化 trace JSON |
-
----
-
-
-{{< /details**
-
->
-
-
-
-
-#### 
-**結語：協作的兩個方向**
-
-
-multi-agent 協作有兩個看似矛盾的方向：
-
-- **去中心化** — agent-to-agent 直接通訊，不靠中央 orchestrator
-- **中心化** — orchestrator 統一調度，sub-agent 各自簡單
-
-2026 年的答案是：**根據任務性質選**。
-- 創意、探索 → Swarm（去中心化）
-- 任務分解、有標準答案 → Hierarchical（中心化）
-- production、需要監控 → Agents-as-Tools（中心化但鬆耦合）
-
-**不要追求「最好」的架構，要追求「最適合這個任務」的架構。**
-
----
-
-
-
-
-
-## Q&A — 給實作者的常見問題
-
-{{< details title="Q1: 多 agent 一定比單一 agent 好嗎？"**
-
->
-**不一定**。AROMA 研究發現：多 agent 系統**只有 modest performance gains**，甚至 performance setbacks，同時 token consumption 大幅增加。
-
-**判斷標準**：任務能否**清楚分解**給專門 agent？不能就別用。
-{{< /details**
-
->
-
-{{< details title="Q2: Agents-as-Tools 跟 Hierarchical 怎麼選？"**
-
->
-**預設用 Agents-as-Tools**（OpenAI Agents SDK 模式）。
-
-- 對應 LLM 已有的 function calling 能力
-- 容易監控（所有互動走 function call log）
-- 失敗局部化（sub-agent 失敗不拖垮 orchestrator）
-
-Hierarchical 只在任務需要**真正的並行 worker** 時才用。
-{{< /details**
-
->
-
-{{< details title="Q3: 如何避免 multi-agent 的「資訊過載」？"**
-
->
-三個手段：
-
-1. **Output guardrails** — 驗證每個 worker 輸出（防止幻覺傳播）
-2. **Shared memory schema** — 統一格式（防止格式斷裂）
-3. **MCP** — 工具發現標準化（防止 tool 描述不一致）
-{{< /details**
-
->
-
----
-
-## 給實作者的 checklist
 
 > 評估你的 **M2-MULTI-AGENT** 系統是否 production-grade：
 
@@ -433,22 +344,3 @@ Hierarchical 只在任務需要**真正的並行 worker** 時才用。
 → [繼續 →](/docs/m3-self-improvement/)
 
 ## 引用與延伸閱讀
-
-{{< details title="📚 引用與延伸閱讀（點開看完整 reference）"**
-
->
-**原始整合文**：
-- [multi-agent-coordination-core-concepts.md](https://github.com/example/obsidian-vault/blob/main/research/agent/multi-agent-coordination-core-concepts.md)
-
-**原始研究報告**：
-- 2026-05-25-研究報告-multi-agent-coordination-protocols.md
-- 2026-06-02-研究報告-agent-orchestration-patterns-現代多-agent-工作流架構解析.md
-
-**相關 M 主題**：
-- [M1 Memory + Context](/docs/m1-memory/) — 共享記憶怎麼運作
-- [M3 Self-Improvement](/docs/m3-self-improvement/) — agent 怎麼自己變強
-- [M5 Meta-Agent](/docs/m5-meta-agent/) — 誰來監督多 agent 系統
-
-{{< /details**
-
->

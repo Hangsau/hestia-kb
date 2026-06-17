@@ -19,11 +19,6 @@ source: ai-agent-handbook
 **你的 agent 在做簡單工作？** 用 Tool-Based (JSON) 就好。
 
 **你的 agent 在做多步組合、context 敏感？** 換到 Code Agent。
-{{< /callout**
-
->
-
-# M6 — 我用 JSON 還是用 code 行動
 
 > LLM 如何選擇行動？如何執行？2024-2025 主流是 JSON tool call，2025 年中起另一條路線崛起：「agents that think in code」。
 
@@ -230,96 +225,7 @@ graph TD
 **給我的啟示**
 
 
-{{< details title="💡 給實作者的啟示（點開看 actionable 建議）"**
 
->
-| 方向 | 難度 | 具體 |
-|------|------|------|
-| 採用 Code Agent 模式 | 🟡 Moderate | 對複雜 workflow 優先 code generation |
-| 支援 MCP 整合 | 🟢 Trivial | smolagents 已實作 `ToolCollection.from_mcp()` |
-| Tool 文件最佳化 | 🟢 Trivial | 每個 tool description 加上 example + edge cases |
-| 避免 framework 陷阱 | — | 保持每層可 trace，底層 call 可見 |
-
----
-
-
-{{< /details**
-
->
-
-
-
-
-#### 
-**結語：code 是更自然的語言**
-
-
-我從這章學到一件事：
-
-> LLM 受過的訓練中，**code 比 JSON 多幾個數量級**。
-> 既然 LLM 「會」寫 code，**為什麼要強迫它寫 JSON 工具呼叫？**
-
-Code agent 的崛起不是技術時髦，是**回歸 LLM 的本能表達**。
-
-但 sandbox 是必要代價 — code agent 必須在隔離環境執行，**這是 Tool-Based 不需要的成本**。
-
----
-
-
-
-
-
-## Q&A — 給實作者的常見問題
-
-{{< details title="Q1: 為什麼 Code Agent 興起？"**
-
->
-**LLM 對 code 比 JSON 更自然** — 它受過的訓練中 code 比 JSON 多幾個數量級。
-
-**2026 主流**：smolagents（27.5K stars, 1K 行核心邏輯）、LangChain code mode。
-
-**好處**：
-
-- 可一次組合多步（`search(); if result: analyze(); else: fallback()`）
-- 結果可變數（context 效率高）
-- 容易除錯（print/inspect/version control）
-{{< /details**
-
->
-
-{{< details title="Q2: Code Agent 一定要 sandbox 嗎？"**
-
->
-**對，這是必要代價**。
-
-推薦 sandbox：
-
-- **E2B**（雲端、快速）
-- **Modal**（雲端、彈性）
-- **Docker**（本地、控制力強）
-
-**不要**讓 code agent 直接在主機跑 — security 風險太高。
-{{< /details**
-
->
-
-{{< details title="Q3: MCP 是什麼？"**
-
->
-**Model Context Protocol** — tool calling 通用協議（2025 崛起）。
-
-**解決**：tool 發現的「大一統介面」— 不再每個 framework 各自定義 tool schema。
-
-**MCP 解決「工具發現」，不解決 orchestration**（那是 M2 的主題）。
-
-**生態**：Chrome MCP (11.7K)、Playwright MCP (5.5K)、XcodeBuildMCP (5.8K)。
-{{< /details**
-
->
-
----
-
-## 給實作者的 checklist
 
 > 評估你的 **M6-CODE-VS-TOOL** 系統是否 production-grade：
 
@@ -338,26 +244,3 @@ Code agent 的崛起不是技術時髦，是**回歸 LLM 的本能表達**。
 → [繼續 →](/docs/m7-observability/)
 
 ## 引用與延伸閱讀
-
-{{< details title="📚 引用與延伸閱讀（點開看完整 reference）"**
-
->
-**原始整合文**：
-- [code-vs-tool-agents-core-concepts.md](https://github.com/example/obsidian-vault/blob/main/research/agent/code-vs-tool-agents-core-concepts.md)
-
-**原始研究報告**：
-- 2026-05-29: code-agents-vs-tool-based-agents-2026-架構取捨
-
-**關鍵專案**：
-- [smolagents](https://github.com/huggingface/smolagents) — 27.5K stars, 1K 行核心
-- LangChain, AutoGen, CrewAI, OpenAI Agents SDK
-- MCP 官方 SDK + 社群 registry
-
-**相關 M 主題**：
-- [M2 Multi-Agent](/docs/m2-multi-agent/) — MCP 是多 agent 的工具標準
-- [M4 Planning](/docs/m4-planning/) — code-based primitive induction
-- [M8 Benchmarks](/docs/m8-benchmarks/) — MCP 安全評估
-
-{{< /details**
-
->

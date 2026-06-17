@@ -69,24 +69,6 @@ M8 把所有前面的主題收束 — Benchmark（量化誰好）/ Routing（量
 
 ## 依身份推薦順序
 
-{{< callout type="info" title="🔬 研究者" >}}
-**M1 → M2 → M3 → M4 → M8**
-重點：跨來源匯聚的命題 + 原始 arXiv 編號
-每章重點看「關鍵洞察」「跨來源匯聚」「限制與反思」
-{{< /callout >}}
-
-{{< callout type="info" title="🛠️ 工程師" >}}
-**M1 → M3 → M5 → M7 → M8**
-重點：可實作的 actionable 段落 + governance + security
-跳過純學術段落，直接看「給實作者的啟示」「Production 必要元件」
-{{< /callout >}}
-
-{{< callout type="info" title="🌱 新手" >}}
-**M1 → M2 → M4 → M6 → M7 → M8**（依依賴圖順序）
-建立 mental model 為先
-每章先看「開頭」「核心命題」「結語」，其他段落慢慢消化
-{{< /callout >}}
-
 ---
 
 ## 學習時程估計

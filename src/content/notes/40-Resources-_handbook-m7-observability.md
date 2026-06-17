@@ -19,11 +19,6 @@ source: ai-agent-handbook
 **你的 agent 跑 production 出事？** 這章教你 4 個解法 + Memory self-governance。
 
 **你還沒跑 production？** 這章仍然必讀 — observability 是基礎設施，**現在不做以後會痛**。
-{{< /callout**
-
->
-
-# M7 — 跑久了怎麼 debug
 
 > 當 AI agent 在生產環境跑久了，最大的噩夢不是「回答錯誤」，是「不知道為什麼錯」。
 > Observability 從「加分」變「必要」。
@@ -230,136 +225,7 @@ openlit.init(otlp_endpoint="http://127.0.0.1:4318")
 **限制與誠實評估**
 
 
-{{< details title="⚠️ 限制與評估（點開看誠實檢討）"**
 
->
-| 方案 | 核心限制 |
-|------|---------|
-| **Memoria** | 依賴 MatrixOne（不是主流 DB）；self-governance 矛盾偵測沒有實作細節 |
-| **OpenLIT** | 對小型專案可能 Over-engineered；需 OTel Collector + backend |
-| **OpenViking** | 文件主要在 volcengine 生態系；L0/L1/L2 實作細節語焉不詳 |
-| **AgentPrism** | Alpha release，API 不穩定；只是 React component 不是完整 observability |
-
----
-
-
-{{< /details**
-
->
-
-
-
-
-#### 
-**給我的啟示**
-
-
-{{< details title="💡 給實作者的啟示（點開看 actionable 建議）"**
-
->
-| 方向 | 難度 | 具體 |
-|------|------|------|
-| **Memoria-style self-governance** | 🟡 Moderate | 每次 `memory_store` 新 fact 前先 query 現有記憶，有衝突就標記 conflict 而非 overwrite |
-| **OpenViking-style tiered context** | 🟢→🟡 | L0/L1/L2 三層直接映射現有 memory tiers |
-| **OpenLIT-style lightweight observability** | 🔴 Hard | 需先建立 action execution middleware |
-| **AgentPrism trace viewer for batch debugging** | ⚪ Research-only | 實際價值有限 |
-
-**立即可做**（用 SQLite 替代 MatrixOne 做原型）：
-
-> 不需要 MatrixOne，用 **SQLite 的 JSON 欄位** 就可以做 prototype。
-> 概念：「記憶有矛盾時要能偵測和隔離」
-
----
-
-
-{{< /details**
-
->
-
-
-
-
-#### 
-**結語：可觀測性是基礎設施**
-
-
-我從這章學到一件事：
-
-> **Observability 不是 agent 系統的加分項，是基礎設施。**
-
-```mermaid
-graph TB
-    A["Agent 系統"] --> O["Observability Layer"]
-    O --> D["Debug"]
-    O --> A2["Audit"]
-    O --> I["Improvement feedback"]
-    style O fill:#fff9c4
-```
-
-沒有 observability：
-- 出了問題不知道為什麼
-- 跑了 3 個月不知道有沒有偏離目標
-- 改了什麼不知道有沒有效
-
-有了 observability：
-- 完整 trace 可以 replay
-- 失敗模式可以量化（[M5 Meta-Agent](/docs/m5-meta-agent/) 的 failure-class taxonomy 才有資料）
-- 改善可以驗證（[M3 Self-Improvement](/docs/m3-self-improvement/) 的 playbook 才有效）
-
----
-
-
-
-
-
-## Q&A — 給實作者的常見問題
-
-{{< details title="Q1: 為什麼 Observability 對 agent 特別重要？"**
-
->
-**Agent 失敗不是「回答錯」是「不知道為什麼錯」**。
-
-**沒有 observability 的 agent 系統是黑盒** — 跑 production 就是賭博。
-
-**4 個必要能力**：
-
-1. **完整的 trace**（不是 log 海洋）
-2. **失敗模式分類**（不只「錯了」要說「哪一類錯」）
-3. **Memory governance**（防矛盾、防毒）
-4. **可審計**（誰在什麼時候做了什麼）
-{{< /details**
-
->
-
-{{< details title="Q2: Memoria 跟 OpenLIT 怎麼選？"**
-
->
-**Memoria** — 解決 Memory 自我治理（Git for AI Memory）。需要 version control、branch、contradiction detection 時用。
-
-**OpenLIT** — 解決 Telemetry 標準化（OpenTelemetry-native）。需要完整 trace + LLM-as-Judge + cost tracking 時用。
-
-**可以兩個都用**：Memoria 管 memory 層，OpenLIT 管 telemetry 層。
-{{< /details**
-
->
-
-{{< details title="Q3: 我可以從最簡單的 observability 開始嗎？"**
-
->
-**可以**。先做 3 件事：
-
-1. **統一 action 格式**（所有 tool call 用同一個 JSON schema）
-2. **寫 span log**（每次 LLM call 一個 span）
-3. **加 failure class taxonomy**（失敗時標分類）
-
-**不要一開始就裝 OpenLIT / Memoria** — 先讓 log 結構化，再評估。
-{{< /details**
-
->
-
----
-
-## 給實作者的 checklist
 
 > 評估你的 **M7-OBSERVABILITY** 系統是否 production-grade：
 
@@ -378,28 +244,3 @@ graph TB
 → [繼續 →](/docs/m8-benchmarks/)
 
 ## 引用與延伸閱讀
-
-{{< details title="📚 引用與延伸閱讀（點開看完整 reference）"**
-
->
-**原始整合文**：
-- [observability-tracing-core-concepts.md](https://github.com/example/obsidian-vault/blob/main/research/agent/observability-tracing-core-concepts.md)
-
-**原始研究報告**：
-- 2026-05-24: ai-agent-可觀測性-從-trace-視覺化到自我治理記憶層
-
-**關鍵專案**：
-- [Memoria](https://thememoria.ai) — Git for AI memory
-- [OpenLIT](https://github.com/openlit/openlit) — OpenTelemetry-native LLM observability
-- [OpenViking](https://github.com/volcengine/OpenViking) — 24K stars
-- [AgentPrism](https://github.com/odomobi/agentprism) — Trace visualization
-
-**相關 M 主題**：
-- [M1 Memory](/docs/m1-memory/) — Memory governance 跟 L0/L1/L2 同源
-- [M3 Self-Improvement](/docs/m3-self-improvement/) — trace 是 improvement 的前提
-- [M4 Planning](/docs/m4-planning/) — Primitive Induction 需要 traces
-- [M5 Meta-Agent](/docs/m5-meta-agent/) — failure class 由觀測得來
-
-{{< /details**
-
->
