@@ -1,0 +1,118 @@
+---
+_slug: 10-Daily-archive-2026-05-14-facts
+_vault_path: 10-Daily/archive/2026-05-14-facts.md
+tags:
+- daily
+- facts
+- architecture
+- agent-memory
+- cost
+- mcp
+source: multi
+created: '2026-05-14'
+title: 2026-05-14 日常知識佋存
+updated: '2026-06-15'
+type: daily
+status: budding
+---
+
+# 2026-05-14 日常知識佋存
+
+## Hermes Gateway 架構（實證）
+
+- **Hermes Gateway 不是 MCP gateway** — 它是嵌入式 agent runtime + messaging hub。六層：Transport (17+ adapters) → Session Management → Agent Runtime (LRU 128 cache, 1h TTL) → Background Subsystems → Message Handling → Operational
+- **MCP 在 Hermes 完全是 client-side**：透過 [[native-mcp]] skill per-session subprocess 連接。Gateway 層沒有 MCP registry/discovery/tool routing
+- Agent cache（LRU 128, 1h idle TTL）是為了 prompt caching 最佳化 — 沒 cache 的話每個 message 重建 AIAgent = cache miss = 10x 成本
+- Auto-continue: 1h 內自動 resume（處理 gateway restart 後的 tool-tail）
+- 詳見 [[2026-05-14-Hermes-Gateway-解剖-它到底做了什麼]]
+
+## Agent 成本模型
+
+- LLM agent 對話成本是 **O(n²)**：第 n 個 turn 讀 n 個 turn 的 prompt cache，累積為 sum(1..n)
+- 到 ~50K tokens 時 cache reads 佔總成本 87%
+- Hermes 隱含做對：agent cache、auto-continue、iteration budget、subagent delegation — 但**完全沒有 cost visibility**（無 token/cost tracking、無 cache hit rate、無 cost-aware conversation break）
+- 詳見 [[2026-05-14-The-LLM-Agent-Cost-Curve---Hermes]]
+
+## 外部工具整合約束
+
+- **ContextForge**：Python <3.14 限制 → 無法 pip install 到 Hermes 環境（Python 3.14.4）。它是 standalone FastAPI app 不是 library。uvx 路徑未試（可能自動選相容 Python），Docker 路徑可行但本機未裝 Docker
+- **ContextForge 對 single-user Hermes 邊際價值偏低** — 核心功能（MCP federation, credential vaulting）在 multi-tenant 場景才發光
+- **lazy-tool**：Single Go binary，用 "search before invoke" 解決 MCP tool schema bloat。宣稱 -46% input tokens。需 Go 1.25+（目前 Ubuntu 24.04 是 1.22）
+- 詳見 [[2026-05-14-ContextForge-SPIKE-實際可行性評估]]、[[2026-05-14-lazy-tool--MCP-Prompt-Bloat-的本地解法]]
+
+## Agent Memory 產業趨勢
+
+- **Post-vector 轉向**：三個獨立專案（Google Always On、memU、SQLite Memory）從 vector DB 轉向 file-based memory + LLM 讀寫
+- 共同設計原則：Markdown/files 是 source of truth、人可讀可版本控制、不依賴外部 vector DB
+- **Hermes 已有** file-based skill 系統 + autonomous_notes + proposals，**缺的是** consolidation step（週期性讀近期筆記 → 找跨主題連結 → 生成 insight）
+- Google Always On 的 ConsolidateAgent 是 killer feature：每 30 分鐘像人腦睡眠般回顧未 consolidated 記憶
+- 詳見 [[2026-05-14-Post-Vector-Agent-Memory-2025-2026-的共識轉向]]
+
+## 探索筆記間的關聯鏈
+
+- [[2026-05-13-mcp-gateway-orchestrator-convergence]] → [[2026-05-14-Hermes-Gateway-解剖-它到底做了什麼]] → [[2026-05-14-ContextForge-SPIKE-實際可行性評估]]：從理論收斂到實證解剖到可行性評估的探索鏈
+- [[2026-05-14-agent-cost-curve]] → [[2026-05-14-lazy-tool--MCP-Prompt-Bloat-的本地解法]]：成本問題 + 降低成本方案
+- lazy-tool 處理 input side（tool schema bloat），ContextForge 處理 output side（tool result bloat），兩者可共存
+
+## Implementation Progress (05-14 上午)
+
+- **Cost Visibility ✅ DONE**：4 檔案、~105 行新程式碼。3 個 subagent 並行實作 ([[subagent-driven-development]]) → `get_cost_summary()` in SessionDB、`cost_aggregator.py` CLI、heartbeat callback injection。測試全綠 (10/10)
+- **4 提案狀態**：3 DONE (cost-visibility + core-testing-infra + worktree-subagent-isolation)、1 PARTIAL (consolidation-step)。Consolidation step 為下一個優先事項
+- Hermes 實際成本：全期 $10.01（1,765 sessions / 39.4M input / 35.8M output）、24h $0.66（128 sessions）
+- Skills 更新：[[clean-code-practices]] v1.1（新增 Single Responsibility Functions 規則）、[[subagent-driven-development]] v1.2（pre-flight plan validation + hermes-internals-pitfalls 參考文件）
+
+## Coding Conventions
+
+- **使用者要求**：「函數不要一個函數處理太多事情」→ Single Responsibility Functions 已寫入 clean-code-practices skill Rule 6
+- **Callback pattern for cross-module injection**：heartbeat cost injection 使用 `cost_summary_fn: Callable[[], Optional[dict]]` callback 而非直接 import SessionDB → 完全解耦、fail-safe（exception → None）
+- **Atomic file writes**：heartbeat_v2 使用 `tmp.write + os.replace`（_write_state pattern）→ crash-safe
+- Subagent 前必須先做 **pre-flight plan validation**（check column names, method signatures, file paths against actual codebase）
+
+## Operational Knowledge
+
+- **Gateway restart 不可靠**：`systemctl restart hermes-gateway` 會卡在 "deactivating" → 用 `stop && sleep 2 && start`
+- **pytest**：此環境無 pytest-xdist → 不得使用 `-n` flag，用 plain `pytest`
+- **cost_aggregator.py** 位置：`~/.hermes/scripts/cost_aggregator.py`。用法：`--hours 24` 或省略（全期累計累積）。Markdown output 是給人看的，JSON output 是給 heartbeat 吃的
+- **SessionDB** 位在 `~/.hermes/state.db`（SQLite WAL mode），Python 3.14.4
+- Hermes heartbeat 每 30 分鐘一次 autonomous 探索（internal-heartbeat cron）。可選擇「不做」
+
+## WS-005 Workspace Manager Phase 3 — Drift Sensor (05-14 12:00)
+
+- **Phase 3 DONE**：`check_workspace_sync()` drift sensor 整合進 heartbeat（~150 行，`heartbeat/utils.py`）
+- 每 30 分鐘 cognitive cycle 掃描 INDEX.md vs 提案 STATUS 區塊，偵測四種漂移：`index_stale` / `proposal_missing` / `status_drift` / `proposal_stale`
+- 整合進 `build_heartbeat_snapshot()` → `HeartbeatSnapshot.workspace_drift` 欄位；EVOLVE action 會記錄漂移診斷
+- 手動誘發漂移測試通過（把 WS-004 改回 🟡 → sensor 正確抓到 → 還原後零 false positive）
+- WS-005 全貌：Phase 0（session_state.md）+ Phase 1（workspace_inject.py）+ Phase 2（assistant-personality）+ Phase 3（drift sensor）→ Phase 4（workspace-manager skill 包裝）為下一步
+- 詳見 [[2026-05-14-hermes-workspace-context-continuity]]
+- 相關技能更新：[[workspace-manager]]（add Phase 3）、[[heartbeat-v2-autonomous-maintenance]]（mention drift sensor）
+
+## OBS-001 Observational Memory 完整上線 (05-14 16:00)
+
+- **extract_facts.py** 已寫完：dual Jaccard dedup（text 0.70 + fingerprint 0.60），JSONL store at `~/.hermes/knowledge/facts.jsonl`
+- **briefing.py** 擴充：讀 `facts.jsonl`，`MAX_BRIEFING_CHARS` 從 1000 → 2000，synthesis 和 facts 各有空間
+- **context-distiller skill v1.2.0**：新增 Phase 3.5（Observational Fact Extraction）+ 5 pitfalls + `references/observational-memory-health.md`
+- **track_memory_growth.py**：每日 health tracking，涵蓋 accumulation rate、category balance、injection health、alert thresholds
+- **memory-tracker cron job**：每日 02:00 跑 `track_memory_growth.py`
+- **三層記憶架構完工**：Layer 1（MEMORY.md + USER.md）→ Layer 2（memory-consolidator）→ Layer 3（briefing.py → consolidation_briefing.md）
+- 使用者偏好：context budget 不用省，"搶空間沒差 買硬碟就能解決了"
+- 詳見 [[2026-05-14-hermes-observational-memory-plan]]、[[2026-05-14-hermes-obs-tracking-plan]]
+
+## Secret Leak Prevention 技能建立 (05-14 13:00)
+
+- **新技能 `secret-leak-prevention`** (`devops/secret-leak-prevention`)：pre-commit scan、API key 阻斷、token 模式偵測
+- 補 2 pitfalls：cron job 內嵌 key（`python3 -c` pattern）、git history 洩漏
+- 使用者要求製作「api/token 阻斷器」——自動判斷訊息是否含機密並阻斷或提醒
+
+## 技能更新總覽 (05-14 12:00–16:00)
+
+- `context-distiller` v1.0 → v1.2.0（Phase 3.5 + OBS pitfalls + health ref）
+- `hermes-agent`：補 pipe mode 知識（`hermes -z` zero-noise mode）
+- `hermes-health-guardian`：加 reference doc
+- `heartbeat-v2-autonomous-maintenance` v2.1.0 → v2.1.1：新提案生成後補 workspace INDEX 同步
+- `secret-leak-prevention`：新建
+
+## Heartbeat 產出新提案 (05-14 12:00–16:00)
+
+- WS-007 Pipe Mode（從 axe-unix-agents 筆記生）
+- WS-008 Hermes FTS5 Doc Index（從 context-mode-mcp 筆記生）
+- WS-009 Agent Hijacking Resilience（從 agent-hijacking-nist 筆記生）

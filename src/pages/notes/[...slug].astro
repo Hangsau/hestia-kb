@@ -1,0 +1,78 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const notes = await getCollection('notes');
+  return notes.map((note) => ({
+    params: { slug: note.data._slug },
+    props: { note },
+  }));
+}
+
+const { note } = Astro.props;
+const { Content } = await render(note);
+
+const statusEmoji = (s: string) => {
+  if (s === 'active') return '🌿';
+  if (s === 'evergreen') return '🌳';
+  return '🌱';
+};
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title={`${note.data.title} | Hestia KB`} description={note.data.title}>
+  <article class="prose-hestia max-w-3xl">
+    <!-- Frontmatter header -->
+    <header class="mb-8 pb-6 border-b border-hestia-border">
+      <div class="flex items-center gap-2 text-xs text-hestia-muted tracking-widest uppercase mb-3">
+        <span>{note.data.type || 'note'}</span>
+        <span>·</span>
+        <span title={note.data.status || 'seedling'}>
+          {statusEmoji(note.data.status || 'seedling')} {note.data.status || 'seedling'}
+        </span>
+        {note.data.created && (
+          <>
+            <span>·</span>
+            <span>{note.data.created}</span>
+          </>
+        )}
+      </div>
+
+      <h1 class="text-3xl md:text-4xl font-serif font-semibold text-hestia-ink mb-4 leading-tight">
+        {note.data.title}
+      </h1>
+
+      {note.data.tags && note.data.tags.length > 0 && (
+        <div class="flex flex-wrap gap-1.5 text-xs">
+          {note.data.tags.map((tag: string) => (
+            <a
+              href={`${base}/tags/${encodeURIComponent(tag)}/`}
+              class="px-2 py-0.5 bg-hestia-accent/10 text-hestia-accent rounded hover:bg-hestia-accent/20 no-underline"
+            >
+              #{tag}
+            </a>
+          ))}
+        </div>
+      )}
+
+      {note.data._vault_path && (
+        <p class="text-xs text-hestia-muted/50 mt-3 font-mono">
+          vault: {note.data._vault_path}
+        </p>
+      )}
+    </header>
+
+    <!-- Body -->
+    <div class="prose prose-hestia">
+      <Content />
+    </div>
+
+    <!-- 底部導航 -->
+    <nav class="mt-12 pt-6 border-t border-hestia-border flex justify-between text-sm">
+      <a href={`${base}/notes/`} class="text-hestia-accent">← 回到筆記目錄</a>
+      <a href={`${base}/`} class="text-hestia-accent">首頁 →</a>
+    </nav>
+  </article>
+</Layout>
