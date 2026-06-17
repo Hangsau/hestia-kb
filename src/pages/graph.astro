@@ -1,0 +1,83 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL;
+
+// 載入 build-time 的 graph.json
+let graph: any = { nodes: [], edges: [] };
+try {
+  const fs = await import('node:fs/promises');
+  const data = await fs.readFile('./public/graph.json', 'utf-8');
+  graph = JSON.parse(data);
+} catch (e) {
+  // graph.json 還沒 build（dev mode 跑 npm run dev 沒 build）
+  console.warn('graph.json not found — run npm run build first');
+}
+---
+
+<Layout title="知識地圖 | Hestia KB" description={`${graph.node_count} 個節點 ${graph.edge_count} 條邊 — 視覺化 vault 知識網絡`}>
+  <header class="mb-6">
+    <p class="text-hestia-muted text-sm tracking-widest uppercase mb-3">Knowledge Graph</p>
+    <h1 class="text-3xl md:text-4xl font-serif font-semibold text-hestia-ink mb-2">知識地圖</h1>
+    <p class="text-hestia-muted text-sm">
+      {graph.node_count} 個節點（取連接數 top 200）· {graph.edge_count} 條 wikilink 邊
+    </p>
+  </header>
+
+  <div class="border border-hestia-border rounded-lg overflow-hidden bg-hestia-cream/30" style="height: 70vh;">
+    <div id="graph-canvas" style="width: 100%; height: 100%;"></div>
+  </div>
+
+  <div class="mt-4 text-xs text-hestia-muted flex gap-4 flex-wrap">
+    <span>🟢 budding</span>
+    <span>🌱 seedling</span>
+    <span>🌳 evergreen</span>
+    <span>· 點節點跳到該篇</span>
+    <span>· 拖曳旋轉、滾輪縮放</span>
+  </div>
+
+  <!-- vis-network -->
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+  <script is:inline define:vars={{ graph, base }}>
+    if (graph.nodes && graph.nodes.length > 0) {
+      const nodes = new vis.DataSet(
+        graph.nodes.map(n => ({
+          id: n.id,
+          label: n.label,
+          title: `${n.title}\n度數: ${n.degree}`,
+          url: n.url,
+          color: n.status === 'evergreen' ? '#5C7A3A' :
+                 n.status === 'budding' ? '#D4A24C' : '#8FB060',
+          font: { color: '#1A1814', size: 11 },
+          shape: 'dot',
+          size: 8 + Math.min(n.degree, 30) * 0.6,
+        }))
+      );
+      const edges = new vis.DataSet(
+        graph.edges.map((e, i) => ({
+          id: i, from: e.from, to: e.to,
+          arrows: { to: { enabled: true, scaleFactor: 0.3 } },
+          color: { color: '#C75D2C', opacity: 0.2 },
+        }))
+      );
+      const container = document.getElementById('graph-canvas');
+      const data = { nodes, edges };
+      const options = {
+        physics: { stabilization: { iterations: 200 }, barnesHut: { gravitationalConstant: -8000 } },
+        interaction: { hover: true, tooltipDelay: 200, hoverConnectedEdges: true },
+        nodes: { borderWidth: 1, shadow: false },
+        edges: { width: 0.5, smooth: { type: 'continuous' } },
+      };
+      const network = new vis.Network(container, data, options);
+      network.on('click', (params) => {
+        if (params.nodes.length > 0) {
+          const node = graph.nodes.find(n => n.id === params.nodes[0]);
+          if (node) window.location.href = base + node.url;
+        }
+      });
+    } else {
+      document.getElementById('graph-canvas').innerHTML = '<p class="p-12 text-center text-hestia-muted">graph.json 還沒 build。執行 <code>npm run build</code>。</p>';
+    }
+  </script>
+</Layout>
