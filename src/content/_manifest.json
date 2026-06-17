@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T10:30:19",
+  "generated_at": "2026-06-17T10:45:40",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1198,
+  "count": 1208,
   "type_breakdown": {
     "daily": 10,
     "research": 341,
@@ -26,7 +26,8 @@
     "digest": 26,
     "forum-bias-log": 6,
     "weekly-insights": 1,
-    "resource": 73,
+    "ai-agent-handbook": 9,
+    "resource": 74,
     "explorations": 281,
     "exploration": 79,
     "distill-log": 1,
@@ -37,8 +38,8 @@
   },
   "status_breakdown": {
     "budding": 857,
-    "seedling": 340,
-    "evergreen": 1
+    "seedling": 341,
+    "evergreen": 10
   },
   "notes": [
     {
@@ -5586,6 +5587,152 @@
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/technique/教學誤區-蝶式.md",
       "url": "/notes/30-Areas-swimming-technique-教學誤區-蝶式/"
+    },
+    {
+      "slug": "40-Resources-_handbook-00-learning-path",
+      "title": "學習路徑",
+      "type": "ai-agent-handbook",
+      "status": "evergreen",
+      "tags": [
+        "ai-agent-handbook",
+        "learning-path",
+        "agent"
+      ],
+      "created": "2026-06-09",
+      "updated": "2026-06-09",
+      "vault_path": "40-Resources/_handbook/00-learning-path.md",
+      "url": "/notes/40-Resources-_handbook-00-learning-path/"
+    },
+    {
+      "slug": "40-Resources-_handbook-m1-memory",
+      "title": "M1 — 我怎麼記得以前學到的事",
+      "type": "ai-agent-handbook",
+      "status": "evergreen",
+      "tags": [
+        "ai-agent-handbook",
+        "m1",
+        "agent"
+      ],
+      "created": "",
+      "updated": "",
+      "vault_path": "40-Resources/_handbook/m1-memory.md",
+      "url": "/notes/40-Resources-_handbook-m1-memory/"
+    },
+    {
+      "slug": "40-Resources-_handbook-m2-multi-agent",
+      "title": "M2 — 我們一群 agent 怎麼合作不打架",
+      "type": "ai-agent-handbook",
+      "status": "evergreen",
+      "tags": [
+        "ai-agent-handbook",
+        "m2",
+        "agent"
+      ],
+      "created": "",
+      "updated": "",
+      "vault_path": "40-Resources/_handbook/m2-multi-agent.md",
+      "url": "/notes/40-Resources-_handbook-m2-multi-agent/"
+    },
+    {
+      "slug": "40-Resources-_handbook-m3-self-improvement",
+      "title": "M3 — 我怎麼從失敗裡學到東西",
+      "type": "ai-agent-handbook",
+      "status": "evergreen",
+      "tags": [
+        "ai-agent-handbook",
+        "m3",
+        "agent"
+      ],
+      "created": "",
+      "updated": "",
+      "vault_path": "40-Resources/_handbook/m3-self-improvement.md",
+      "url": "/notes/40-Resources-_handbook-m3-self-improvement/"
+    },
+    {
+      "slug": "40-Resources-_handbook-m4-planning",
+      "title": "M4 — 規劃在 2026 年怎麼 scale",
+      "type": "ai-agent-handbook",
+      "status": "evergreen",
+      "tags": [
+        "ai-agent-handbook",
+        "m4",
+        "agent"
+      ],
+      "created": "",
+      "updated": "",
+      "vault_path": "40-Resources/_handbook/m4-planning.md",
+      "url": "/notes/40-Resources-_handbook-m4-planning/"
+    },
+    {
+      "slug": "40-Resources-_handbook-m5-meta-agent",
+      "title": "M5 — 誰來監督我",
+      "type": "ai-agent-handbook",
+      "status": "evergreen",
+      "tags": [
+        "ai-agent-handbook",
+        "m5",
+        "agent"
+      ],
+      "created": "",
+      "updated": "",
+      "vault_path": "40-Resources/_handbook/m5-meta-agent.md",
+      "url": "/notes/40-Resources-_handbook-m5-meta-agent/"
+    },
+    {
+      "slug": "40-Resources-_handbook-m6-code-vs-tool",
+      "title": "M6 — 我用 JSON 還是用 code 行動",
+      "type": "ai-agent-handbook",
+      "status": "evergreen",
+      "tags": [
+        "ai-agent-handbook",
+        "m6",
+        "agent"
+      ],
+      "created": "",
+      "updated": "",
+      "vault_path": "40-Resources/_handbook/m6-code-vs-tool.md",
+      "url": "/notes/40-Resources-_handbook-m6-code-vs-tool/"
+    },
+    {
+      "slug": "40-Resources-_handbook-m7-observability",
+      "title": "M7 — 跑久了怎麼 debug",
+      "type": "ai-agent-handbook",
+      "status": "evergreen",
+      "tags": [
+        "ai-agent-handbook",
+        "m7",
+        "agent"
+      ],
+      "created": "",
+      "updated": "",
+      "vault_path": "40-Resources/_handbook/m7-observability.md",
+      "url": "/notes/40-Resources-_handbook-m7-observability/"
+    },
+    {
+      "slug": "40-Resources-_handbook-m8-benchmarks",
+      "title": "M8 — 誰好？誰便宜？誰安全？",
+      "type": "ai-agent-handbook",
+      "status": "evergreen",
+      "tags": [
+        "ai-agent-handbook",
+        "m8",
+        "agent"
+      ],
+      "created": "",
+      "updated": "",
+      "vault_path": "40-Resources/_handbook/m8-benchmarks.md",
+      "url": "/notes/40-Resources-_handbook-m8-benchmarks/"
+    },
+    {
+      "slug": "40-Resources-_handbook-research-ai-agent-memory-and-context",
+      "title": "2026-05-23 — 從事實萃取到生成式記憶",
+      "type": "resource",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "vault_path": "40-Resources/_handbook/research-ai-agent-memory-and-context.md",
+      "url": "/notes/40-Resources-_handbook-research-ai-agent-memory-and-context/"
     },
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-13-Agent-Evaluation--What-Hermes-Can-Steal-from-Google-ADK",
