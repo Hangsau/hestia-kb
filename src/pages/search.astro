@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="搜尋 | Hestia KB" description="全文搜尋 1196 篇 Obsidian 筆記">
+  <header class="mb-8">
+    <p class="text-hestia-muted text-sm tracking-widest uppercase mb-3">Search</p>
+    <h1 class="text-3xl md:text-4xl font-serif font-semibold text-hestia-ink mb-4">搜尋</h1>
+    <p class="text-hestia-muted max-w-2xl">
+      全文搜尋 vault 1198 篇 .md 內容。支援中英文（中文無 stemming 但仍可搜）。
+    </p>
+  </header>
+
+  <div id="search-container"></div>
+
+  <link href="/hestia-kb/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="/hestia-kb/pagefind/pagefind-ui.js" is:inline></script>
+
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      new PagefindUI({
+        element: '#search-container',
+        resetStyles: false,
+        showImages: false,
+        excerptLength: 30,
+        showEmptyFilters: false,
+        processResult: (result) => {
+          // 把 vault path 換成「vault 內部連結」標籤
+          if (result.raw_url) {
+            // Pagefind 預設結果 url = /notes/{slug}/
+            // 我們已在 note 頁加 vault path 顯示
+          }
+          return result;
+        },
+        // 支援中英搜尋
+        i18n: {
+          placeholder: "搜尋 vault 1198 篇 .md...",
+          zero_results: "（沒有符合的）",
+          many_results: "找到 {n} 個結果",
+          one_result: "找到 1 個結果",
+        },
+      });
+    });
+  </script>
+
+  <noscript>
+    <p class="text-hestia-muted">搜尋需要 JavaScript。請用瀏覽器或直接到 <a href="/hestia-kb/notes/">筆記目錄</a>。</p>
+  </noscript>
+</Layout>

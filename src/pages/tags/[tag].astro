@@ -1,0 +1,78 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const notes = await getCollection('notes');
+  // 收集所有 unique tags
+  const tagSet = new Set<string>();
+  for (const note of notes) {
+    for (const tag of note.data.tags || []) {
+      tagSet.add(tag);
+    }
+  }
+  // 為每個 tag 建一頁
+  return Array.from(tagSet).map((tag) => ({
+    params: { tag: encodeURIComponent(tag) },
+    props: { tag, notes: notes.filter(n => (n.data.tags || []).includes(tag)) },
+  }));
+}
+
+const { tag, notes } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+const statusEmoji = (s: string) => {
+  if (s === 'active') return '🌿';
+  if (s === 'evergreen') return '🌳';
+  return '🌱';
+};
+
+// 按 type 分組
+const byType: Record<string, typeof notes> = {};
+for (const n of notes) {
+  const t = n.data.type || 'note';
+  byType[t] = byType[t] || [];
+  byType[t].push(n);
+}
+---
+
+<Layout title={`#${tag} | Hestia KB`} description={`標籤 ${tag} 共 ${notes.length} 篇`}>
+  <header class="mb-8">
+    <p class="text-hestia-muted text-sm tracking-widest uppercase mb-3">Tag</p>
+    <h1 class="text-3xl md:text-4xl font-serif font-semibold text-hestia-ink mb-4">
+      <span class="text-hestia-accent">#{tag}</span>
+    </h1>
+    <p class="text-hestia-muted">
+      共 <strong class="text-hestia-ink">{notes.length}</strong> 篇筆記
+    </p>
+  </header>
+
+  <!-- 按 type 分組 -->
+  {Object.entries(byType).sort(([a], [b]) => a.localeCompare(b)).map(([type, ns]) => (
+    <section class="mb-8">
+      <h2 class="text-xl font-serif font-semibold text-hestia-ink mb-4">
+        {type} <span class="text-hestia-muted text-sm font-normal">({ns.length})</span>
+      </h2>
+      <div class="space-y-3">
+        {ns
+          .sort((a, b) => (b.data.updated || '').localeCompare(a.data.updated || ''))
+          .map((note) => (
+          <a
+            href={`${base}/notes/${note.data._slug}/`}
+            class="block border border-hestia-border rounded-lg p-4 hover:border-hestia-accent-soft transition-colors no-underline bg-hestia-cream/30"
+          >
+            <div class="flex items-start justify-between gap-2 mb-1">
+              <h3 class="font-serif font-semibold text-hestia-ink leading-snug">
+                {note.data.title}
+              </h3>
+              <span class="text-base shrink-0" title={note.data.status}>
+                {statusEmoji(note.data.status)}
+              </span>
+            </div>
+            <p class="text-xs text-hestia-muted/70">{note.data.updated || note.data.created}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+</Layout>

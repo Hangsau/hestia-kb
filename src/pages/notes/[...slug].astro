@@ -6,11 +6,11 @@ export async function getStaticPaths() {
   const notes = await getCollection('notes');
   return notes.map((note) => ({
     params: { slug: note.data._slug },
-    props: { note },
+    props: { note, allNotes: notes },
   }));
 }
 
-const { note } = Astro.props;
+const { note, allNotes } = Astro.props;
 const { Content } = await render(note);
 
 const statusEmoji = (s: string) => {
@@ -20,6 +20,30 @@ const statusEmoji = (s: string) => {
 };
 
 const base = import.meta.env.BASE_URL;
+
+// W3.3 相關筆記：找同 tag 的其他 notes，優先 type 相同的
+const noteTags = new Set(note.data.tags || []);
+const sameTags = allNotes
+  .filter((n) => n.data._slug !== note.data._slug)
+  .map((n) => {
+    const overlap = (n.data.tags || []).filter((t: string) => noteTags.has(t)).length;
+    return { note: n, overlap, sameType: n.data.type === note.data.type };
+  })
+  .filter((x) => x.overlap > 0)
+  .sort((a, b) => {
+    // 優先：同 type > tag overlap 多 > updated 新
+    if (a.sameType !== b.sameType) return a.sameType ? -1 : 1;
+    if (a.overlap !== b.overlap) return b.overlap - a.overlap;
+    return (b.note.data.updated || '').localeCompare(a.note.data.updated || '');
+  })
+  .slice(0, 5)
+  .map((x) => x.note);
+
+// 隨機發現：從 allNotes 隨機挑 3 篇
+const randomPicks = allNotes
+  .filter((n) => n.data._slug !== note.data._slug)
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 3);
 ---
 
 <Layout title={`${note.data.title} | Hestia KB`} description={note.data.title}>
@@ -69,8 +93,41 @@ const base = import.meta.env.BASE_URL;
       <Content />
     </div>
 
+    <!-- W3.3 相關筆記 -->
+    {sameTags.length > 0 && (
+      <aside class="mt-12 pt-6 border-t border-hestia-border">
+        <h2 class="text-xl font-serif font-semibold text-hestia-ink mb-4">
+          📚 相關筆記
+        </h2>
+        <ul class="space-y-2">
+          {sameTags.map((n) => (
+            <li>
+              <a href={`${base}/notes/${n.data._slug}/`} class="block py-1 hover:text-hestia-accent no-underline">
+                <span class="text-hestia-muted text-sm mr-2">{n.data.type}</span>
+                <span class="text-hestia-ink">{n.data.title}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    )}
+
+    <!-- 隨機發現 -->
+    <aside class="mt-8 pt-6 border-t border-hestia-border/50">
+      <h3 class="text-sm font-serif text-hestia-muted mb-3">🎲 隨機發現</h3>
+      <ul class="space-y-1 text-sm">
+        {randomPicks.map((n) => (
+          <li>
+            <a href={`${base}/notes/${n.data._slug}/`} class="text-hestia-muted hover:text-hestia-accent no-underline">
+              {n.data.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </aside>
+
     <!-- 底部導航 -->
-    <nav class="mt-12 pt-6 border-t border-hestia-border flex justify-between text-sm">
+    <nav class="mt-8 pt-6 border-t border-hestia-border flex justify-between text-sm">
       <a href={`${base}/notes/`} class="text-hestia-accent">← 回到筆記目錄</a>
       <a href={`${base}/`} class="text-hestia-accent">首頁 →</a>
     </nav>
