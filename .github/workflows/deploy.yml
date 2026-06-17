@@ -28,7 +28,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: site
-        run: npm install --no-audit --prefer-offline --no-fund
+        run: npm install --no-audit --prefer-offline --no-fund --ignore-scripts
 
       - name: Build with Astro
         working-directory: site
