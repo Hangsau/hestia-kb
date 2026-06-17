@@ -7,9 +7,10 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "sync-vault": "python3 scripts/sync-vault.py"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.1",
