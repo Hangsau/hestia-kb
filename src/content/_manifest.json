@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-18T00:30:30",
+  "generated_at": "2026-06-18T01:00:30",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1211,
+  "count": 1212,
   "type_breakdown": {
     "daily": 10,
     "research": 344,
@@ -27,7 +27,7 @@
     "forum-bias-log": 6,
     "weekly-insights": 1,
     "ai-agent-handbook": 9,
-    "resource": 74,
+    "resource": 75,
     "explorations": 281,
     "exploration": 79,
     "distill-log": 1,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 857,
-    "seedling": 344,
+    "seedling": 345,
     "evergreen": 10
   },
   "notes": [
@@ -11099,6 +11099,17 @@
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-09-探索-SAGE---Self-Evolving-Agentic-Graph-Memory-Engine---2026-0.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-09-探索-SAGE---Self-Evolving-Agentic-Graph-Memory-Engine---2026-0/"
+    },
+    {
+      "slug": "40-Resources-_mixed-explorations-2026-06-18-cortex-vortex-review-_review",
+      "title": "Cortex / Vortex 整站評估（2026-06-18）",
+      "type": "resource",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-18",
+      "updated": "2026-06-18",
+      "vault_path": "40-Resources/_mixed/explorations/2026-06-18-cortex-vortex-review/_review.md",
+      "url": "/notes/40-Resources-_mixed-explorations-2026-06-18-cortex-vortex-review-_review/"
     },
     {
       "slug": "40-Resources-_mixed-explorations-exploration-index",
