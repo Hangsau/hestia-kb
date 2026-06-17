@@ -1,34 +1,61 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
 
 const base = import.meta.env.BASE_URL;
 
-// 示範資料：手動列幾個有內容的 vault 筆記
-const sampleNotes = [
-  {
-    title: "Hermes Profile Audit — Hestia + Talos Inventory",
-    path: "notes/hermes-profile-audit/",
-    type: "research",
-    status: "active",
-    date: "2026-05-27",
-    desc: "Psyche 對 Hestia/Talos 兩個 profile 的完整審計。35+ 自建 script、10 個 active cron、Heartbeat V2 雙層設計、Memory pipeline 完整鏈路。",
-    tags: ["hermes", "audit", "hestia", "talos", "profile"]
-  },
-  {
-    title: "Hestia 筆記",
-    path: "notes/hestia-log/",
-    type: "project",
-    status: "active",
-    date: "2026-05-17",
-    desc: "Hestia 從 2026-05-17 開始的工作 log。包含 Ring 2 解除、compression warning 拍板、風格基準建立。",
-    tags: ["hestia", "log", "project"]
-  },
+// 撈 vault 全部 notes（從 content collection）
+const allNotes = await getCollection('notes');
+
+// 最近照料：按 updated 排，取最新 6 篇
+const recentNotes = allNotes
+  .filter((n) => n.data.updated)
+  .sort((a, b) => (b.data.updated || '').localeCompare(a.data.updated || ''))
+  .slice(0, 6);
+
+// MOC 列表（type = moc）
+const mocList = allNotes
+  .filter((n) => n.data.type === 'moc')
+  .sort((a, b) => (a.data.title || '').localeCompare(b.data.title || ''))
+  .slice(0, 8);
+
+// 標籤雲：統計所有 tag 出現次數，取 top 20
+const tagCount = new Map<string, number>();
+for (const n of allNotes) {
+  for (const t of n.data.tags || []) {
+    tagCount.set(t, (tagCount.get(t) || 0) + 1);
+  }
+}
+const topTags = Array.from(tagCount.entries())
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 20);
+
+// 高連接節點：從 public/graph.json 撈 top 5 by degree
+let topNodes: any[] = [];
+try {
+  const fs = await import('node:fs/promises');
+  const graphData = JSON.parse(await fs.readFile('./public/graph.json', 'utf-8'));
+  topNodes = graphData.nodes
+    .sort((a: any, b: any) => b.degree - a.degree)
+    .slice(0, 5);
+} catch {
+  // graph.json 沒 build
+}
+
+// 領域分佈
+const areaStats = [
+  { name: "30-Areas", label: "領域", count: allNotes.filter(n => n.data._slug?.startsWith('30-Areas')).length },
+  { name: "40-Resources", label: "資源", count: allNotes.filter(n => n.data._slug?.startsWith('40-Resources')).length },
+  { name: "20-Projects", label: "專案", count: allNotes.filter(n => n.data._slug?.startsWith('20-Projects')).length },
+  { name: "10-Daily", label: "日記", count: allNotes.filter(n => n.data._slug?.startsWith('10-Daily')).length },
+  { name: "99-Templates", label: "範本", count: allNotes.filter(n => n.data._slug?.startsWith('99-Templates')).length },
+  { name: "research", label: "研究", count: allNotes.filter(n => n.data._slug?.startsWith('research')).length },
 ];
 
 const statusEmoji = (s: string) => {
-  if (s === "active") return "🌿";
-  if (s === "evergreen") return "🌳";
-  return "🌱";
+  if (s === 'evergreen') return '🌳';
+  if (s === 'budding') return '🌿';
+  return '🌱';
 };
 ---
 
@@ -41,85 +68,150 @@ const statusEmoji = (s: string) => {
       <span class="text-hestia-accent">會思考的索引層</span>。
     </h1>
     <p class="text-lg text-hestia-muted max-w-2xl leading-relaxed">
-      這是一座「可被外人探索的個人知識宇宙」—— 1196 篇 Obsidian 筆記、12 個領域、1947 個 FTS5 chunks。
+      這是一座「可被外人探索的個人知識宇宙」——
+      <strong class="text-hestia-ink">{allNotes.length}</strong> 篇 Obsidian 筆記、
+      <strong class="text-hestia-ink">{tagCount.size}</strong> 個標籤、
+      <strong class="text-hestia-ink">{topNodes.length > 0 ? topNodes.reduce((s, n) => s + n.degree, 0) : '—'}</strong> 條 wikilink 連接。
       Hestia 幫你整理、連結、摘要；你只讀網站，不讀原始檔。
     </p>
-    <div class="mt-8 flex gap-3 text-sm">
+    <div class="mt-8 flex flex-wrap gap-3 text-sm">
       <a href={`${base}/notes/`} class="px-4 py-2 bg-hestia-accent text-hestia-cream rounded-md no-underline hover:bg-hestia-accent/90">
-        開始探索 →
+        全部 {allNotes.length} 篇 →
       </a>
-      <a href="#knowledge-map" class="px-4 py-2 border border-hestia-border text-hestia-ink rounded-md no-underline hover:bg-hestia-border/30">
-        看知識地圖
+      <a href={`${base}/graph/`} class="px-4 py-2 border border-hestia-border text-hestia-ink rounded-md no-underline hover:bg-hestia-border/30">
+        🗺 知識地圖
+      </a>
+      <a href={`${base}/search/`} class="px-4 py-2 border border-hestia-border text-hestia-ink rounded-md no-underline hover:bg-hestia-border/30">
+        🔍 全文搜尋
       </a>
     </div>
   </section>
 
-  <!-- 知識地圖（佔位 — 之後接 vis-network） -->
-  <section id="knowledge-map" class="py-10 border-t border-hestia-border">
-    <h2 class="text-2xl font-serif font-semibold mb-2">知識地圖</h2>
-    <p class="text-hestia-muted text-sm mb-6">
-      🌱 seedling (剛長) · 🌿 budding (成長中) · 🌳 evergreen (成熟)
-    </p>
-    <div class="border border-hestia-border rounded-lg p-12 bg-hestia-cream/50 text-center text-hestia-muted">
-      <p class="mb-2">🗺️</p>
-      <p>知識地圖渲染區</p>
-      <p class="text-xs mt-2">
-        下一階段：vis-network 跑 1196 個節點 + wikilink 邊
-      </p>
-    </div>
-  </section>
-
-  <!-- 近期照料（示範） -->
+  <!-- 領域分佈 + 標籤雲 -->
   <section class="py-10 border-t border-hestia-border">
-    <h2 class="text-2xl font-serif font-semibold mb-6">近期照料</h2>
-    <div class="grid md:grid-cols-2 gap-6">
-      {sampleNotes.map((note) => (
+    <div class="grid md:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-2xl font-serif font-semibold mb-4">領域分佈</h2>
+        <div class="grid grid-cols-2 gap-3 text-sm">
+          {areaStats.map((area) => (
+            <a
+              href={`${base}/notes/?type=${encodeURIComponent(area.name)}`}
+              class="block border border-hestia-border rounded-md p-3 hover:bg-hestia-cream/50 no-underline"
+            >
+              <div class="font-mono text-hestia-ink">{area.name}</div>
+              <div class="text-hestia-muted text-xs">{area.label} · {area.count} 篇</div>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-serif font-semibold mb-4">標籤雲 <span class="text-hestia-muted text-sm font-normal">({tagCount.size})</span></h2>
+        <div class="flex flex-wrap gap-1.5 text-sm">
+          {topTags.map(([tag, count]) => (
+            <a
+              href={`${base}/tags/${encodeURIComponent(tag)}/`}
+              class="px-2 py-1 bg-hestia-cream border border-hestia-border text-hestia-ink rounded hover:bg-hestia-accent/10 hover:border-hestia-accent-soft no-underline"
+            >
+              #{tag} <span class="text-hestia-muted text-xs">{count}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 最近照料 -->
+  <section class="py-10 border-t border-hestia-border">
+    <div class="flex items-baseline justify-between mb-6">
+      <h2 class="text-2xl font-serif font-semibold">最近照料</h2>
+      <a href={`${base}/notes/`} class="text-sm text-hestia-accent">看全部 →</a>
+    </div>
+    <div class="grid md:grid-cols-2 gap-4">
+      {recentNotes.map((note) => (
         <a
-          href={`${base}/${note.path}`}
-          class="block border border-hestia-border rounded-lg p-5 hover:border-hestia-accent-soft transition-colors no-underline bg-hestia-cream/30"
+          href={`${base}/notes/${note.data._slug}/`}
+          class="block border border-hestia-border rounded-lg p-4 hover:border-hestia-accent-soft transition-colors no-underline bg-hestia-cream/30"
         >
           <div class="flex items-start justify-between gap-2 mb-2">
-            <h3 class="font-serif font-semibold text-hestia-ink leading-snug">
-              {note.title}
+            <h3 class="font-serif font-semibold text-hestia-ink leading-snug text-sm">
+              {note.data.title}
             </h3>
-            <span class="text-xl shrink-0" title={note.status}>{statusEmoji(note.status)}</span>
+            <span class="text-base shrink-0" title={note.data.status}>
+              {statusEmoji(note.data.status)}
+            </span>
           </div>
-          <p class="text-sm text-hestia-muted leading-relaxed mb-3">
-            {note.desc}
-          </p>
-          <div class="flex flex-wrap gap-1.5 text-xs">
-            {note.tags.map((tag) => (
-              <span class="px-2 py-0.5 bg-hestia-accent/10 text-hestia-accent rounded">
-                #{tag}
-              </span>
+          <div class="flex flex-wrap gap-1 text-xs">
+            {(note.data.tags || []).slice(0, 3).map((tag: string) => (
+              <span class="text-hestia-muted">#{tag}</span>
             ))}
           </div>
-          <p class="text-xs text-hestia-muted/70 mt-3">{note.date} · {note.type}</p>
+          <p class="text-xs text-hestia-muted/70 mt-2">{note.data.updated} · {note.data.type}</p>
         </a>
       ))}
     </div>
   </section>
 
-  <!-- 領域分佈 -->
-  <section class="py-10 border-t border-hestia-border">
-    <h2 class="text-2xl font-serif font-semibold mb-6">領域分佈</h2>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-3 text-sm">
-      {[
-        { name: "30-Areas", count: 403, color: "status-evergreen" },
-        { name: "40-Resources", count: 749, color: "status-budding" },
-        { name: "20-Projects", count: 16, color: "status-seedling" },
-        { name: "10-Daily", count: 10, color: "status-seedling" },
-        { name: "99-Templates", count: 2, color: "status-budding" },
-        { name: "research (legacy)", count: 17, color: "status-budding" },
-      ].map((area) => (
-        <div class="border border-hestia-border rounded-md p-3 hover:bg-hestia-cream/50">
-          <div class={`text-xs ${area.color} mb-1`}>●</div>
-          <div class="font-mono text-hestia-ink">{area.name}</div>
-          <div class="text-hestia-muted text-xs">{area.count} 個 .md</div>
-        </div>
-      ))}
-    </div>
-  </section>
+  <!-- 知識樞紐（top 連接節點） -->
+  {topNodes.length > 0 && (
+    <section class="py-10 border-t border-hestia-border">
+      <h2 class="text-2xl font-serif font-semibold mb-2">知識樞紐</h2>
+      <p class="text-hestia-muted text-sm mb-6">
+        連接最多其他筆記的「hub 節點」— 看完任一個 hub 等於看完一片主題
+      </p>
+      <div class="space-y-3">
+        {topNodes.map((node: any) => (
+          <a
+            href={`${base}/notes/${node.id}/`}
+            class="flex items-center justify-between border border-hestia-border rounded-lg p-4 hover:border-hestia-accent-soft transition-colors no-underline bg-hestia-cream/30"
+          >
+            <div class="flex-1">
+              <h3 class="font-serif font-semibold text-hestia-ink leading-snug">
+                {node.title}
+              </h3>
+              <p class="text-xs text-hestia-muted/70 mt-1">{node.type} · {statusEmoji(node.status)} {node.status}</p>
+            </div>
+            <div class="text-right shrink-0 ml-4">
+              <div class="text-2xl font-mono text-hestia-accent">{node.degree}</div>
+              <div class="text-xs text-hestia-muted">連接</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- MOC 入口 -->
+  {mocList.length > 0 && (
+    <section class="py-10 border-t border-hestia-border">
+      <h2 class="text-2xl font-serif font-semibold mb-4">MOC（地圖）</h2>
+      <p class="text-hestia-muted text-sm mb-6">
+        每個領域的入口 — 從這裡開始探索
+      </p>
+      <div class="grid md:grid-cols-2 gap-3">
+        {mocList.map((moc) => (
+          <a
+            href={`${base}/notes/${moc.data._slug}/`}
+            class="block border border-hestia-accent-soft/40 rounded-lg p-4 hover:border-hestia-accent transition-colors no-underline bg-hestia-accent/5"
+          >
+            <div class="flex items-center gap-2 mb-1">
+              <span class="text-hestia-accent text-lg">🗂</span>
+              <h3 class="font-serif font-semibold text-hestia-ink leading-snug text-sm">
+                {moc.data.title}
+              </h3>
+            </div>
+            {(moc.data.tags || []).length > 0 && (
+              <div class="flex flex-wrap gap-1 text-xs">
+                {(moc.data.tags || []).slice(0, 4).map((tag: string) => (
+                  <span class="text-hestia-muted">#{tag}</span>
+                ))}
+              </div>
+            )}
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 
   <!-- 設計理念 -->
   <section class="py-10 border-t border-hestia-border">
