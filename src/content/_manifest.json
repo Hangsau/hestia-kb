@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-17T23:00:30",
+  "generated_at": "2026-06-17T23:30:30",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1209,
+  "count": 1211,
   "type_breakdown": {
     "daily": 10,
-    "research": 342,
+    "research": 344,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 857,
-    "seedling": 342,
+    "seedling": 344,
     "evergreen": 10
   },
   "notes": [
@@ -15941,6 +15941,36 @@
       "url": "/notes/research-2026-06-17-2101-hermes-consolidated-insight/"
     },
     {
+      "slug": "research-2026-06-17-2310-hermes-consolidated-insight",
+      "title": "2026-06-17 23:10 Consolidation Run：無可消化筆記",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "no-op"
+      ],
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "vault_path": "research/2026-06-17-2310-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-17-2310-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-17-研究報告-agent-執行-trace-的形式化與可觀測性",
+      "title": "研究報告：Agent 執行 Trace 的形式化與可觀測性",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "research",
+        "knowledge",
+        "ai-agent"
+      ],
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "vault_path": "research/2026-06-17-研究報告-agent-執行-trace-的形式化與可觀測性.md",
+      "url": "/notes/research-2026-06-17-研究報告-agent-執行-trace-的形式化與可觀測性/"
+    },
+    {
       "slug": "research-index",
       "title": "Research Index",
       "type": "research",
@@ -15957,8 +15987,8 @@
       "type": "research",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
       "vault_path": "research/research-index.md",
       "url": "/notes/research-research-index/"
     },
