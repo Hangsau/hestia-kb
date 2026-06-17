@@ -1,0 +1,67 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const notes = [
+  {
+    title: "Hermes Profile Audit — Hestia + Talos Inventory",
+    path: "notes/hermes-profile-audit/",
+    type: "research",
+    status: "active",
+    date: "2026-05-27",
+    desc: "Psyche 對 Hestia/Talos 兩個 profile 的完整審計。35+ 自建 script、10 個 active cron、Heartbeat V2 雙層設計、Memory pipeline 完整鏈路。",
+    tags: ["hermes", "audit", "hestia", "talos"]
+  },
+  {
+    title: "Hestia 筆記",
+    path: "notes/hestia-log/",
+    type: "project",
+    status: "active",
+    date: "2026-05-17",
+    desc: "Hestia 從 2026-05-17 開始的工作 log。包含 Ring 2 解除、compression warning 拍板、風格基準建立。",
+    tags: ["hestia", "log", "project"]
+  },
+];
+
+const statusEmoji = (s: string) => {
+  if (s === "active") return "🌿";
+  if (s === "evergreen") return "🌳";
+  return "🌱";
+};
+---
+
+<Layout title="筆記目錄 | Hestia KB">
+  <header class="mb-8">
+    <p class="text-hestia-muted text-sm tracking-widest uppercase mb-3">所有筆記</p>
+    <h1 class="text-3xl md:text-4xl font-serif font-semibold text-hestia-ink mb-4">筆記目錄</h1>
+    <p class="text-hestia-muted max-w-2xl">
+      目前是示範版。下一階段：全 vault 1196 篇自動建索引、MOC 自動生成、Pagefind 全文搜尋。
+    </p>
+  </header>
+
+  <div class="space-y-4">
+    {notes.map((note) => (
+      <a
+        href={note.path}
+        class="block border border-hestia-border rounded-lg p-5 hover:border-hestia-accent-soft transition-colors no-underline bg-hestia-cream/30"
+      >
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <h2 class="font-serif font-semibold text-hestia-ink leading-snug">
+            {note.title}
+          </h2>
+          <span class="text-xl shrink-0" title={note.status}>{statusEmoji(note.status)}</span>
+        </div>
+        <p class="text-sm text-hestia-muted leading-relaxed mb-3">
+          {note.desc}
+        </p>
+        <div class="flex flex-wrap gap-1.5 text-xs">
+          {note.tags.map((tag) => (
+            <span class="px-2 py-0.5 bg-hestia-accent/10 text-hestia-accent rounded">
+              #{tag}
+            </span>
+          ))}
+        </div>
+        <p class="text-xs text-hestia-muted/70 mt-3">{note.date} · {note.type}</p>
+      </a>
+    ))}
+  </div>
+</Layout>

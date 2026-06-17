@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+/* Hestia KB — Soft Warm Digital Garden
+   從 design-spec.md 設計決策：
+   - 配色：#FAF7F0 米色（light）/ #1A1814 深棕黑（dark）/ #C75D2C 暖橘 accent
+   - 狀態色：seedling #8FB060 / budding #D4A24C / evergreen #5C7A3A
+   - 字型：serif body + sans UI（Maggie Appleton + Gwern 互補風格）
+*/
+
+@theme {
+  --color-hestia-cream: #FAF7F0;
+  --color-hestia-ink: #1A1814;
+  --color-hestia-accent: #C75D2C;
+  --color-hestia-accent-soft: #E8B894;
+  --color-hestia-muted: #6B6358;
+  --color-hestia-border: #E8E2D5;
+
+  --color-hestia-seedling: #8FB060;
+  --color-hestia-budding: #D4A24C;
+  --color-hestia-evergreen: #5C7A3A;
+
+  --font-serif: 'Iowan Old Style', 'Charter', 'Source Serif Pro', Georgia, serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-serif);
+    color: var(--color-hestia-ink);
+    background: var(--color-hestia-cream);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  a {
+    color: var(--color-hestia-accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--color-hestia-accent-soft);
+    transition: text-decoration-color 0.15s;
+  }
+
+  a:hover {
+    text-decoration-color: var(--color-hestia-accent);
+  }
+
+  /* Wikilink 風格（從 vault 來的） */
+  .wikilink {
+    background: rgba(199, 93, 44, 0.08);
+    padding: 0 4px;
+    border-radius: 3px;
+    border-bottom: 1px dashed var(--color-hestia-accent-soft);
+  }
+
+  /* 程式碼 block */
+  pre {
+    background: #F5F0E5;
+    border: 1px solid var(--color-hestia-border);
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    overflow-x: auto;
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+  }
+
+  code {
+    background: rgba(199, 93, 44, 0.08);
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+    font-family: var(--font-mono);
+    font-size: 0.875em;
+  }
+
+  pre code {
+    background: transparent;
+    padding: 0;
+  }
+
+  blockquote {
+    border-left: 3px solid var(--color-hestia-accent-soft);
+    margin: 1.25rem 0;
+    padding: 0.5rem 1rem;
+    color: var(--color-hestia-muted);
+    font-style: italic;
+  }
+}
+
+/* 狀態 emoji 標籤 */
+.status-seedling { color: var(--color-hestia-seedling); }
+.status-budding  { color: var(--color-hestia-budding); }
+.status-evergreen { color: var(--color-hestia-evergreen); }

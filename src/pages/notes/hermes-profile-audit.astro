@@ -1,0 +1,55 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="Hermes Profile Audit — Hestia + Talos Inventory | Hestia KB" description="Psyche 對 Hestia/Talos 兩個 profile 的完整審計">
+  <article class="prose-hestia max-w-3xl">
+    <p class="text-hestia-muted text-sm tracking-widest uppercase mb-3">research · 2026-05-27</p>
+    <h1 class="text-3xl md:text-4xl font-serif font-semibold text-hestia-ink mb-2">
+      Hermes Profile Audit — Hestia + Talos Inventory
+    </h1>
+    <div class="flex flex-wrap gap-1.5 text-xs mb-8">
+      <span class="px-2 py-0.5 bg-hestia-accent/10 text-hestia-accent rounded">#hermes</span>
+      <span class="px-2 py-0.5 bg-hestia-accent/10 text-hestia-accent rounded">#audit</span>
+      <span class="px-2 py-0.5 bg-hestia-accent/10 text-hestia-accent rounded">#hestia</span>
+      <span class="px-2 py-0.5 bg-hestia-accent/10 text-hestia-accent rounded">#talos</span>
+      <span class="px-2 py-0.5 bg-hestia-accent/10 text-hestia-accent rounded">#profile</span>
+    </div>
+
+    <blockquote>
+      本筆記來源於 Psyche 對 Hestia/Talos 兩個 profile 的完整審計。Session: 20260527_104908（雙重並發審計）。
+    </blockquote>
+
+    <h2 class="text-2xl font-serif font-semibold mt-10 mb-4">核心發現</h2>
+    <ul class="space-y-2 text-hestia-ink leading-relaxed">
+      <li><strong>Hestia profile</strong> = <code>~/.hermes/</code>（默認 profile），非 <code>profiles/hestia/</code></li>
+      <li><strong>Psyche 與 Talos</strong> 是獨立 sub-profile，分別在 <code>profiles/psyche/</code> 和 <code>profiles/talos/</code></li>
+      <li>兩個 agent 共享 vault（<code>/root/obsidian-vault/</code>）但各有獨立 memory/comms</li>
+    </ul>
+
+    <hr class="my-8 border-hestia-border" />
+
+    <h2 class="text-2xl font-serif font-semibold mb-4">Hestia Profile — Self-Built Features</h2>
+
+    <h3 class="text-xl font-serif font-semibold mt-6 mb-3">核心指標</h3>
+    <ul class="space-y-2 text-hestia-ink leading-relaxed">
+      <li><strong>35+ self-built scripts</strong> under <code>~/.hermes/scripts/</code></li>
+      <li><strong>10 active cron jobs</strong> registered in <code>~/.hermes/cron/jobs.json</code></li>
+      <li><strong>Heartbeat V2</strong> 完整雙層設計（autonomic Python engine + cognitive LLM layer）</li>
+      <li>Memory pipeline: autonomous notes → consolidate_memory → context-distiller → memory-consolidator → briefing → agent context</li>
+    </ul>
+
+    <h3 class="text-xl font-serif font-semibold mt-6 mb-3">特色能力</h3>
+    <p class="text-hestia-ink leading-relaxed">
+      Hestia 不只是個 framework — 是一個完整的 <strong>個人 agent 系統</strong>。
+      從自動 memory distillation、context compression、heartbeat 自律檢查，
+      到 vault 健檢、KB 自動整理、TG bot、Feishu integration，幾乎所有
+      「24/7 housekeeping」都自建 script 處理。
+    </p>
+
+    <div class="mt-10 p-4 bg-hestia-cream/50 border border-hestia-border rounded-md text-sm text-hestia-muted">
+      🌿 <strong>狀態：active</strong> · 這份 audit 是 2026-05-27 跑的，內容已反映當時系統狀態。
+      之後 Hestia 陸續新增了 hestia-kb 整套（見 <a href="/hestia-kb/notes/hestia-log/">Hestia 筆記</a>）。
+    </div>
+  </article>
+</Layout>

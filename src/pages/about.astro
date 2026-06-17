@@ -1,0 +1,54 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="關於 | Hestia KB" description="Hestia KB 個人知識庫網站說明">
+  <article class="max-w-3xl">
+    <p class="text-hestia-muted text-sm tracking-widest uppercase mb-3">關於</p>
+    <h1 class="text-3xl md:text-4xl font-serif font-semibold text-hestia-ink mb-6">
+      關於 Hestia KB
+    </h1>
+
+    <p class="text-hestia-ink leading-relaxed mb-6">
+      Hestia KB 是一座「可被外人探索的個人知識宇宙」—— 1196 篇 Obsidian 筆記、12 個領域、
+      1947 個 FTS5 chunks。Hestia 幫你整理、連結、摘要；你只讀網站，不讀原始檔。
+    </p>
+
+    <h2 class="text-2xl font-serif font-semibold mt-10 mb-4">技術棧</h2>
+    <ul class="space-y-2 text-hestia-ink leading-relaxed">
+      <li><strong>Astro 6</strong> — 靜態站生成 + island architecture</li>
+      <li><strong>Tailwind v4</strong> — 樣式系統</li>
+      <li><strong>Pagefind</strong> — 全文搜尋（build-time index）</li>
+      <li><strong>Cloudflare Pages / GitHub Pages</strong> — 部署</li>
+    </ul>
+
+    <h2 class="text-2xl font-serif font-semibold mt-10 mb-4">來源</h2>
+    <p class="text-hestia-ink leading-relaxed mb-4">
+      內容來自 <code>~/obsidian-vault/</code>（source of truth）。
+      本站是 vault 的「read-only 投影」—— 寫入仍走 Obsidian，網站只負責 render。
+    </p>
+
+    <h2 class="text-2xl font-serif font-semibold mt-10 mb-4">5 Phases</h2>
+    <ul class="space-y-2 text-hestia-ink leading-relaxed">
+      <li><strong>P0 規範</strong> ✅ done</li>
+      <li><strong>P1 強化存取</strong> ✅ done（FTS5 + vector embed + hybrid search + FastAPI）</li>
+      <li><strong>P2 自動維護</strong> ✅ done（5 個 cron timer 啟用）</li>
+      <li><strong>P3 對話回流</strong> ⏳ 待開始</li>
+      <li><strong>P4 整合 + 監控</strong> 🟡 進行中（本站 = P4.3 的一部分）</li>
+    </ul>
+
+    <h2 class="text-2xl font-serif font-semibold mt-10 mb-4">設計理念</h2>
+    <ul class="space-y-2 text-hestia-muted leading-relaxed">
+      <li>🌱 寫入要明確觸發（TG 對話預設不寫入 vault）</li>
+      <li>🌿 人類可審閱（自動產出先進 staging，user 確認才入主 vault）</li>
+      <li>🌳 不取代 Obsidian（vault 仍是 source of truth）</li>
+      <li>⏪ 可逆（任何批次改動前先備份 + 留 undo script）</li>
+      <li>👁 守護者可見（每個 phase 都要讓守護者看得到狀態）</li>
+    </ul>
+
+    <div class="mt-12 p-4 bg-hestia-cream/50 border border-hestia-border rounded-md text-sm text-hestia-muted">
+      🌱 <strong>狀態：early WIP</strong> · 這是 2026-06-17 的 v0.1 示範站 ·
+      後續會接 vis-network 知識地圖 + Pagefind 全文搜尋 + 全 vault 自動索引
+    </div>
+  </article>
+</Layout>
