@@ -19,6 +19,35 @@ const statusEmoji = (s: string) => {
   return '🌱';
 };
 
+// W2.4 TL;DR 自動生成（純前端，build-time 算）
+// 不靠 LLM（subscription expired）— 從 body 抽首段純文字
+function extractTLDR(body: string, maxLen = 240): string {
+  if (!body) return '';
+  let text = body;
+  // 移除 frontmatter
+  text = text.replace(/^---\n[\s\S]*?\n---\n/, '');
+  // 移除 H1
+  text = text.replace(/^#\s+.*$/m, '');
+  // 移除 blockquote (>) 開頭
+  text = text.replace(/^>.*$/gm, '');
+  // 移除 details / summary 標籤
+  text = text.replace(/<\/?details>|<summary>[\s\S]*?<\/summary>/g, '');
+  // 移除 Hugo/Astro shortcode
+  text = text.replace(/\{\{[\s\S]*?\}\}/g, '');
+  // 移除 code block
+  text = text.replace(/```[\s\S]*?```/g, '');
+  // 移除 markdown 標記（list / heading / link syntax）
+  text = text.replace(/^[\-\*#]+\s*/gm, '');
+  text = text.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+  text = text.replace(/[*_`]/g, '');
+  // 移除多餘空行 / 空格
+  text = text.replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim();
+  // 截斷到 maxLen
+  if (text.length > maxLen) text = text.slice(0, maxLen).trim() + '…';
+  return text;
+}
+const tldr = extractTLDR(note.body || '');
+
 const base = import.meta.env.BASE_URL;
 
 // W3.3 相關筆記：找同 tag 的其他 notes，優先 type 相同的
@@ -87,6 +116,18 @@ const randomPicks = allNotes
         </p>
       )}
     </header>
+
+    <!-- W2.4 TL;DR（自動生成） -->
+    {tldr && (
+      <aside class="mb-8 p-4 bg-hestia-cream/60 border-l-4 border-hestia-accent rounded-r-md">
+        <p class="text-xs uppercase tracking-widest text-hestia-accent font-semibold mb-1">
+          一句話總結
+        </p>
+        <p class="text-hestia-ink leading-relaxed">
+          {tldr}
+        </p>
+      </aside>
+    )}
 
     <!-- Body -->
     <div class="prose prose-hestia">
