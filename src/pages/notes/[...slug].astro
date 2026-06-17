@@ -32,7 +32,9 @@ function extractTLDR(body: string, maxLen = 240): string {
   text = text.replace(/^>.*$/gm, '');
   // 移除 details / summary 標籤
   text = text.replace(/<\/?details>|<summary>[\s\S]*?<\/summary>/g, '');
-  // 移除 Hugo/Astro shortcode
+  // 移除 Hugo/Astro shortcode（配對 {{< ... >}} 跟 {{</...>}}）
+  text = text.replace(/\{\{<\/?[^}>]*>?\}\}/g, '');
+  // 一般 shortcode 兜底
   text = text.replace(/\{\{[\s\S]*?\}\}/g, '');
   // 移除 code block
   text = text.replace(/```[\s\S]*?```/g, '');
