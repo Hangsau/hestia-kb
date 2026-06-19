@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-20T00:00:54",
+  "generated_at": "2026-06-20T00:30:37",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1228,
+  "count": 1229,
   "type_breakdown": {
     "daily": 10,
-    "research": 355,
+    "research": 356,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 857,
-    "seedling": 361,
+    "seedling": 362,
     "evergreen": 10
   },
   "notes": [
@@ -16151,6 +16151,24 @@
       "updated": "2026-06-19",
       "vault_path": "research/2026-06-19-研究報告-agent-memory-2026-從-flat-vector-store-到-programmable-memory-pipeline-governance.md",
       "url": "/notes/research-2026-06-19-研究報告-agent-memory-2026-從-flat-vector-store-到-programmable-memory-pipeline-governance/"
+    },
+    {
+      "slug": "research-2026-06-20-0006-hermes-consolidated-insight",
+      "title": "2026-06-20 00:06 Consolidation Run：第 11 次空跑，yield 預測 0/6 兌現；附第二序 cross-cutting（4 論文 × 2026-06-19 外部研究報告）",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "saturation",
+        "meta-pipeline",
+        "second-order",
+        "cron-fix"
+      ],
+      "created": "2026-06-20",
+      "updated": "2026-06-20",
+      "vault_path": "research/2026-06-20-0006-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-20-0006-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
