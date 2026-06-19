@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-20T03:00:42",
+  "generated_at": "2026-06-20T03:30:31",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1229,
+  "count": 1230,
   "type_breakdown": {
     "daily": 10,
-    "research": 356,
+    "research": 357,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 857,
-    "seedling": 362,
+    "seedling": 363,
     "evergreen": 10
   },
   "notes": [
@@ -16169,6 +16169,25 @@
       "updated": "2026-06-20",
       "vault_path": "research/2026-06-20-0006-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-0006-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-20-0301-hermes-consolidated-insight",
+      "title": "2026-06-20 03:01 Consolidation Run #12：第 12 次空跑（4 內部筆記無新 cross-cutting），但 briefing context 揭示「底層主導失敗 + 使用驅動信任」跨域同構",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "cross-batch",
+        "briefing-context",
+        "layer-dominance",
+        "trust-signal",
+        "saturation-confirmed"
+      ],
+      "created": "2026-06-20",
+      "updated": "2026-06-20",
+      "vault_path": "research/2026-06-20-0301-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-20-0301-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
