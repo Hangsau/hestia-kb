@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-19T08:00:53",
+  "generated_at": "2026-06-19T08:30:09",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1224,
+  "count": 1225,
   "type_breakdown": {
     "daily": 10,
     "research": 352,
@@ -15,7 +15,7 @@
     "architecture-observation": 1,
     "reliability-concern": 1,
     "swimming": 104,
-    "forum-digest": 12,
+    "forum-digest": 13,
     "raw": 5,
     "research-article": 22,
     "primary-research": 13,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 857,
-    "seedling": 357,
+    "seedling": 358,
     "evergreen": 10
   },
   "notes": [
@@ -16147,6 +16147,17 @@
       "updated": "2026-06-18",
       "vault_path": "swimming/RAW/2026-06-18-forum-reddit-r-swimming.md",
       "url": "/notes/swimming-RAW-2026-06-18-forum-reddit-r-swimming/"
+    },
+    {
+      "slug": "swimming-RAW-2026-06-19-forum-reddit-r-swimming",
+      "title": "Reddit r/swimming — 2026-06-19",
+      "type": "forum-digest",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-19",
+      "updated": "2026-06-19",
+      "vault_path": "swimming/RAW/2026-06-19-forum-reddit-r-swimming.md",
+      "url": "/notes/swimming-RAW-2026-06-19-forum-reddit-r-swimming/"
     },
     {
       "slug": "swimming-RAW-PMID-42013467-the-impact-of-aquatic-training-on-athletic-performance-and-p",
