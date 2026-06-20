@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-20T15:00:52",
+  "generated_at": "2026-06-20T15:30:32",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1239,
+  "count": 1240,
   "type_breakdown": {
     "daily": 10,
-    "research": 361,
+    "research": 362,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 368,
+    "seedling": 369,
     "evergreen": 10
   },
   "notes": [
@@ -16327,6 +16327,20 @@
       "updated": "2026-06-20",
       "vault_path": "research/2026-06-20-1300-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-1300-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-20-1501-hermes-consolidated-insight",
+      "title": "2026-06 記憶系統四論文收斂：三個非顯然的 cross-cutting 模式",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-06-20",
+      "updated": "2026-06-20",
+      "vault_path": "research/2026-06-20-1501-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-20-1501-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
