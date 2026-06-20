@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-20T12:30:52",
+  "generated_at": "2026-06-20T13:00:14",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1237,
+  "count": 1238,
   "type_breakdown": {
     "daily": 10,
     "research": 360,
@@ -27,7 +27,7 @@
     "forum-bias-log": 6,
     "weekly-insights": 1,
     "ai-agent-handbook": 9,
-    "resource": 75,
+    "resource": 76,
     "explorations": 281,
     "exploration": 79,
     "distill-log": 1,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 366,
+    "seedling": 367,
     "evergreen": 10
   },
   "notes": [
@@ -11174,6 +11174,17 @@
       "updated": "2026-06-18",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-18-cortex-vortex-review/_review.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-18-cortex-vortex-review-_review/"
+    },
+    {
+      "slug": "40-Resources-_mixed-explorations-2026-06-20-wc2026-betting-report",
+      "title": "2026 FIFA 世界盃下注策略研究報告",
+      "type": "resource",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-20",
+      "updated": "2026-06-20",
+      "vault_path": "40-Resources/_mixed/explorations/2026-06-20-wc2026-betting-report.md",
+      "url": "/notes/40-Resources-_mixed-explorations-2026-06-20-wc2026-betting-report/"
     },
     {
       "slug": "40-Resources-_mixed-explorations-exploration-index",
