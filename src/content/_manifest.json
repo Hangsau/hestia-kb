@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-21T00:00:53",
+  "generated_at": "2026-06-21T00:30:13",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1244,
+  "count": 1245,
   "type_breakdown": {
     "daily": 10,
-    "research": 366,
+    "research": 367,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 373,
+    "seedling": 374,
     "evergreen": 10
   },
   "notes": [
@@ -16407,6 +16407,22 @@
       "updated": "2026-06-20",
       "vault_path": "research/2026-06-20-研究報告-dynamic-multi-agent-graph-topology-從靜態-role-編排到-input-conditioned-rl-evolved-的動態拓樸.md",
       "url": "/notes/research-2026-06-20-研究報告-dynamic-multi-agent-graph-topology-從靜態-role-編排到-input-conditioned-rl-evolved-的動態拓樸/"
+    },
+    {
+      "slug": "research-2026-06-21-0002-hermes-consolidated-insight",
+      "title": "2026-06-09 記憶 × 治理探索群（re-run）：昨日 synthesis 仍然 valid，新增「metrics gap」觀察",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "re-validation",
+        "observability"
+      ],
+      "created": "2026-06-21",
+      "updated": "2026-06-21",
+      "vault_path": "research/2026-06-21-0002-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-21-0002-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
