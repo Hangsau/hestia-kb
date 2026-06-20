@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-20T18:00:25",
+  "generated_at": "2026-06-20T18:30:52",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1241,
+  "count": 1242,
   "type_breakdown": {
     "daily": 10,
-    "research": 363,
+    "research": 364,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 370,
+    "seedling": 371,
     "evergreen": 10
   },
   "notes": [
@@ -16359,6 +16359,22 @@
       "updated": "2026-06-20",
       "vault_path": "research/2026-06-20-1600-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-1600-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-20-1801-hermes-consolidated-insight",
+      "title": "2026 記憶系統的兩條隱含主線：Reader-Driven Writer + Token Economics 作為架構約束",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "agent-memory",
+        "memory-architecture"
+      ],
+      "created": "2026-06-20",
+      "updated": "2026-06-20",
+      "vault_path": "research/2026-06-20-1801-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-20-1801-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
