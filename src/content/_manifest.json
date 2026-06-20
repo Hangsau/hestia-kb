@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-20T22:00:10",
+  "generated_at": "2026-06-20T22:30:33",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1242,
+  "count": 1243,
   "type_breakdown": {
     "daily": 10,
-    "research": 364,
+    "research": 365,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 371,
+    "seedling": 372,
     "evergreen": 10
   },
   "notes": [
@@ -16375,6 +16375,23 @@
       "updated": "2026-06-20",
       "vault_path": "research/2026-06-20-1801-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-1801-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-20-2200-hermes-consolidated-insight",
+      "title": "2026 記憶+執行系統的雙治理收斂：Memory Governance 與 Execution Governance 仍被當兩個獨立系統發展 — 但兩者本質上是同一個 valve pattern",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "agent-memory",
+        "execution-governance",
+        "valve-pattern"
+      ],
+      "created": "2026-06-20",
+      "updated": "2026-06-20",
+      "vault_path": "research/2026-06-20-2200-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-20-2200-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
