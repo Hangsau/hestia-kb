@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-21T12:00:10",
+  "generated_at": "2026-06-21T12:30:33",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1247,
+  "count": 1248,
   "type_breakdown": {
     "daily": 10,
-    "research": 368,
+    "research": 369,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 376,
+    "seedling": 377,
     "evergreen": 10
   },
   "notes": [
@@ -16440,6 +16440,22 @@
       "updated": "2026-06-21",
       "vault_path": "research/2026-06-21-0701-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-21-0701-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-21-1200-hermes-consolidated-insight",
+      "title": "Agent Memory 收斂的四個獨立軸：Consolidation 觸發 × 架構分離 × Token 預算 × 自我演化閉環",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "agent-memory",
+        "governance"
+      ],
+      "created": "2026-06-21",
+      "updated": "2026-06-21",
+      "vault_path": "research/2026-06-21-1200-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-21-1200-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
