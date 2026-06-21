@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-21T14:00:29",
+  "generated_at": "2026-06-21T14:30:53",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1248,
+  "count": 1249,
   "type_breakdown": {
     "daily": 10,
-    "research": 369,
+    "research": 370,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 377,
+    "seedling": 378,
     "evergreen": 10
   },
   "notes": [
@@ -16456,6 +16456,24 @@
       "updated": "2026-06-21",
       "vault_path": "research/2026-06-21-1200-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-21-1200-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-21-1401-hermes-consolidated-insight",
+      "title": "2026-06-09 記憶 × 治理探索群 — 第四次確認：無新 insight",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "agent-memory",
+        "governance",
+        "self-evolution",
+        "skip"
+      ],
+      "created": "2026-06-21",
+      "updated": "2026-06-21",
+      "vault_path": "research/2026-06-21-1401-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-21-1401-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
