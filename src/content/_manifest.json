@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-23T03:00:52",
+  "generated_at": "2026-06-23T03:30:37",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1255,
+  "count": 1256,
   "type_breakdown": {
     "daily": 10,
-    "research": 375,
+    "research": 376,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 384,
+    "seedling": 385,
     "evergreen": 10
   },
   "notes": [
@@ -16554,6 +16554,24 @@
       "updated": "2026-06-22",
       "vault_path": "research/2026-06-22-研究報告-agent-swarm-大規模輕量-agent-的-emergent-coordination.md",
       "url": "/notes/research-2026-06-22-研究報告-agent-swarm-大規模輕量-agent-的-emergent-coordination/"
+    },
+    {
+      "slug": "research-2026-06-23-0301-hermes-consolidated-insight",
+      "title": "2026-06-09 記憶 × 治理探索群 — 第六次確認：仍無新 insight（cron 重複觸發同一組筆記）",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "agent-memory",
+        "governance",
+        "self-evolution",
+        "skip"
+      ],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "research/2026-06-23-0301-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-23-0301-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
