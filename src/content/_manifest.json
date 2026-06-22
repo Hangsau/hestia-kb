@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-22T07:30:52",
+  "generated_at": "2026-06-22T08:00:22",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1250,
+  "count": 1251,
   "type_breakdown": {
     "daily": 10,
     "research": 371,
@@ -15,7 +15,7 @@
     "architecture-observation": 1,
     "reliability-concern": 1,
     "swimming": 108,
-    "forum-digest": 15,
+    "forum-digest": 16,
     "raw": 5,
     "research-article": 22,
     "primary-research": 13,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 379,
+    "seedling": 380,
     "evergreen": 10
   },
   "notes": [
@@ -16570,6 +16570,17 @@
       "url": "/notes/swimming-RAW-2026-06-21-forum-reddit-r-swimming/"
     },
     {
+      "slug": "swimming-RAW-2026-06-22-forum-reddit-r-swimming",
+      "title": "Reddit r/swimming — 2026-06-22",
+      "type": "forum-digest",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-22",
+      "updated": "2026-06-22",
+      "vault_path": "swimming/RAW/2026-06-22-forum-reddit-r-swimming.md",
+      "url": "/notes/swimming-RAW-2026-06-22-forum-reddit-r-swimming/"
+    },
+    {
       "slug": "swimming-RAW-PMID-42013467-the-impact-of-aquatic-training-on-athletic-performance-and-p",
       "title": "The Impact of Aquatic Training on Athletic Performance and Physical Recovery in Competitive Athletes: A Meta-Analysis.",
       "type": "pubmed",
@@ -16597,8 +16608,8 @@
       "type": "note",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "created": "2026-06-22",
+      "updated": "2026-06-22",
       "vault_path": "swimming/references/search-log.md",
       "url": "/notes/swimming-references-search-log/"
     },
