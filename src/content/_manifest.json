@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-23T07:00:21",
+  "generated_at": "2026-06-23T07:30:18",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1257,
+  "count": 1258,
   "type_breakdown": {
     "daily": 10,
-    "research": 377,
+    "research": 378,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -38,7 +38,7 @@
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 386,
+    "seedling": 387,
     "evergreen": 10
   },
   "notes": [
@@ -16588,6 +16588,23 @@
       "updated": "2026-06-23",
       "vault_path": "research/2026-06-23-0600-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-23-0600-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-23-0700-hermes-consolidated-insight",
+      "title": "三層是答案嗎？從 2026-06 記憶文獻群看 LLM Agent 記憶的共同收斂",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "ws-035",
+        "heartbeat-learning",
+        "memory-architecture"
+      ],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "research/2026-06-23-0700-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-23-0700-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
