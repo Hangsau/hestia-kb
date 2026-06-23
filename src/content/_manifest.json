@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-23T14:00:12",
+  "generated_at": "2026-06-23T14:30:32",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1267,
+  "count": 1268,
   "type_breakdown": {
     "daily": 10,
-    "research": 380,
+    "research": 381,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -39,7 +39,7 @@
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 396,
+    "seedling": 397,
     "evergreen": 10
   },
   "notes": [
@@ -16660,6 +16660,22 @@
       "updated": "2026-06-23",
       "vault_path": "research/2026-06-23-1300-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-23-1300-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-23-1401-hermes-consolidated-insight",
+      "title": "Reader-Writer 閉環 × Token 經濟學：2026-06-09 四篇記憶架構筆記的隱藏收斂",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "governance"
+      ],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "research/2026-06-23-1401-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-23-1401-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
