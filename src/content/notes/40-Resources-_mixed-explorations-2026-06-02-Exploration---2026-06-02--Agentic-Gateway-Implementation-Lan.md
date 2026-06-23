@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-06-02-Exploration---2026-06-02--Agentic-Gateway-Implementation-Lan
 _vault_path: 40-Resources/_mixed/explorations/2026-06-02-Exploration---2026-06-02--Agentic-Gateway-Implementation-Lan.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 32:\n    title: Exploration — 2026-06-02: Agentic Gateway Implementation\
-  \ ... \n                                   ^"
-_raw_fm: '
-
-  title: Exploration — 2026-06-02: Agentic Gateway Implementation Landscape
-
-  date: 2026-06-02
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, agentgateway, axonflow, gateway, governance, guardrails, mcp,
-  policy, sdk, tool]
-
-  created: 2026-06-02
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Exploration — 2026-06-02: Agentic Gateway Implementation Landscape'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-06-02
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- agentgateway
+- axonflow
+- gateway
+- governance
+- guardrails
+- mcp
+- policy
+- sdk
+- tool
+created: '2026-06-02'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Exploration — 2026-06-02: Agentic Gateway Implementation Landscape

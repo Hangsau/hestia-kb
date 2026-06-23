@@ -1,42 +1,25 @@
 ---
 _slug: 30-Areas-swimming-digests-PMID-38897577-butterfly-muscle-coordination-digest
 _vault_path: 30-Areas/swimming/digests/PMID-38897577-butterfly-muscle-coordination-digest.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 68:\n     ... aximal Butterfly Stroke Swimming: Comparison Between Competitive\
-  \ ... \n                                         ^"
-_raw_fm: '
-
-  status: 🟢
-
-  pmid: 38897577
-
-  title: Muscle Coordination During Maximal Butterfly Stroke Swimming: Comparison
-  Between Competitive and Recreational Swimmers
-
-  title_cn: 競技與休閒蝶泳者在最大努力游泳時的肌肉協調比較
-
-  type: primary-research
-
-  date: 2024-07
-
-  source: PubMed
-
-  stroke: butterfly
-
-  subtopic: muscle-coordination, muscle-synergy, competitive-vs-recreational
-
-  tags: [butterfly, muscle-coordination, synergy, competitive, recreational, EMG,
-  NMF]
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  '
-title: PMID-38897577-butterfly-muscle-coordination-digest
-type: area
 status: seedling
-created: '2026-06-15'
+pmid: 38897577
+title: 'Muscle Coordination During Maximal Butterfly Stroke Swimming: Comparison Between
+  Competitive and Recreational Swimmers'
+title_cn: 競技與休閒蝶泳者在最大努力游泳時的肌肉協調比較
+type: primary-research
+date: 2024-07
+source: PubMed
+stroke: butterfly
+subtopic: muscle-coordination, muscle-synergy, competitive-vs-recreational
+tags:
+- butterfly
+- muscle-coordination
+- synergy
+- competitive
+- recreational
+- EMG
+- NMF
+created: '2026-05-24'
 updated: '2026-06-15'
 ---
 

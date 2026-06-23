@@ -1,28 +1,12 @@
 ---
 _slug: 30-Areas-swimming-drills-breaststroke-br02
 _vault_path: 30-Areas/swimming/drills/breaststroke/br02.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 12:\n    title: Br02: Egg Beater Kick\n               ^"
-_raw_fm: '
-
-  title: Br02: Egg Beater Kick
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  type: swimming
-
-  tags: []
-
-  status: active
-
-  '
 title: 'Br02: Egg Beater Kick'
-type: area
-status: seedling
-created: '2026-06-15'
+created: '2026-05-24'
 updated: '2026-06-15'
+type: swimming
+tags: []
+status: budding
 ---
 
 # Br02: Egg Beater Kick

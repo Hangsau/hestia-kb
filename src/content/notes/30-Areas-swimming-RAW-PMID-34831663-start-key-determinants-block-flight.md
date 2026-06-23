@@ -1,18 +1,24 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-34831663-start-key-determinants-block-flight
 _vault_path: 30-Areas/swimming/RAW/PMID-34831663-start-key-determinants-block-flight.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 73:\n     ... t Performance in Elite Sprinters: Block and Flight Phase\
-  \ Analysis\n                                         ^"
-_raw_fm: "\nstatus: ✅\npmid: 34831663\ntitle: Key Determinants of Swimming Start Performance\
-  \ in Elite Sprinters: Block and Flight Phase Analysis\ntitle_cn: \ntype: primary-research\n\
-  date: 2021-12\nsource: PubMed\nstroke: start\nsubtopic: block-phase, flight-phase,\
-  \ key-determinants\ntags: [start, block-phase, flight-phase, elite, sprint, 5m]\n\
-  created: 2026-05-24\nupdated: 2026-06-15\n"
-title: PMID-34831663-start-key-determinants-block-flight
-type: area
 status: seedling
-created: '2026-06-15'
+pmid: 34831663
+title: 'Key Determinants of Swimming Start Performance in Elite Sprinters: Block and
+  Flight Phase Analysis'
+title_cn: null
+type: primary-research
+date: 2021-12
+source: PubMed
+stroke: start
+subtopic: block-phase, flight-phase, key-determinants
+tags:
+- start
+- block-phase
+- flight-phase
+- elite
+- sprint
+- 5m
+created: '2026-05-24'
 updated: '2026-06-15'
 ---
 

@@ -1,40 +1,18 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-25583184-butterfly_coord
 _vault_path: 30-Areas/swimming/RAW/PMID-25583184-butterfly_coord.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 9, column 9:\n    doi: doi: 10.1080/02640414.2014.986500\n            ^"
-_raw_fm: '
-
-  type: raw
-
-  pmid: 25583184
-
-  title: Effect of hand paddles and parachute on butterfly coordination.
-
-  authors: Telles T, Barroso R, Barbosa AC
-
-  source: J Sports Sci
-
-  date: 2015
-
-  tag: butterfly_coord
-
-  doi: doi: 10.1080/02640414.2014.986500
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  tags: []
-
-  status: active
-
-  '
+type: raw
+pmid: 25583184
 title: Effect of hand paddles and parachute on butterfly coordination.
-type: area
-status: seedling
-created: '2026-06-15'
+authors: Telles T, Barroso R, Barbosa AC
+source: J Sports Sci
+date: 2015
+tag: butterfly_coord
+doi: 'doi: 10.1080/02640414.2014.986500'
+created: '2026-05-24'
 updated: '2026-06-15'
+tags: []
+status: budding
 ---
 
 # Effect of hand paddles and parachute on butterfly coordination.

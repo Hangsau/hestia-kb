@@ -1,19 +1,24 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-38250792-freestyle-kicking-drag-reduction
 _vault_path: 30-Areas/swimming/RAW/PMID-38250792-freestyle-kicking-drag-reduction.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 45:\n     ... of kicking action in front crawl: the inter-relationships\
-  \ betwee ... \n                                         ^"
-_raw_fm: "\nstatus: \U0001F7E2\npmid: 38250792\ntitle: Role of kicking action in front\
-  \ crawl: the inter-relationships between swimming velocity, hand propulsive force\
-  \ and trunk inclination\ntitle_cn: \ntype: primary-research\ndate: 2025\nsource:\
-  \ PubMed\nstroke: freestyle\nsubtopic: kicking-action, drag-reduction, trunk-inclination,\
-  \ velocity\ntags: [freestyle, kick, drag, trunk-inclination, velocity, propulsion]\n\
-  created: 2026-05-24\nupdated: 2026-06-15\n"
-title: PMID-38250792-freestyle-kicking-drag-reduction
-type: area
 status: seedling
-created: '2026-06-15'
+pmid: 38250792
+title: 'Role of kicking action in front crawl: the inter-relationships between swimming
+  velocity, hand propulsive force and trunk inclination'
+title_cn: null
+type: primary-research
+date: 2025
+source: PubMed
+stroke: freestyle
+subtopic: kicking-action, drag-reduction, trunk-inclination, velocity
+tags:
+- freestyle
+- kick
+- drag
+- trunk-inclination
+- velocity
+- propulsion
+created: '2026-05-24'
 updated: '2026-06-15'
 ---
 

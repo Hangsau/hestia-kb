@@ -11,7 +11,7 @@ confidence: high
 title: 2026-06-09 Memory Architecture 批次：再讀補充（非顯眼新意已在前次消化）
 type: research
 status: seedling
-updated: '2026-06-17'
+updated: '2026-06-23'
 ---
 
 # 2026-06-09 Memory Architecture 批次：再讀補充（非顯眼新意已在前次消化）

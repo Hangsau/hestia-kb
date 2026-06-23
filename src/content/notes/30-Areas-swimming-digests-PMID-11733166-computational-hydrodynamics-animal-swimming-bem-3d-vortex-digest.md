@@ -1,37 +1,20 @@
 ---
 _slug: 30-Areas-swimming-digests-PMID-11733166-computational-hydrodynamics-animal-swimming-bem-3d-vortex-digest
 _vault_path: 30-Areas/swimming/digests/PMID-11733166-computational-hydrodynamics-animal-swimming-bem-3d-vortex-digest.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 54:\n     ... hydrodynamics of animal swimming: boundary element method\
-  \ and th ... \n                                         ^"
-_raw_fm: '
-
-  title: Computational hydrodynamics of animal swimming: boundary element method and
-  three-dimensional vortex
-
-  pmid: 11733166
-
-  year: 2001
-
-  journal: Can J Zool
-
-  status: 🟡
-
-  tags: [swimming, hydrodynamics, vortex, propulsion]
-
-  created: 2026-05-31
-
-  updated: 2026-06-15
-
-  type: swimming
-
-  '
 title: 'Computational hydrodynamics of animal swimming: boundary element method and
   three-dimensional vortex'
-type: area
+pmid: 11733166
+year: 2001
+journal: Can J Zool
 status: seedling
-created: '2026-06-15'
+tags:
+- swimming
+- hydrodynamics
+- vortex
+- propulsion
+created: '2026-05-31'
 updated: '2026-06-15'
+type: swimming
 ---
 
 # Computational hydrodynamics of animal swimming: boundary element method and three-dimensional vortex

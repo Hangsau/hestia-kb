@@ -1,39 +1,22 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-42127379-lumbar-spine-injuries-hyper mobility
 _vault_path: 30-Areas/swimming/RAW/PMID-42127379-lumbar-spine-injuries-hyper mobility.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 56:\n     ... uries among competitive swimmers: hypermobility and training\
-  \ ris ... \n                                         ^"
-_raw_fm: '
-
-  uid: PMID-42127379
-
-  type: research-article
-
-  title: Lumbar spine injuries among competitive swimmers: hypermobility and training
-  risk factors
-
-  authors: Schwartz A, Richards L, Labrador H, Verma R, Benjamin H, Hsu C
-
-  journal: Research in Sports Medicine
-
-  date: 2026-05
-
-  pmid: 42127379
-
-  status: ✅ abstract only
-
-  tags: [swimming, injury, lumbar-spine, hypermobility, epidemiology]
-
-  created: 2026-05-23
-
-  updated: 2026-06-15
-
-  '
-title: PMID-42127379-lumbar-spine-injuries-hyper mobility
-type: area
+uid: PMID-42127379
+type: research-article
+title: 'Lumbar spine injuries among competitive swimmers: hypermobility and training
+  risk factors'
+authors: Schwartz A, Richards L, Labrador H, Verma R, Benjamin H, Hsu C
+journal: Research in Sports Medicine
+date: 2026-05
+pmid: 42127379
 status: seedling
-created: '2026-06-15'
+tags:
+- swimming
+- injury
+- lumbar-spine
+- hypermobility
+- epidemiology
+created: '2026-05-23'
 updated: '2026-06-15'
 ---
 

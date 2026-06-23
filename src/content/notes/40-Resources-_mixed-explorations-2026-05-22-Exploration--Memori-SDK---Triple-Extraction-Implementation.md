@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-22-Exploration--Memori-SDK---Triple-Extraction-Implementation
 _vault_path: 40-Resources/_mixed/explorations/2026-05-22-Exploration--Memori-SDK---Triple-Extraction-Implementation.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 19:\n    title: Exploration: Memori SDK — Triple Extraction ... \n \
-  \                     ^"
-_raw_fm: '
-
-  title: Exploration: Memori SDK — Triple Extraction Implementation
-
-  date: 2026-05-23
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [entity, error, extraction, github, heartbeat, memori, process, recurring,
-  triple, triples]
-
-  created: 2026-05-21
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Exploration: Memori SDK — Triple Extraction Implementation'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-23
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- entity
+- error
+- extraction
+- github
+- heartbeat
+- memori
+- process
+- recurring
+- triple
+- triples
+created: '2026-05-21'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Exploration: Memori SDK — Triple Extraction Implementation

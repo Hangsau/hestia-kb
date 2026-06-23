@@ -1,31 +1,13 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-06-04-Exploration---AI-Agent-Architecture--PM-Guide---ProfileGPT
 _vault_path: 40-Resources/_mixed/explorations/2026-06-04-Exploration---AI-Agent-Architecture--PM-Guide---ProfileGPT.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 43:\n     ... loration — AI Agent Architecture: PM Guide + ProfileGPT\
-  \ + Master ... \n                                         ^"
-_raw_fm: '
-
-  title: Exploration — AI Agent Architecture: PM Guide + ProfileGPT + Masterman Survey
-  (2026-06-04)
-
-  created: 2026-06-04
-
-  updated: 2026-06-15
-
-  type: exploration
-
-  tags: []
-
-  status: active
-
-  '
 title: 'Exploration — AI Agent Architecture: PM Guide + ProfileGPT + Masterman Survey
   (2026-06-04)'
-type: resource
-status: seedling
-created: '2026-06-15'
+created: '2026-06-04'
 updated: '2026-06-15'
+type: exploration
+tags: []
+status: budding
 ---
 
 # Exploration — AI Agent Architecture: PM Guide + ProfileGPT + Masterman Survey (2026-06-04)

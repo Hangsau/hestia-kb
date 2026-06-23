@@ -1,19 +1,23 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-37554410-golden-ratio-backstroke-breaststroke
 _vault_path: 30-Areas/swimming/RAW/PMID-37554410-golden-ratio-backstroke-breaststroke.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 52:\n     ...  and self-similarity in swimming: breast-stroke and the\
-  \ back-stroke\n                                         ^"
-_raw_fm: "\nstatus: \U0001F7E2\npmid: 37554410\ntitle: Golden ratio and self-similarity\
-  \ in swimming: breast-stroke and the back-stroke\ntitle_cn: \ntype: primary-research\n\
-  date: 2023\nsource: PubMed\nstroke: breaststroke, backstroke\nsubtopic: golden-ratio,\
-  \ self-similarity, temporal-patterns, fibonacci\ntags: [breaststroke, backstroke,\
-  \ golden-ratio, self-similarity, temporal-patterns, fibonacci]\ncreated: 2026-05-24\n\
-  updated: 2026-06-15\n"
-title: PMID-37554410-golden-ratio-backstroke-breaststroke
-type: area
 status: seedling
-created: '2026-06-15'
+pmid: 37554410
+title: 'Golden ratio and self-similarity in swimming: breast-stroke and the back-stroke'
+title_cn: null
+type: primary-research
+date: 2023
+source: PubMed
+stroke: breaststroke, backstroke
+subtopic: golden-ratio, self-similarity, temporal-patterns, fibonacci
+tags:
+- breaststroke
+- backstroke
+- golden-ratio
+- self-similarity
+- temporal-patterns
+- fibonacci
+created: '2026-05-24'
 updated: '2026-06-15'
 ---
 

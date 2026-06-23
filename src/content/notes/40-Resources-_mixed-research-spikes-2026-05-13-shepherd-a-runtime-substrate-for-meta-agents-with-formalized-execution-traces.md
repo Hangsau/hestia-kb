@@ -1,38 +1,20 @@
 ---
 _slug: 40-Resources-_mixed-research-spikes-2026-05-13-shepherd-a-runtime-substrate-for-meta-agents-with-formalized-execution-traces
 _vault_path: 40-Resources/_mixed/research/spikes/2026-05-13-shepherd-a-runtime-substrate-for-meta-agents-with-formalized-execution-traces.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 9, column 16:\n    title: Shepherd: A Runtime Substrate for Meta-A ... \n    \
-  \               ^"
-_raw_fm: '
-
-  tags: [research, knowledge, ai-agent]
-
-  created: 2026-05-13
-
-  version: 1
-
-  source_report: 2026-05-13-shepherd-meta-agent-substrate.md
-
-  source_url: https://arxiv.org/abs/2605.10913
-
-  type: paper
-
-  fingerprint: fork, agent, meta-agent, replay, task, worker, typed, effect, execution,
+tags:
+- research
+- knowledge
+- ai-agent
+created: '2026-05-13'
+version: 1
+source_report: 2026-05-13-shepherd-meta-agent-substrate.md
+source_url: https://arxiv.org/abs/2605.10913
+type: paper
+fingerprint: fork, agent, meta-agent, replay, task, worker, typed, effect, execution,
   paper
-
-  title: Shepherd: A Runtime Substrate for Meta-Agents with Formalized Execution Traces
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Shepherd: A Runtime Substrate for Meta-Agents with Formalized Execution Traces'
-type: resource
-status: seedling
-created: '2026-06-15'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Shepherd: A Runtime Substrate for Meta-Agents with Formalized Execution Traces

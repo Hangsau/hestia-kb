@@ -8,7 +8,7 @@ authors: Chollet D, Seifert L, Boulesteix L
 source: Int J Sports Med
 date: 2006 Apr
 tag: butterfly_coord
-doi: null
+doi: 'null'
 created: '2026-05-24'
 updated: '2026-06-15'
 tags: []

@@ -1,18 +1,23 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-37593236-start-sex-differences
 _vault_path: 30-Areas/swimming/RAW/PMID-37593236-start-sex-differences.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 83:\n     ... nematics in Competitive Swimmers: Analysis of the Swimming\
-  \ Start\n                                         ^"
-_raw_fm: "\nstatus: ✅\npmid: 37593236\ntitle: Sex Differences in Start Performance\
-  \ and Kinematics in Competitive Swimmers: Analysis of the Swimming Start\ntitle_cn:\
-  \ \ntype: primary-research\ndate: 2021-01\nsource: PubMed\nstroke: start\nsubtopic:\
-  \ sex-differences, grab-start, track-start\ntags: [start, grab-start, track-start,\
-  \ sex-differences, block-phase]\ncreated: 2026-05-24\nupdated: 2026-06-15\n"
-title: PMID-37593236-start-sex-differences
-type: area
 status: seedling
-created: '2026-06-15'
+pmid: 37593236
+title: 'Sex Differences in Start Performance and Kinematics in Competitive Swimmers:
+  Analysis of the Swimming Start'
+title_cn: null
+type: primary-research
+date: 2021-01
+source: PubMed
+stroke: start
+subtopic: sex-differences, grab-start, track-start
+tags:
+- start
+- grab-start
+- track-start
+- sex-differences
+- block-phase
+created: '2026-05-24'
 updated: '2026-06-15'
 ---
 

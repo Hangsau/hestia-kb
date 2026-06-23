@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-30---OpenMemory--Local-First-Cognitive-Memory-Engine
 _vault_path: 40-Resources/_mixed/explorations/2026-05-30---OpenMemory--Local-First-Cognitive-Memory-Engine.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 31:\n    title: 2026-05-30 — OpenMemory: Local-First Cognitive Memory\
-  \ E ... \n                                  ^"
-_raw_fm: '
-
-  title: 2026-05-30 — OpenMemory: Local-First Cognitive Memory Engine
-
-  date: 2026-05-30
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [classifier, decay, engine, github, graph, openmemory, sector, temporal,
-  valid, waypoint]
-
-  created: 2026-05-30
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: '2026-05-30 — OpenMemory: Local-First Cognitive Memory Engine'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-30
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- classifier
+- decay
+- engine
+- github
+- graph
+- openmemory
+- sector
+- temporal
+- valid
+- waypoint
+created: '2026-05-30'
 updated: '2026-06-15'
+status: budding
 ---
 
 # 2026-05-30 — OpenMemory: Local-First Cognitive Memory Engine

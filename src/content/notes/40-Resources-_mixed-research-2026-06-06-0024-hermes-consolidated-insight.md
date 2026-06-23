@@ -1,33 +1,16 @@
 ---
 _slug: 40-Resources-_mixed-research-2026-06-06-0024-hermes-consolidated-insight
 _vault_path: 40-Resources/_mixed/research/2026-06-06-0024-hermes-consolidated-insight.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 6, column 32:\n    title: 2026-06-06 Consolidation: 無新筆記可消化\n                \
-  \                   ^"
-_raw_fm: '
-
-  tags: [consolidation, synthesis]
-
-  source: multi
-
-  created: 2026-06-06
-
-  confidence: low
-
-  title: 2026-06-06 Consolidation: 無新筆記可消化
-
-  updated: 2026-06-15
-
-  type: research
-
-  status: active
-
-  '
+tags:
+- consolidation
+- synthesis
+source: multi
+created: '2026-06-06'
+confidence: low
 title: '2026-06-06 Consolidation: 無新筆記可消化'
-type: resource
-status: seedling
-created: '2026-06-15'
 updated: '2026-06-15'
+type: research
+status: budding
 ---
 
 # 2026-06-06 Consolidation: 無新筆記可消化

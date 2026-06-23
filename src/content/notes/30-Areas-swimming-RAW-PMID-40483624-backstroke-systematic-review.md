@@ -1,43 +1,28 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-40483624-backstroke-systematic-review
 _vault_path: 30-Areas/swimming/RAW/PMID-40483624-backstroke-systematic-review.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 103:\n     ...  Backstroke Swimming Performance: A Systematic Review\n\
-  \                                         ^"
-_raw_fm: '
-
-  uid: PMID-40483624
-
-  type: systematic-review
-
-  title: Biomechanical, Physiological and Anthropometric Determinants of Backstroke
-  Swimming Performance: A Systematic Review
-
-  authors: González-Ravé JM, González-Mohino F, Hermosilla Perona F, Rodrigo-Carranza
+uid: PMID-40483624
+type: systematic-review
+title: 'Biomechanical, Physiological and Anthropometric Determinants of Backstroke
+  Swimming Performance: A Systematic Review'
+authors: González-Ravé JM, González-Mohino F, Hermosilla Perona F, Rodrigo-Carranza
   V, Yustres I, Pyne DB
-
-  journal: Sports Med Open
-
-  date: 2025-06-08
-
-  pmid: 40483624
-
-  doi: 10.1186/s40798-025-00868-z
-
-  status: ✅ full abstract
-
-  tags: [backstroke, systematic-review, biomechanics, physiology, anthropometry, performance,
-  50m, 100m, 200m]
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  '
-title: PMID-40483624-backstroke-systematic-review
-type: area
+journal: Sports Med Open
+date: 2025-06-08
+pmid: 40483624
+doi: 10.1186/s40798-025-00868-z
 status: seedling
-created: '2026-06-15'
+tags:
+- backstroke
+- systematic-review
+- biomechanics
+- physiology
+- anthropometry
+- performance
+- 50m
+- 100m
+- 200m
+created: '2026-05-24'
 updated: '2026-06-15'
 ---
 

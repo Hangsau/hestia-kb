@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-22-Agent-Memory--Memori-Architecture---R²-Mem-Rubric-Scoring
 _vault_path: 40-Resources/_mixed/explorations/2026-05-22-Agent-Memory--Memori-Architecture---R²-Mem-Rubric-Scoring.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 20:\n    title: Agent Memory: Memori Architecture + R²-Mem R ... \n\
-  \                       ^"
-_raw_fm: '
-
-  title: Agent Memory: Memori Architecture + R²-Mem Rubric Scoring
-
-  date: 2026-05-22
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [heartbeat, learning, mem, memori, memory, paper, reflection, rubric,
-  scoring, vault]
-
-  created: 2026-05-20
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Agent Memory: Memori Architecture + R²-Mem Rubric Scoring'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-22
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- heartbeat
+- learning
+- mem
+- memori
+- memory
+- paper
+- reflection
+- rubric
+- scoring
+- vault
+created: '2026-05-20'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Agent Memory: Memori Architecture + R²-Mem Rubric Scoring

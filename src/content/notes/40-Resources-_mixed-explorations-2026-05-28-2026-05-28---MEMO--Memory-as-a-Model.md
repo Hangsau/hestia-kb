@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-28-2026-05-28---MEMO--Memory-as-a-Model
 _vault_path: 40-Resources/_mixed/explorations/2026-05-28-2026-05-28---MEMO--Memory-as-a-Model.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 25:\n    title: 2026-05-28 — MEMO: Memory as a Model\n             \
-  \               ^"
-_raw_fm: '
-
-  title: 2026-05-28 — MEMO: Memory as a Model
-
-  date: 2026-05-28
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [corpus, cross, document, hermes, memo, memori, memory, model, session,
-  synthesis]
-
-  created: 2026-05-28
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: '2026-05-28 — MEMO: Memory as a Model'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-28
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- corpus
+- cross
+- document
+- hermes
+- memo
+- memori
+- memory
+- model
+- session
+- synthesis
+created: '2026-05-28'
 updated: '2026-06-15'
+status: budding
 ---
 
 # 2026-05-28 — MEMO: Memory as a Model

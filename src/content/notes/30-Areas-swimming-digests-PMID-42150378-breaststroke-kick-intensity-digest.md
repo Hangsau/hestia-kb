@@ -1,36 +1,15 @@
 ---
 _slug: 30-Areas-swimming-digests-PMID-42150378-breaststroke-kick-intensity-digest
 _vault_path: 30-Areas/swimming/digests/PMID-42150378-breaststroke-kick-intensity-digest.md
-_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 2, column\
-  \ 1:\n    uid: PMID-42150378-digest\n    ^\nexpected <block end>, but found '<scalar>'\n\
-  \  in \"<unicode string>\", line 3, column 13:\n    title: [消化] 蛙腳踢水時空適應性：強度依賴的時間重組\n\
-  \                ^"
-_raw_fm: '
-
-  uid: PMID-42150378-digest
-
-  title: [消化] 蛙腳踢水時空適應性：強度依賴的時間重組
-
-  type: digest
-
-  date: 2026-05-24
-
-  source: PMID-42150378
-
-  status: 🟡 abstract only
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  tags: []
-
-  '
-title: PMID-42150378-breaststroke-kick-intensity-digest
-type: area
+uid: PMID-42150378-digest
+title: '[消化] 蛙腳踢水時空適應性：強度依賴的時間重組'
+type: digest
+date: 2026-05-24
+source: PMID-42150378
 status: seedling
-created: '2026-06-15'
+created: '2026-05-24'
 updated: '2026-06-15'
+tags: []
 ---
 
 ## 研究問題

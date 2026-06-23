@@ -1,40 +1,23 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-39540232-breaststroke-energy-cost-systematic-review
 _vault_path: 30-Areas/swimming/RAW/PMID-39540232-breaststroke-energy-cost-systematic-review.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 60:\n     ... y cost in breaststroke technique: a systematic review\n\
-  \                                         ^"
-_raw_fm: '
-
-  uid: PMID-39540232
-
-  type: systematic-review
-
-  title: Variability of energy cost in breaststroke technique: a systematic review
-
-  authors: Alves M, Barbosa TM, Vilas-Boas JP
-
-  journal: Sports Biomech
-
-  date: 2025-07-24
-
-  pmid: 39540232
-
-  doi: 10.1080/14763141.2024.2427683
-
-  status: ✅ full abstract
-
-  tags: [breaststroke, energy-cost, systematic-review, biomechanics, kinematics, coordination]
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  '
-title: PMID-39540232-breaststroke-energy-cost-systematic-review
-type: area
+uid: PMID-39540232
+type: systematic-review
+title: 'Variability of energy cost in breaststroke technique: a systematic review'
+authors: Alves M, Barbosa TM, Vilas-Boas JP
+journal: Sports Biomech
+date: 2025-07-24
+pmid: 39540232
+doi: 10.1080/14763141.2024.2427683
 status: seedling
-created: '2026-06-15'
+tags:
+- breaststroke
+- energy-cost
+- systematic-review
+- biomechanics
+- kinematics
+- coordination
+created: '2026-05-24'
 updated: '2026-06-15'
 ---
 

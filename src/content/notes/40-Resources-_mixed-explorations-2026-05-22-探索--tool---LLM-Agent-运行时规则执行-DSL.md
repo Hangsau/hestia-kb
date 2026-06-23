@@ -1,7 +1,7 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-22-探索--tool---LLM-Agent-运行时规则执行-DSL
 _vault_path: 40-Resources/_mixed/explorations/2026-05-22-探索--tool---LLM-Agent-运行时规则执行-DSL.md
-title: 探索：\tool — LLM Agent 运行时规则执行 DSL
+title: "探索：\tool — LLM Agent 运行时规则执行 DSL"
 date: 2026-05-22
 type: explorations
 tags:

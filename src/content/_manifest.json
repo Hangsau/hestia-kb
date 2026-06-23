@@ -1,46 +1,48 @@
 {
-  "generated_at": "2026-06-23T16:00:22",
+  "generated_at": "2026-06-23T16:30:29",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1270,
+  "count": 1272,
   "type_breakdown": {
     "daily": 10,
-    "research": 381,
+    "research": 394,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
     "feeding-report": 1,
     "meta-preference": 1,
-    "observation": 5,
-    "area": 174,
+    "observation": 9,
     "architecture-observation": 1,
+    "r7-escalation": 1,
     "reliability-concern": 1,
-    "swimming": 108,
+    "swimming": 237,
     "forum-digest": 18,
-    "raw": 5,
-    "research-article": 22,
-    "primary-research": 13,
-    "systematic-review": 2,
+    "raw": 13,
+    "research-article": 28,
+    "primary-research": 21,
+    "systematic-review": 4,
     "observational-study": 2,
-    "pubmed": 9,
+    "pubmed": 20,
+    "scoping-review": 1,
     "literature-review": 4,
-    "digest": 25,
+    "digest": 31,
     "forum-bias-log": 6,
     "weekly-insights": 1,
     "ai-agent-handbook": 9,
-    "resource": 76,
-    "explorations": 281,
-    "exploration": 79,
+    "resource": 4,
+    "explorations": 325,
+    "exploration": 86,
     "distill-log": 1,
     "core-concepts": 7,
     "digest-report": 1,
+    "paper": 1,
     "template": 2,
-    "knowledge-distillation": 1,
-    "top100-hot-digest": 1,
-    "note": 4
+    "note": 11,
+    "moc": 1,
+    "top100-hot-digest": 1
   },
   "status_breakdown": {
-    "budding": 861,
-    "seedling": 399,
+    "budding": 1072,
+    "seedling": 190,
     "evergreen": 10
   },
   "notes": [
@@ -65,9 +67,14 @@
       "slug": "10-Daily-2026-05-12-session-notes",
       "title": "Session Notes: Obsidian Vault Integration",
       "type": "daily",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "status": "budding",
+      "tags": [
+        "obsidian",
+        "vault",
+        "memory",
+        "architecture"
+      ],
+      "created": "2026-05-13",
       "updated": "2026-06-15",
       "vault_path": "10-Daily/2026-05-12-session-notes.md",
       "url": "/notes/10-Daily-2026-05-12-session-notes/"
@@ -781,10 +788,18 @@
     {
       "slug": "30-Areas-observations-auxiliary-compression-m2-7-stale-2026-06-11",
       "title": "`auxiliary.*` config block — stale `MiniMax-M2.7` model name across 4 sibling blocks",
-      "type": "area",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "observation",
+      "status": "budding",
+      "tags": [
+        "config-mismatch",
+        "hermes-ops",
+        "model-naming",
+        "delegation-pattern",
+        "hestia",
+        "post-rebirth",
+        "12:00-cycle"
+      ],
+      "created": "2026-06-11",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/observations/auxiliary-compression-m2-7-stale-2026-06-11.md",
       "url": "/notes/30-Areas-observations-auxiliary-compression-m2-7-stale-2026-06-11/"
@@ -809,10 +824,15 @@
     {
       "slug": "30-Areas-observations-cross-check-hestia-silent-failure-2026-06-11",
       "title": "`cross-check-hestia` cron — third silent-failure instance of the same class",
-      "type": "area",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "observation",
+      "status": "budding",
+      "tags": [
+        "cron",
+        "silent-failure",
+        "hermes-ops",
+        "hestia"
+      ],
+      "created": "2026-06-11",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/observations/cross-check-hestia-silent-failure-2026-06-11.md",
       "url": "/notes/30-Areas-observations-cross-check-hestia-silent-failure-2026-06-11/"
@@ -820,9 +840,16 @@
     {
       "slug": "30-Areas-observations-m2-7-migration-23-cycles-overdue-2026-06-15",
       "title": "M2.7 → M3 Migration — 23 Cycles Overdue, CRITICAL",
-      "type": "area",
+      "type": "r7-escalation",
       "status": "seedling",
-      "tags": [],
+      "tags": [
+        "m2-7",
+        "minimax",
+        "model-migration",
+        "r7-critical",
+        "config-yaml",
+        "deferred-action"
+      ],
       "created": "2026-06-15",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/observations/m2-7-migration-23-cycles-overdue-2026-06-15.md",
@@ -841,11 +868,11 @@
     },
     {
       "slug": "30-Areas-observations-prompt-injection-file-content-as-context-2026-06-11",
-      "title": "Prompt Injection Pattern: File Content as \"Subdirectory Context\"",
-      "type": "area",
-      "status": "seedling",
+      "title": "Prompt Injection Pattern: File Content as \"Subdirectory Context",
+      "type": "observation",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-06-11",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/observations/prompt-injection-file-content-as-context-2026-06-11.md",
       "url": "/notes/30-Areas-observations-prompt-injection-file-content-as-context-2026-06-11/"
@@ -888,10 +915,16 @@
     {
       "slug": "30-Areas-observations-topology-claude-code-hestia-2026-06-11",
       "title": "System topology change: Talos 暫停, Claude Code 在 VM 內",
-      "type": "area",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "observation",
+      "status": "budding",
+      "tags": [
+        "architecture",
+        "topology",
+        "claude-code",
+        "hestia",
+        "talos"
+      ],
+      "created": "2026-06-11",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/observations/topology-claude-code-hestia-2026-06-11.md",
       "url": "/notes/30-Areas-observations-topology-claude-code-hestia-2026-06-11/"
@@ -1174,10 +1207,10 @@
     {
       "slug": "30-Areas-swimming-RAW-PMID-25583184-butterfly_coord",
       "title": "Effect of hand paddles and parachute on butterfly coordination.",
-      "type": "area",
-      "status": "seedling",
+      "type": "raw",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-25583184-butterfly_coord.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-25583184-butterfly_coord/"
@@ -1241,11 +1274,14 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-27769804-the-effects-of-swimming-fatigue-on-shoulder-strength-range-o",
-      "title": "PMID-27769804-the-effects-of-swimming-fatigue-on-shoulder-strength-range-o",
-      "type": "area",
+      "title": "The effects of swimming fatigue on shoulder strength, range of motion, joint        control, and performance in swimmers. PG  - 118-122 LID - S1466-853X(16)30090-6 [pii] LID - 10.1016/j.ptsp.2016.08.011 [doi] AB  - PURPOSE: To investigate the effects of training induced fatigue on shoulder        strength, ROM, joint position sense, and stroke length in elite competitive        swimmers. METHODS: Seventeen national level swimmers performed maximum isometric        strength (internal and external rotation), ROM, and joint position sense tests        before and after a fatiguing 8 x 100 m training set. Stroke length, heart rate,        blood lactate and blood glucose levels were recorded throughout. RESULTS: Peak        blood lactate, blood glucose levels, and heart rate increased significantly        (P < 0.001) post-training confirming fatigue. Reductions were observed in stroke        length of both arms (P < 0.001), external rotation range of motion        (P < 0.001, -5.29 degrees , Right shoulder; P = 0.04, -3.18 degrees , Left shoulder) and joint        position sense in their dominant (breathing side) arm (P = 0.03). CONCLUSIONS:        This investigation revealed a reduction in stroke length across both arms and        also an arm bias in swimming whereby a greater reduction in both external        rotation range and joint position sense was observed in the dominant arm when        fatigued. This has highlighted a relationship between fatigue and potential        mechanism of shoulder pathology in swimmers. CI  - Copyright (c) 2016 Elsevier Ltd. All rights reserved.",
+      "type": "raw",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "swimming",
+        "literature"
+      ],
+      "created": "2026-05-29",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-27769804-the-effects-of-swimming-fatigue-on-shoulder-strength-range-o.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-27769804-the-effects-of-swimming-fatigue-on-shoulder-strength-range-o/"
@@ -1271,10 +1307,10 @@
     {
       "slug": "30-Areas-swimming-RAW-PMID-29339985-butterfly_coord",
       "title": "Butterfly Sprint Swimming Technique, Analysis of Somatic and Spatial-Temporal Coordination Variables.",
-      "type": "area",
-      "status": "seedling",
+      "type": "raw",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-29339985-butterfly_coord.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-29339985-butterfly_coord/"
@@ -1351,21 +1387,28 @@
     {
       "slug": "30-Areas-swimming-RAW-PMID-34462220-breaststroke_pullout",
       "title": "Arm-leg coordination during the underwater pull-out sequence in the 50, 100 and 200 m breaststroke start.",
-      "type": "area",
-      "status": "seedling",
+      "type": "raw",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-34462220-breaststroke_pullout.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-34462220-breaststroke_pullout/"
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-34831663-start-key-determinants-block-flight",
-      "title": "PMID-34831663-start-key-determinants-block-flight",
-      "type": "area",
+      "title": "Key Determinants of Swimming Start Performance in Elite Sprinters: Block and Flight Phase Analysis",
+      "type": "primary-research",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "start",
+        "block-phase",
+        "flight-phase",
+        "elite",
+        "sprint",
+        "5m"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-34831663-start-key-determinants-block-flight.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-34831663-start-key-determinants-block-flight/"
@@ -1373,10 +1416,10 @@
     {
       "slug": "30-Areas-swimming-RAW-PMID-34878366-breaststroke_pullout",
       "title": "Arm - Leg coordination profiling during the dolphin kick and the arm pull-out in elite breaststrokers.",
-      "type": "area",
-      "status": "seedling",
+      "type": "raw",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-34878366-breaststroke_pullout.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-34878366-breaststroke_pullout/"
@@ -1490,10 +1533,10 @@
     {
       "slug": "30-Areas-swimming-RAW-PMID-35935061-tumble-turn-wall-contact-tuck-index",
       "title": "PMID-35935061 — Improving tumble turn performance in swimming: the impact of wall contact time and tuck index",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-35935061-tumble-turn-wall-contact-tuck-index.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-35935061-tumble-turn-wall-contact-tuck-index/"
@@ -1501,10 +1544,10 @@
     {
       "slug": "30-Areas-swimming-RAW-PMID-36081618-breaststroke_pullout",
       "title": "The characteristics of the breaststroke pullout in elite swimming.",
-      "type": "area",
-      "status": "seedling",
+      "type": "raw",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-36081618-breaststroke_pullout.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-36081618-breaststroke_pullout/"
@@ -1531,10 +1574,10 @@
     {
       "slug": "30-Areas-swimming-RAW-PMID-36943838-breaststroke_pullout",
       "title": "Intra- and inter-individual variability in the underwater pull-out technique in 200 m breaststroke turns.",
-      "type": "area",
-      "status": "seedling",
+      "type": "raw",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-36943838-breaststroke_pullout.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-36943838-breaststroke_pullout/"
@@ -1559,22 +1602,35 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-37554410-golden-ratio-backstroke-breaststroke",
-      "title": "PMID-37554410-golden-ratio-backstroke-breaststroke",
-      "type": "area",
+      "title": "Golden ratio and self-similarity in swimming: breast-stroke and the back-stroke",
+      "type": "primary-research",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "breaststroke",
+        "backstroke",
+        "golden-ratio",
+        "self-similarity",
+        "temporal-patterns",
+        "fibonacci"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-37554410-golden-ratio-backstroke-breaststroke.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-37554410-golden-ratio-backstroke-breaststroke/"
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-37593236-start-sex-differences",
-      "title": "PMID-37593236-start-sex-differences",
-      "type": "area",
+      "title": "Sex Differences in Start Performance and Kinematics in Competitive Swimmers: Analysis of the Swimming Start",
+      "type": "primary-research",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "start",
+        "grab-start",
+        "track-start",
+        "sex-differences",
+        "block-phase"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-37593236-start-sex-differences.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-37593236-start-sex-differences/"
@@ -1599,22 +1655,32 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-38250792-freestyle-kicking-drag-reduction",
-      "title": "PMID-38250792-freestyle-kicking-drag-reduction",
-      "type": "area",
+      "title": "Role of kicking action in front crawl: the inter-relationships between swimming velocity, hand propulsive force and trunk inclination",
+      "type": "primary-research",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "freestyle",
+        "kick",
+        "drag",
+        "trunk-inclination",
+        "velocity",
+        "propulsion"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-38250792-freestyle-kicking-drag-reduction.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-38250792-freestyle-kicking-drag-reduction/"
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-38262981-swimming-anatomy-and-lower-back-injuries-in-competitive-swim",
-      "title": "PMID-38262981-swimming-anatomy-and-lower-back-injuries-in-competitive-swim",
-      "type": "area",
+      "title": "Swimming Anatomy and Lower Back Injuries in Competitive Swimmers: A Narrative        Review. PG  - 971-981 LID - 10.1177/19417381231225213 [doi] AB  - CONTEXT: Competitive swimmers are at high risk of overuse musculoskeletal        injuries due to their high training volumes. Spine injuries are the second most        common musculoskeletal injury in swimmers and are often a result of the        combination of improper technique, high loads on the spine in strokes that        require hyperextension, and repetitive overuse leading to fatigue of the        supporting trunk muscles. The purpose of this review is to summarize the current        evidence regarding swimming biomechanics, stroke techniques, and common injuries        in the lumbar spine to promote a discussion on the prevention and rehabilitation        of lower back injuries in competitive swimmers. EVIDENCE ACQUISITION: From a        PUBMED/MEDLINE search, 16 articles were identified for inclusion using the search        terms \"swimming,\" \"low back\" or \"lumbar,\" and \"injury\" or \"injuries.\" STUDY        DESIGN: Narrative review. LEVEL OF EVIDENCE: Levels 4 and 5. RESULTS: The trunk        muscles are integral to swimming stroke biomechanics. In freestyle and        backstroke, the body roll generated by the paraspinal and abdominal muscles is        integral to efficient stroke mechanics by allowing synergistic movements of the        upper and lower extremities. In butterfly and breaststroke, the undulating wave        like motion of the dolphin kick requires dynamic engagement of the core to        generate repetitive flexion and extension of the spine and is a common mechanism        for hyperextension injuries. The most common lower back injuries in swimming were        determined to be lumbar strain, spondylolysis and spondylolisthesis, facet joint        pain, and disc disease. Most overuse swimming injuries can be treated        conservatively with physical therapy and training adjustments. CONCLUSION:        Managing swimmers with low back pain requires a basic knowledge of swimming        technique and a focus on prevention-based care. Since most swimming injuries are        secondary to overuse, it is important for providers to understand the mechanisms        underlying the swimming injury, including an understanding of the biomechanics        involved in swimming and the role of spine involvement in the 4 strokes that        assist in stabilization and force generation in the water. Knowledge of the        biomechanics involved in swimming and the significant demands placed on the        spinal musculoskeletal system will aid the clinician in the diagnosis and        management of injuries and assist in the development of a proper rehabilitation        program aimed at correction of any abnormal swimming mechanics, treatment of        pain, and future injury prevention. STRENGTH OF RECOMMENDATIONS: B.        Recommendation based on limited quality or inconsistent patient-oriented        evidence.",
+      "type": "raw",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "swimming",
+        "literature"
+      ],
+      "created": "2026-05-29",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-38262981-swimming-anatomy-and-lower-back-injuries-in-competitive-swim.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-38262981-swimming-anatomy-and-lower-back-injuries-in-competitive-swim/"
@@ -1649,11 +1715,17 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-38897577-butterfly-muscle-coordination",
-      "title": "PMID-38897577-butterfly-muscle-coordination",
-      "type": "area",
+      "title": "Muscle Coordination During Maximal Butterfly Stroke Swimming: Comparison Between Competitive and Recreational Swimmers",
+      "type": "primary-research",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "butterfly",
+        "muscle-coordination",
+        "synergy",
+        "competitive",
+        "recreational"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-38897577-butterfly-muscle-coordination.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-38897577-butterfly-muscle-coordination/"
@@ -1711,11 +1783,18 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-39540232-breaststroke-energy-cost-systematic-review",
-      "title": "PMID-39540232-breaststroke-energy-cost-systematic-review",
-      "type": "area",
+      "title": "Variability of energy cost in breaststroke technique: a systematic review",
+      "type": "systematic-review",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "breaststroke",
+        "energy-cost",
+        "systematic-review",
+        "biomechanics",
+        "kinematics",
+        "coordination"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-39540232-breaststroke-energy-cost-systematic-review.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-39540232-breaststroke-energy-cost-systematic-review/"
@@ -1812,11 +1891,21 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-40483624-backstroke-systematic-review",
-      "title": "PMID-40483624-backstroke-systematic-review",
-      "type": "area",
+      "title": "Biomechanical, Physiological and Anthropometric Determinants of Backstroke Swimming Performance: A Systematic Review",
+      "type": "systematic-review",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "backstroke",
+        "systematic-review",
+        "biomechanics",
+        "physiology",
+        "anthropometry",
+        "performance",
+        "50m",
+        "100m",
+        "200m"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-40483624-backstroke-systematic-review.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-40483624-backstroke-systematic-review/"
@@ -1946,12 +2035,22 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-41780505-key-contributors-to-top-elite-swimming-performance-differenc",
-      "title": "PMID-41780505 — Key Contributors to Top-Elite Swimming Performance: Differences Between Junior and Adult Female Freestyle Swimmers.",
-      "type": "area",
+      "title": "Key Contributors to Top-Elite Swimming Performance: Differences Between Junior and Adult Female Freestyle Swimmers.",
+      "type": "pubmed",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "tags": [
+        "swimming",
+        "freestyle",
+        "start",
+        "turn",
+        "clean-swim",
+        "female",
+        "junior-vs-adult",
+        "performance",
+        "biomechanics"
+      ],
+      "created": "2026-06-15",
+      "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-41780505-key-contributors-to-top-elite-swimming-performance-differenc.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-41780505-key-contributors-to-top-elite-swimming-performance-differenc/"
     },
@@ -2022,11 +2121,18 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-41998691-assessment-tools-reliability",
-      "title": "PMID-41998691-assessment-tools-reliability",
-      "type": "area",
+      "title": "From acute responses to long-term monitoring: a scoping review of the reliability and validity of biomechanical and physiological assessment tools in elite and highly trained swimmers.",
+      "type": "scoping-review",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "swimming",
+        "assessment tools",
+        "reliability",
+        "validity",
+        "biomechanics",
+        "monitoring"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-41998691-assessment-tools-reliability.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-41998691-assessment-tools-reliability/"
@@ -2097,22 +2203,35 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-42127379-lumbar-spine-injuries-hyper mobility",
-      "title": "PMID-42127379-lumbar-spine-injuries-hyper mobility",
-      "type": "area",
+      "title": "Lumbar spine injuries among competitive swimmers: hypermobility and training risk factors",
+      "type": "research-article",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "swimming",
+        "injury",
+        "lumbar-spine",
+        "hypermobility",
+        "epidemiology"
+      ],
+      "created": "2026-05-23",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-42127379-lumbar-spine-injuries-hyper mobility.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-42127379-lumbar-spine-injuries-hyper mobility/"
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-42131935-SIPE-ultrasound",
-      "title": "PMID-42131935-SIPE-ultrasound",
-      "type": "area",
+      "title": "Prospective Assessment of Swimming-Induced Pulmonary Edema in Open-Water Athletes at Moderate Elevations: Incidence and Diagnostic Utility of Point-of-Care Ultrasound.",
+      "type": "research-article",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "swimming",
+        "open-water",
+        "SIPE",
+        "pulmonary edema",
+        "altitude",
+        "ultrasound"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-42131935-SIPE-ultrasound.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-42131935-SIPE-ultrasound/"
@@ -2136,45 +2255,75 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-42142372-underwater-swimming-physiology",
-      "title": "PMID-42142372-underwater-swimming-physiology",
-      "type": "area",
+      "title": "Effect of Underwater Swimming on Physiological and Perceptual Parameters in Competitive Swimmers: A Comparison With Surface Swimming.",
+      "type": "research-article",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "swimming",
+        "underwater",
+        "apnea",
+        "lactate",
+        "physiological",
+        "perceptual"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-42142372-underwater-swimming-physiology.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-42142372-underwater-swimming-physiology/"
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-42150378-breaststroke-kick-intensity",
-      "title": "PMID-42150378-breaststroke-kick-intensity",
-      "type": "area",
+      "title": "Impact of swimming intensity on spatiotemporal kinematics of lower-limb breaststroke actions in national-level male swimmers: A discrete variable and time-series analysis.",
+      "type": "research-article",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "swimming",
+        "breaststroke",
+        "kinematics",
+        "kick",
+        "intensity",
+        "time-series"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-42150378-breaststroke-kick-intensity.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-42150378-breaststroke-kick-intensity/"
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-42172297-strength-and-speed-training-practices-for-olympic-endurance-",
-      "title": "PMID-42172297 — Strength and Speed Training Practices for Olympic Endurance Sports: Insights From World-Class Coaches.",
-      "type": "area",
+      "title": "Strength and Speed Training Practices for Olympic Endurance Sports: Insights From World-Class Coaches.",
+      "type": "pubmed",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "tags": [
+        "swimming",
+        "endurance",
+        "strength-training",
+        "speed-training",
+        "periodization",
+        "RIR",
+        "coach-perspective",
+        "qualitative"
+      ],
+      "created": "2026-06-15",
+      "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-42172297-strength-and-speed-training-practices-for-olympic-endurance-.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-42172297-strength-and-speed-training-practices-for-olympic-endurance-/"
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-42213883-understanding-differences-in-swimming-velocity-and-propulsiv",
-      "title": "PMID-42213883 — Understanding Differences in Swimming Velocity and Propulsive Force in the Butterfly Stroke: A Comparison Between Male and Female Butterfly Swimmers Through Discrete and Continuous Variables.",
-      "type": "area",
+      "title": "Understanding Differences in Swimming Velocity and Propulsive Force in the Butterfly Stroke: A Comparison Between Male and Female Butterfly Swimmers Through Discrete and Continuous Variables.",
+      "type": "pubmed",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "tags": [
+        "swimming",
+        "butterfly",
+        "sex-differences",
+        "SPM",
+        "propulsive-force",
+        "biomechanics"
+      ],
+      "created": "2026-06-15",
+      "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-42213883-understanding-differences-in-swimming-velocity-and-propulsiv.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-42213883-understanding-differences-in-swimming-velocity-and-propulsiv/"
     },
@@ -2191,44 +2340,58 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-42245083-the-role-of-core-strength-in-front-crawl-performance-a-quali",
-      "title": "PMID-42245083 — The role of core strength in front crawl performance: a qualitative analysis of expert coaches' perspectives.",
-      "type": "area",
+      "title": "The role of core strength in front crawl performance: a qualitative analysis of expert coaches\\\"\\\" perspectives.",
+      "type": "pubmed",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "tags": [
+        "swimming",
+        "freestyle",
+        "core-strength",
+        "qualitative",
+        "coach-perspective",
+        "threshold-effect"
+      ],
+      "created": "2026-06-15",
+      "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-42245083-the-role-of-core-strength-in-front-crawl-performance-a-quali.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-42245083-the-role-of-core-strength-in-front-crawl-performance-a-quali/"
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-42264178-laterality-of-swimming-induced-pulmonary-edema-during-combat",
-      "title": "PMID-42264178 — Laterality of Swimming-Induced Pulmonary Edema During Combat Sidestroke Assessed by Lung Ultrasound and Chest Radiography.",
-      "type": "area",
+      "title": "Laterality of Swimming-Induced Pulmonary Edema During Combat Sidestroke Assessed by Lung Ultrasound and Chest Radiography.",
+      "type": "pubmed",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-06-11",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-42264178-laterality-of-swimming-induced-pulmonary-edema-during-combat.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-42264178-laterality-of-swimming-induced-pulmonary-edema-during-combat/"
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-42267983-relationship-between-arm-propulsive-force-and-arm-kinematics",
-      "title": "PMID-42267983 — Relationship between arm propulsive force and arm kinematics in swimming: experimental and numerical study.",
-      "type": "area",
+      "title": "Relationship between arm propulsive force and arm kinematics in swimming: experimental and numerical study.",
+      "type": "pubmed",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-06-11",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-42267983-relationship-between-arm-propulsive-force-and-arm-kinematics.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-42267983-relationship-between-arm-propulsive-force-and-arm-kinematics/"
     },
     {
       "slug": "30-Areas-swimming-RAW-PMID-burnout-Chinese-swimmers-2026",
-      "title": "PMID-burnout-Chinese-swimmers-2026",
-      "type": "area",
+      "title": "The relationship between diet, sleep, screen time, stress coping strategies with psychological strain and athlete burnout in Chinese competitive swimmers: a cross-sectional study",
+      "type": "research-article",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "swimming",
+        "burnout",
+        "psychology",
+        "sleep",
+        "diet",
+        "stress"
+      ],
+      "created": "2026-05-23",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/PMID-burnout-Chinese-swimmers-2026.md",
       "url": "/notes/30-Areas-swimming-RAW-PMID-burnout-Chinese-swimmers-2026/"
@@ -2247,10 +2410,16 @@
     {
       "slug": "30-Areas-swimming-RAW-duplicates-PMID-11733166-computational-hydrodynamics-of-animal-swimming--bo",
       "title": "Computational hydrodynamics of animal swimming: boundary element method and three-dimensional vortex wake structure.",
-      "type": "area",
+      "type": "swimming",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "swimming",
+        "hydrodynamics",
+        "vortex",
+        "propulsion",
+        "biomechanics"
+      ],
+      "created": "2026-05-31",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/duplicates/PMID-11733166-computational-hydrodynamics-of-animal-swimming--bo.md",
       "url": "/notes/30-Areas-swimming-RAW-duplicates-PMID-11733166-computational-hydrodynamics-of-animal-swimming--bo/"
@@ -2409,8 +2578,8 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-duplicates-PMID-42150980-voice-characteristics-and-functional-laryngeal-findings-in-s",
-      "title": "PMID-42150980 — Voice Characteristics and Functional Laryngeal Findings in Swimming Coaches: A Multidimensional Cross-Sectional Study.",
-      "type": "area",
+      "title": "Voice Characteristics and Functional Laryngeal Findings in Swimming Coaches: A Multidimensional Cross-Sectional Study.",
+      "type": "pubmed",
       "status": "seedling",
       "tags": [],
       "created": "2026-06-15",
@@ -2431,22 +2600,22 @@
     },
     {
       "slug": "30-Areas-swimming-RAW-duplicates-PMID-42224790-animove-a-low-cost-easy-to-use-fast-and-high-resolution-syst",
-      "title": "PMID-42224790 — Animove: a low-cost, easy-to-use, fast and high-resolution system to evaluate swimming performance in zebrafish.",
-      "type": "area",
+      "title": "Animove: a low-cost, easy-to-use, fast and high-resolution system to evaluate swimming performance in zebrafish.",
+      "type": "pubmed",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-06-11",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/duplicates/PMID-42224790-animove-a-low-cost-easy-to-use-fast-and-high-resolution-syst.md",
       "url": "/notes/30-Areas-swimming-RAW-duplicates-PMID-42224790-animove-a-low-cost-easy-to-use-fast-and-high-resolution-syst/"
     },
     {
       "slug": "30-Areas-swimming-RAW-duplicates-PMID-42260225-effects-of-melatonin-on-muscle-and-liver-bioenergetic-profil",
-      "title": "PMID-42260225 — Effects of melatonin on muscle and liver bioenergetic profiles: focus on acylcarnitines following endurance swimming exercise in rats.",
-      "type": "area",
+      "title": "Effects of melatonin on muscle and liver bioenergetic profiles: focus on acylcarnitines following endurance swimming exercise in rats.",
+      "type": "pubmed",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-06-11",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/duplicates/PMID-42260225-effects-of-melatonin-on-muscle-and-liver-bioenergetic-profil.md",
       "url": "/notes/30-Areas-swimming-RAW-duplicates-PMID-42260225-effects-of-melatonin-on-muscle-and-liver-bioenergetic-profil/"
@@ -2573,10 +2742,15 @@
     {
       "slug": "30-Areas-swimming-digests-PMID-11733166-computational-hydrodynamics-animal-swimming-bem-3d-vortex-digest",
       "title": "Computational hydrodynamics of animal swimming: boundary element method and three-dimensional vortex",
-      "type": "area",
+      "type": "swimming",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "swimming",
+        "hydrodynamics",
+        "vortex",
+        "propulsion"
+      ],
+      "created": "2026-05-31",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/digests/PMID-11733166-computational-hydrodynamics-animal-swimming-bem-3d-vortex-digest.md",
       "url": "/notes/30-Areas-swimming-digests-PMID-11733166-computational-hydrodynamics-animal-swimming-bem-3d-vortex-digest/"
@@ -2908,11 +3082,18 @@
     },
     {
       "slug": "30-Areas-swimming-digests-PMID-34831663-start-key-determinants-block-flight-digest",
-      "title": "起跳關鍵因子：Block phase 64% + Flight phase 65%",
-      "type": "area",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "title": "Key Determinants of Swimming Start Performance in Elite Sprinters: Block and Flight Phase Analysis",
+      "type": "swimming",
+      "status": "budding",
+      "tags": [
+        "起跳",
+        "block-phase",
+        "flight-phase",
+        "後腿膝角",
+        "精英",
+        "衝刺"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/digests/PMID-34831663-start-key-determinants-block-flight-digest.md",
       "url": "/notes/30-Areas-swimming-digests-PMID-34831663-start-key-determinants-block-flight-digest/"
@@ -3146,11 +3327,19 @@
     },
     {
       "slug": "30-Areas-swimming-digests-PMID-37554410-golden-ratio-backstroke-breaststroke-digest",
-      "title": "PMID-37554410-golden-ratio-backstroke-breaststroke-digest",
-      "type": "area",
+      "title": "Golden ratio and self-similarity in swimming: breast-stroke and the back-stroke",
+      "type": "primary-research",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "breaststroke",
+        "backstroke",
+        "golden-ratio",
+        "self-similarity",
+        "temporal-patterns",
+        "fibonacci",
+        "stroke-optimization"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/digests/PMID-37554410-golden-ratio-backstroke-breaststroke-digest.md",
       "url": "/notes/30-Areas-swimming-digests-PMID-37554410-golden-ratio-backstroke-breaststroke-digest/"
@@ -3213,11 +3402,20 @@
     },
     {
       "slug": "30-Areas-swimming-digests-PMID-38250792-freestyle-kicking-drag-reduction-digest",
-      "title": "PMID-38250792-freestyle-kicking-drag-reduction-digest",
-      "type": "area",
+      "title": "Role of kicking action in front crawl: the inter-relationships between swimming velocity, hand propulsive force and trunk inclination",
+      "type": "primary-research",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "freestyle",
+        "kick",
+        "drag",
+        "trunk-inclination",
+        "velocity",
+        "propulsion",
+        "six-beat",
+        "pull-buoy"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/digests/PMID-38250792-freestyle-kicking-drag-reduction-digest.md",
       "url": "/notes/30-Areas-swimming-digests-PMID-38250792-freestyle-kicking-drag-reduction-digest/"
@@ -3286,11 +3484,19 @@
     },
     {
       "slug": "30-Areas-swimming-digests-PMID-38897577-butterfly-muscle-coordination-digest",
-      "title": "PMID-38897577-butterfly-muscle-coordination-digest",
-      "type": "area",
+      "title": "Muscle Coordination During Maximal Butterfly Stroke Swimming: Comparison Between Competitive and Recreational Swimmers",
+      "type": "primary-research",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "butterfly",
+        "muscle-coordination",
+        "synergy",
+        "competitive",
+        "recreational",
+        "EMG",
+        "NMF"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/digests/PMID-38897577-butterfly-muscle-coordination-digest.md",
       "url": "/notes/30-Areas-swimming-digests-PMID-38897577-butterfly-muscle-coordination-digest/"
@@ -3349,10 +3555,10 @@
     {
       "slug": "30-Areas-swimming-digests-PMID-39540232-breaststroke-energy-cost-systematic-review-digest",
       "title": "Variability of energy cost in breaststroke technique: a systematic review.",
-      "type": "area",
-      "status": "seedling",
+      "type": "digest",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-25",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/digests/PMID-39540232-breaststroke-energy-cost-systematic-review-digest.md",
       "url": "/notes/30-Areas-swimming-digests-PMID-39540232-breaststroke-energy-cost-systematic-review-digest/"
@@ -3688,11 +3894,11 @@
     },
     {
       "slug": "30-Areas-swimming-digests-PMID-41998691-assessment-tools-reliability-digest",
-      "title": "PMID-41998691-assessment-tools-reliability-digest",
-      "type": "area",
+      "title": "[消化] 游泳評估工具的元分析：8% 急性指標、3% 長期指標同時滿足信效度",
+      "type": "digest",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/digests/PMID-41998691-assessment-tools-reliability-digest.md",
       "url": "/notes/30-Areas-swimming-digests-PMID-41998691-assessment-tools-reliability-digest/"
@@ -3746,11 +3952,11 @@
     },
     {
       "slug": "30-Areas-swimming-digests-PMID-42056305-sex-differences-velocity-fluctuation-digest",
-      "title": "PMID-42056305-sex-differences-velocity-fluctuation-digest",
-      "type": "area",
+      "title": "[消化] 男女划水時速度波動差異：目標一致，基準需性別調整",
+      "type": "digest",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/digests/PMID-42056305-sex-differences-velocity-fluctuation-digest.md",
       "url": "/notes/30-Areas-swimming-digests-PMID-42056305-sex-differences-velocity-fluctuation-digest/"
@@ -3776,10 +3982,10 @@
     {
       "slug": "30-Areas-swimming-digests-PMID-42127379-lumbar-spine-injuries-hyper-mobility-digest",
       "title": "Lumbar spine injuries among competitive swimmers: hypermobility and training risk factors.",
-      "type": "area",
-      "status": "seedling",
+      "type": "digest",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-25",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/digests/PMID-42127379-lumbar-spine-injuries-hyper-mobility-digest.md",
       "url": "/notes/30-Areas-swimming-digests-PMID-42127379-lumbar-spine-injuries-hyper-mobility-digest/"
@@ -3821,22 +4027,29 @@
     },
     {
       "slug": "30-Areas-swimming-digests-PMID-42142372-underwater-swimming-physiology-digest",
-      "title": "PMID-42142372-underwater-swimming-physiology-digest",
-      "type": "area",
+      "title": "Effect of Underwater Swimming on Physiological and Perceptual Parameters in Competitive Swimmers: A Comparison With Surface Swimming.",
+      "type": "research-article",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "swimming",
+        "underwater",
+        "apnea",
+        "lactate",
+        "physiological",
+        "perceptual"
+      ],
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/digests/PMID-42142372-underwater-swimming-physiology-digest.md",
       "url": "/notes/30-Areas-swimming-digests-PMID-42142372-underwater-swimming-physiology-digest/"
     },
     {
       "slug": "30-Areas-swimming-digests-PMID-42150378-breaststroke-kick-intensity-digest",
-      "title": "PMID-42150378-breaststroke-kick-intensity-digest",
-      "type": "area",
+      "title": "[消化] 蛙腳踢水時空適應性：強度依賴的時間重組",
+      "type": "digest",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/digests/PMID-42150378-breaststroke-kick-intensity-digest.md",
       "url": "/notes/30-Areas-swimming-digests-PMID-42150378-breaststroke-kick-intensity-digest/"
@@ -3936,11 +4149,18 @@
     },
     {
       "slug": "30-Areas-swimming-digests-PMID-42267983-arm-propulsive-force-kinematics-digest",
-      "title": "PMID-42267983-arm-propulsive-force-kinematics-digest",
-      "type": "area",
+      "title": "Relationship between arm propulsive force and arm kinematics in swimming: experimental and numerical study.",
+      "type": "digest",
       "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "tags": [
+        "swimming",
+        "freestyle",
+        "biomechanics",
+        "propulsion",
+        "CFD",
+        "robotic"
+      ],
+      "created": "2026-06-13",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/digests/PMID-42267983-arm-propulsive-force-kinematics-digest.md",
       "url": "/notes/30-Areas-swimming-digests-PMID-42267983-arm-propulsive-force-kinematics-digest/"
@@ -3999,10 +4219,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk01",
       "title": "Bk01: Streamlined Kick on Back",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk01.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk01/"
@@ -4010,10 +4230,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk02",
       "title": "Bk02: Flutter Kick Cross",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk02.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk02/"
@@ -4021,10 +4241,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk03",
       "title": "Bk03: Board Down Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk03.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk03/"
@@ -4032,10 +4252,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk04",
       "title": "Bk04: Head Lead Balance Kick on Side",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk04.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk04/"
@@ -4043,10 +4263,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk05",
       "title": "Bk05: Head Lead Balance Kick with Rotation",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk05.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk05/"
@@ -4054,10 +4274,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk06",
       "title": "Bk06: Superman Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk06.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk06/"
@@ -4065,10 +4285,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk07",
       "title": "Bk07: Vertical Flutter Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk07.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk07/"
@@ -4076,10 +4296,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk08",
       "title": "Bk08: Arm Lead Balance",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk08.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk08/"
@@ -4087,10 +4307,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk09",
       "title": "Bk09: Alternating Arm Lead",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk09.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk09/"
@@ -4098,10 +4318,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk10",
       "title": "Bk10: Head Lead Balance with 1/4 Arm Lifts",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk10.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk10/"
@@ -4109,10 +4329,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk11",
       "title": "Bk11: Catch up Backstroke",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk11.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk11/"
@@ -4120,10 +4340,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk12",
       "title": "Bk12: Double Arm Backstroke",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk12.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk12/"
@@ -4131,10 +4351,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk13",
       "title": "Bk13: One Arm Stroke",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk13.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk13/"
@@ -4142,10 +4362,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk14",
       "title": "Bk14: L Drill",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk14.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk14/"
@@ -4153,10 +4373,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk15",
       "title": "Bk15: Switching L",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk15.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk15/"
@@ -4164,10 +4384,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk16",
       "title": "Bk16: Switching L to Regular Backstroke",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk16.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk16/"
@@ -4175,10 +4395,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk17",
       "title": "Bk17: Pause Point",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk17.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk17/"
@@ -4186,10 +4406,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk18",
       "title": "Bk18: Sky Point",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk18.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk18/"
@@ -4197,10 +4417,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk19",
       "title": "Bk19: Fist Swimming",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk19.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk19/"
@@ -4208,10 +4428,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk20",
       "title": "Bk20: Russian Rollover (Long Axis Combo)",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk20.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk20/"
@@ -4219,10 +4439,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk21",
       "title": "Bk21: Three & Glide",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk21.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk21/"
@@ -4230,10 +4450,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk22",
       "title": "Bk22: Goggle Balance",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk22.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk22/"
@@ -4241,10 +4461,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk23",
       "title": "Bk23: Spin",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk23.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk23/"
@@ -4252,10 +4472,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk24",
       "title": "Bk24: Backstroke Pull",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk24.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk24/"
@@ -4263,10 +4483,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk25",
       "title": "Bk25: Accelerated Hand Strike",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk25.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk25/"
@@ -4274,10 +4494,10 @@
     {
       "slug": "30-Areas-swimming-drills-backstroke-bk26",
       "title": "Bk26: Lane Line Pull",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/backstroke/bk26.md",
       "url": "/notes/30-Areas-swimming-drills-backstroke-bk26/"
@@ -4296,10 +4516,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br01",
       "title": "Br01: Wall Kicks",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br01.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br01/"
@@ -4307,10 +4527,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br02",
       "title": "Br02: Egg Beater Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br02.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br02/"
@@ -4318,10 +4538,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br03",
       "title": "Br03: Vertical Breaststroke Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br03.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br03/"
@@ -4329,10 +4549,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br04",
       "title": "Br04: Vertical Kick with Streamline Arms",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br04.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br04/"
@@ -4340,10 +4560,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br05",
       "title": "Br05: Pull-Buoy Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br05.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br05/"
@@ -4351,10 +4571,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br06",
       "title": "Br06: Hands Down Kick on Stomach",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br06.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br06/"
@@ -4362,10 +4582,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br07",
       "title": "Br07: Hands Down Kick on Back",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br07.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br07/"
@@ -4373,10 +4593,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br08",
       "title": "Br08: Superman Kick on Stomach",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br08.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br08/"
@@ -4384,10 +4604,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br09",
       "title": "Br09: Superman Kick on Back",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br09.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br09/"
@@ -4395,10 +4615,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br10",
       "title": "Br10: Tombstone Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br10.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br10/"
@@ -4406,10 +4626,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br11",
       "title": "Br11: Barrowman Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br11.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br11/"
@@ -4417,10 +4637,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br12",
       "title": "Br12: Breaststroke Arm Sweeps",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br12.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br12/"
@@ -4428,10 +4648,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br13",
       "title": "Br13: Breaststroke Arm Pull",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br13.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br13/"
@@ -4439,10 +4659,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br14",
       "title": "Br14: High Elbow Pull",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br14.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br14/"
@@ -4450,10 +4670,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br15",
       "title": "Br15: Breast Pull with Flutter Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br15.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br15/"
@@ -4461,10 +4681,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br16",
       "title": "Br16: Breast Pull with Dolphin Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br16.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br16/"
@@ -4472,10 +4692,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br17",
       "title": "Br17: Cobra",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br17.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br17/"
@@ -4483,10 +4703,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br18",
       "title": "Br18: One-Arm Breaststroke",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br18.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br18/"
@@ -4494,10 +4714,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br19",
       "title": "Br19: Fist Pulling",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br19.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br19/"
@@ -4505,10 +4725,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br20",
       "title": "Br20: Miles Per Hour Pull",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br20.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br20/"
@@ -4516,10 +4736,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br21",
       "title": "Br21: Dive Downs",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br21.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br21/"
@@ -4527,10 +4747,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br22",
       "title": "Br22: Flat Breaststroke Pull",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br22.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br22/"
@@ -4538,10 +4758,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br23",
       "title": "Br23: Underwater Undulation",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br23.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br23/"
@@ -4549,10 +4769,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br24",
       "title": "Br24: Kick-Dive Progression",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br24.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br24/"
@@ -4560,10 +4780,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br25",
       "title": "Br25: Head-Up Breaststroke Shoots",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br25.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br25/"
@@ -4571,10 +4791,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br26",
       "title": "Br26: Breaststroke with a Snorkel",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br26.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br26/"
@@ -4582,10 +4802,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br27",
       "title": "Br27: Underwater Full Breaststroke",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br27.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br27/"
@@ -4593,10 +4813,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br28",
       "title": "Br28: Upside Down Underwater Breaststroke",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br28.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br28/"
@@ -4604,10 +4824,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br29",
       "title": "Br29: Up-Down Combos",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br29.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br29/"
@@ -4615,10 +4835,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br30",
       "title": "Br30: Pull Stop Kick Stop (Separation Drill)",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br30.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br30/"
@@ -4626,10 +4846,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br31",
       "title": "Br31: Overlap Timing",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br31.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br31/"
@@ -4637,10 +4857,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br32",
       "title": "Br32: Stroke Count Speed Drill",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br32.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br32/"
@@ -4648,10 +4868,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br33",
       "title": "Br33: Short Axis Combo (3 Fly 3 Breast)",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br33.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br33/"
@@ -4659,10 +4879,10 @@
     {
       "slug": "30-Areas-swimming-drills-breaststroke-br34",
       "title": "Br34: Frozen Head (Tennis Ball Drill)",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/breaststroke/br34.md",
       "url": "/notes/30-Areas-swimming-drills-breaststroke-br34/"
@@ -4681,10 +4901,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl01",
       "title": "Fl01: Chest Press",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl01.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl01/"
@@ -4692,10 +4912,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl02",
       "title": "Fl02: Hands Down Dolphin Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl02.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl02/"
@@ -4703,10 +4923,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl03",
       "title": "Fl03: Chest Press Pinkies Up",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl03.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl03/"
@@ -4714,10 +4934,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl04",
       "title": "Fl04: Dolphin Kick On Back Arms Up",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl04.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl04/"
@@ -4725,10 +4945,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl05",
       "title": "Fl05: Streamline Dolphin Kick On Back",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl05.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl05/"
@@ -4736,10 +4956,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl06",
       "title": "Fl06: Sideways Dolphin Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl06.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl06/"
@@ -4747,10 +4967,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl07",
       "title": "Fl07: Surf Kick Dolphin Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl07.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl07/"
@@ -4758,10 +4978,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl08",
       "title": "Fl08: Dolphin Kick Underwater",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl08.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl08/"
@@ -4769,10 +4989,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl09",
       "title": "Fl09: Whale Kick On Back",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl09.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl09/"
@@ -4780,10 +5000,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl10",
       "title": "Fl10: Vertical Kicks",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl10.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl10/"
@@ -4791,10 +5011,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl11",
       "title": "Fl11: Kick 360",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl11.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl11/"
@@ -4802,10 +5022,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl12",
       "title": "Fl12: Over the Barrel",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl12.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl12/"
@@ -4813,10 +5033,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl13",
       "title": "Fl13: Angel Wings",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl13.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl13/"
@@ -4824,10 +5044,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl14",
       "title": "Fl14: Angel Wings Transition to Full Fly",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl14.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl14/"
@@ -4835,10 +5055,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl15",
       "title": "Fl15: Butterfly Stroke & Run",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl15.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl15/"
@@ -4846,10 +5066,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl16",
       "title": "Fl16: Scull to Combination",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl16.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl16/"
@@ -4857,10 +5077,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl17",
       "title": "Fl17: Butterfly Recovery",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl17.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl17/"
@@ -4868,10 +5088,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl18",
       "title": "Fl18: Single Arm Swimming",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl18.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl18/"
@@ -4879,10 +5099,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl19",
       "title": "Fl19: 2-2-2 Drill",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl19.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl19/"
@@ -4890,10 +5110,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl20",
       "title": "Fl20: Low Baby Low!",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl20.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl20/"
@@ -4901,10 +5121,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl21",
       "title": "Fl21: Deep Catch",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl21.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl21/"
@@ -4912,10 +5132,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl22",
       "title": "Fl22: Thumb Drag Recovery",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl22.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl22/"
@@ -4923,10 +5143,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl23",
       "title": "Fl23: Ball Toss",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl23.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl23/"
@@ -4934,10 +5154,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl24",
       "title": "Fl24: Easy Recovery Fly",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl24.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl24/"
@@ -4945,10 +5165,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl25",
       "title": "Fl25: Slow Recovery Drill to Front",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl25.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl25/"
@@ -4956,10 +5176,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl26",
       "title": "Fl26: Triangle or Biondi Drill",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl26.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl26/"
@@ -4967,10 +5187,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl27",
       "title": "Fl27: Four Kicks Per Arm Cycle",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl27.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl27/"
@@ -4978,10 +5198,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl28",
       "title": "Fl28: Vertical Strokes",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl28.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl28/"
@@ -4989,10 +5209,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl29",
       "title": "Fl29: High Catch with Foam Roller",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl29.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl29/"
@@ -5000,10 +5220,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl30",
       "title": "Fl30: Breakout Stroke",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl30.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl30/"
@@ -5011,10 +5231,10 @@
     {
       "slug": "30-Areas-swimming-drills-butterfly-fl31",
       "title": "Fl31: Short Axis Combo (3 Fly 3 Breast)",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/butterfly/fl31.md",
       "url": "/notes/30-Areas-swimming-drills-butterfly-fl31/"
@@ -5033,10 +5253,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr01",
       "title": "Fr01: Standing Breathing",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr01.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr01/"
@@ -5044,10 +5264,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr02",
       "title": "Fr02: Head Lead Balance – Face Down",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr02.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr02/"
@@ -5055,10 +5275,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr03",
       "title": "Fr03: Head Lead Balance – On Your Side",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr03.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr03/"
@@ -5066,10 +5286,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr04",
       "title": "Fr04: Head Lead Balance with Rotation",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr04.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr04/"
@@ -5077,10 +5297,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr05",
       "title": "Fr05: Superman Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr05.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr05/"
@@ -5088,10 +5308,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr06",
       "title": "Fr06: Arm Lead Balance or 6-Count",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr06.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr06/"
@@ -5099,10 +5319,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr07",
       "title": "Fr07: Streamline Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr07.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr07/"
@@ -5110,10 +5330,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr08",
       "title": "Fr08: Vertical Kick",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr08.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr08/"
@@ -5121,10 +5341,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr09",
       "title": "Fr09: 360 Roll",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr09.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr09/"
@@ -5132,10 +5352,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr10",
       "title": "Fr10: Sailboat",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr10.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr10/"
@@ -5143,10 +5363,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr11",
       "title": "Fr11: One Arm Stroke",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr11.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr11/"
@@ -5154,10 +5374,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr12",
       "title": "Fr12: Fingertip Dribble",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr12.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr12/"
@@ -5165,10 +5385,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr13",
       "title": "Fr13: Trace The Line",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr13.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr13/"
@@ -5176,10 +5396,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr14",
       "title": "Fr14: Skating Underwater or Underwater Recovery",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr14.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr14/"
@@ -5187,10 +5407,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr15",
       "title": "Fr15: Superman Catch up",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr15.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr15/"
@@ -5198,10 +5418,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr16",
       "title": "Fr16: Fist Freestyle",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr16.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr16/"
@@ -5209,10 +5429,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr17",
       "title": "Fr17: Triple Touch",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr17.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr17/"
@@ -5220,10 +5440,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr18",
       "title": "Fr18: Suspended Hand",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr18.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr18/"
@@ -5231,10 +5451,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr19",
       "title": "Fr19: Water Polo Free",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr19.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr19/"
@@ -5242,10 +5462,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr20",
       "title": "Fr20: Golf",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr20.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr20/"
@@ -5253,10 +5473,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr21",
       "title": "Fr21: Quiet Hand Entry",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr21.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr21/"
@@ -5264,10 +5484,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr22",
       "title": "Fr22: No Bubbles",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr22.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr22/"
@@ -5275,10 +5495,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr23",
       "title": "Fr23: 3 & Glide",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr23.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr23/"
@@ -5286,10 +5506,10 @@
     {
       "slug": "30-Areas-swimming-drills-freestyle-fr24",
       "title": "Fr24: Russian Rollover (Long Axis Combo)",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/freestyle/fr24.md",
       "url": "/notes/30-Areas-swimming-drills-freestyle-fr24/"
@@ -5308,10 +5528,10 @@
     {
       "slug": "30-Areas-swimming-drills-sculling-sc01",
       "title": "Sc01: Wide Y Sculling",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/sculling/sc01.md",
       "url": "/notes/30-Areas-swimming-drills-sculling-sc01/"
@@ -5319,10 +5539,10 @@
     {
       "slug": "30-Areas-swimming-drills-sculling-sc02",
       "title": "Sc02: Head Down Scull with Buoy",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/sculling/sc02.md",
       "url": "/notes/30-Areas-swimming-drills-sculling-sc02/"
@@ -5330,10 +5550,10 @@
     {
       "slug": "30-Areas-swimming-drills-sculling-sc03",
       "title": "Sc03: Head Up Scull with Buoy",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/sculling/sc03.md",
       "url": "/notes/30-Areas-swimming-drills-sculling-sc03/"
@@ -5341,10 +5561,10 @@
     {
       "slug": "30-Areas-swimming-drills-sculling-sc04",
       "title": "Sc04: Windshield Wipers Head Down",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/sculling/sc04.md",
       "url": "/notes/30-Areas-swimming-drills-sculling-sc04/"
@@ -5352,10 +5572,10 @@
     {
       "slug": "30-Areas-swimming-drills-sculling-sc05",
       "title": "Sc05: Windshield Wipers Chin Up",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/sculling/sc05.md",
       "url": "/notes/30-Areas-swimming-drills-sculling-sc05/"
@@ -5363,10 +5583,10 @@
     {
       "slug": "30-Areas-swimming-drills-sculling-sc06",
       "title": "Sc06: Feet First Scull",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/sculling/sc06.md",
       "url": "/notes/30-Areas-swimming-drills-sculling-sc06/"
@@ -5374,10 +5594,10 @@
     {
       "slug": "30-Areas-swimming-drills-sculling-sc07",
       "title": "Sc07: Hip Scull",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/sculling/sc07.md",
       "url": "/notes/30-Areas-swimming-drills-sculling-sc07/"
@@ -5385,10 +5605,10 @@
     {
       "slug": "30-Areas-swimming-drills-sculling-sc08",
       "title": "Sc08: Seated Scull",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/sculling/sc08.md",
       "url": "/notes/30-Areas-swimming-drills-sculling-sc08/"
@@ -5396,10 +5616,10 @@
     {
       "slug": "30-Areas-swimming-drills-sculling-sc09",
       "title": "Sc09: Single Arm Scull",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/sculling/sc09.md",
       "url": "/notes/30-Areas-swimming-drills-sculling-sc09/"
@@ -5407,10 +5627,10 @@
     {
       "slug": "30-Areas-swimming-drills-sculling-sc10",
       "title": "Sc10: Behind the Head Scull",
-      "type": "area",
-      "status": "seedling",
+      "type": "swimming",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/drills/sculling/sc10.md",
       "url": "/notes/30-Areas-swimming-drills-sculling-sc10/"
@@ -5690,8 +5910,8 @@
         "m1",
         "agent"
       ],
-      "created": "",
-      "updated": "",
+      "created": " updated: ",
+      "updated": "2026-06-23",
       "vault_path": "40-Resources/_handbook/m1-memory.md",
       "url": "/notes/40-Resources-_handbook-m1-memory/"
     },
@@ -5705,8 +5925,8 @@
         "m2",
         "agent"
       ],
-      "created": "",
-      "updated": "",
+      "created": " updated: ",
+      "updated": "2026-06-23",
       "vault_path": "40-Resources/_handbook/m2-multi-agent.md",
       "url": "/notes/40-Resources-_handbook-m2-multi-agent/"
     },
@@ -5720,8 +5940,8 @@
         "m3",
         "agent"
       ],
-      "created": "",
-      "updated": "",
+      "created": " updated: ",
+      "updated": "2026-06-23",
       "vault_path": "40-Resources/_handbook/m3-self-improvement.md",
       "url": "/notes/40-Resources-_handbook-m3-self-improvement/"
     },
@@ -5735,8 +5955,8 @@
         "m4",
         "agent"
       ],
-      "created": "",
-      "updated": "",
+      "created": " updated: ",
+      "updated": "2026-06-23",
       "vault_path": "40-Resources/_handbook/m4-planning.md",
       "url": "/notes/40-Resources-_handbook-m4-planning/"
     },
@@ -5750,8 +5970,8 @@
         "m5",
         "agent"
       ],
-      "created": "",
-      "updated": "",
+      "created": " updated: ",
+      "updated": "2026-06-23",
       "vault_path": "40-Resources/_handbook/m5-meta-agent.md",
       "url": "/notes/40-Resources-_handbook-m5-meta-agent/"
     },
@@ -5765,8 +5985,8 @@
         "m6",
         "agent"
       ],
-      "created": "",
-      "updated": "",
+      "created": " updated: ",
+      "updated": "2026-06-23",
       "vault_path": "40-Resources/_handbook/m6-code-vs-tool.md",
       "url": "/notes/40-Resources-_handbook-m6-code-vs-tool/"
     },
@@ -5780,8 +6000,8 @@
         "m7",
         "agent"
       ],
-      "created": "",
-      "updated": "",
+      "created": " updated: ",
+      "updated": "2026-06-23",
       "vault_path": "40-Resources/_handbook/m7-observability.md",
       "url": "/notes/40-Resources-_handbook-m7-observability/"
     },
@@ -5795,8 +6015,8 @@
         "m8",
         "agent"
       ],
-      "created": "",
-      "updated": "",
+      "created": " updated: ",
+      "updated": "2026-06-23",
       "vault_path": "40-Resources/_handbook/m8-benchmarks.md",
       "url": "/notes/40-Resources-_handbook-m8-benchmarks/"
     },
@@ -5806,29 +6026,35 @@
       "type": "resource",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
       "vault_path": "40-Resources/_handbook/research-ai-agent-memory-and-context.md",
       "url": "/notes/40-Resources-_handbook-research-ai-agent-memory-and-context/"
     },
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-13-Agent-Evaluation--What-Hermes-Can-Steal-from-Google-ADK",
       "title": "Agent Evaluation: What Hermes Can Steal from Google ADK",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-13",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-13-Agent-Evaluation--What-Hermes-Can-Steal-from-Google-ADK.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-13-Agent-Evaluation--What-Hermes-Can-Steal-from-Google-ADK/"
     },
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-13-Agent-Orchestrator--The-CI-Feedback-Loop-Pattern-Hermes-Does",
-      "title": "Agent Orchestrator: The CI-Feedback-Loop Pattern Hermes Doesn't Have Yet",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "title": "Agent Orchestrator: The CI-Feedback-Loop Pattern Hermes Doesn\\\"\\\"t Have Yet",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-13",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-13-Agent-Orchestrator--The-CI-Feedback-Loop-Pattern-Hermes-Does.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-13-Agent-Orchestrator--The-CI-Feedback-Loop-Pattern-Hermes-Does/"
@@ -5850,10 +6076,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-13-MCP-Gateway---Agent-Orchestrator--The-Convergence",
       "title": "MCP Gateway × Agent Orchestrator: The Convergence",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-13",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-13-MCP-Gateway---Agent-Orchestrator--The-Convergence.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-13-MCP-Gateway---Agent-Orchestrator--The-Convergence/"
@@ -5861,21 +6090,27 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-13-MCP-Gateways--The-Missing-Infrastructure-Layer",
       "title": "MCP Gateways: The Missing Infrastructure Layer",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-13",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-13-MCP-Gateways--The-Missing-Infrastructure-Layer.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-13-MCP-Gateways--The-Missing-Infrastructure-Layer/"
     },
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-13-MCP-Testing--Manufact-s-Approach--2026-05-13",
-      "title": "MCP Testing: Manufact's Approach (2026-05-13)",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "title": "MCP Testing: Manufact\\\"\\\"s Approach (2026-05-13)",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-13",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-13-MCP-Testing--Manufact-s-Approach--2026-05-13.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-13-MCP-Testing--Manufact-s-Approach--2026-05-13/"
@@ -5922,10 +6157,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-14-Agent-Economics--Cost-Curves---Memory-Fallacies",
       "title": "Agent Economics: Cost Curves & Memory Fallacies",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-14",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-14-Agent-Economics--Cost-Curves---Memory-Fallacies.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-14-Agent-Economics--Cost-Curves---Memory-Fallacies/"
@@ -5947,10 +6185,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-14-Axe--AI-Agent-的-Unix-哲學",
       "title": "Axe: AI Agent 的 Unix 哲學",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-14",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-14-Axe--AI-Agent-的-Unix-哲學.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-14-Axe--AI-Agent-的-Unix-哲學/"
@@ -6047,10 +6288,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-14-Context-Mode--MCP-層的-Context-節流",
       "title": "Context Mode: MCP 層的 Context 節流",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-14",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-14-Context-Mode--MCP-層的-Context-節流.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-14-Context-Mode--MCP-層的-Context-節流/"
@@ -6228,10 +6472,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-14-lazy-tool--MCP-Prompt-Bloat-的本地解法",
       "title": "lazy-tool: MCP Prompt Bloat 的本地解法",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-14",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-14-lazy-tool--MCP-Prompt-Bloat-的本地解法.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-14-lazy-tool--MCP-Prompt-Bloat-的本地解法/"
@@ -6239,10 +6486,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-15-Agent-Architecture--Loop--Memory--Caching---三個設計決策維度",
       "title": "Agent Architecture: Loop, Memory, Caching — 三個設計決策維度",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-15",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-15-Agent-Architecture--Loop--Memory--Caching---三個設計決策維度.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-15-Agent-Architecture--Loop--Memory--Caching---三個設計決策維度/"
@@ -6250,10 +6500,15 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-15-Agent-Architecture-Loop-Memory-Caching-三個設計決策維度",
       "title": "Agent Architecture: Loop, Memory, Caching — 三個設計決策維度",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "exploration",
+      "status": "budding",
+      "tags": [
+        "agent-architecture",
+        "memory-design",
+        "prompt-caching",
+        "tool-use"
+      ],
+      "created": "2026-05-15",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-15-Agent-Architecture-Loop-Memory-Caching-三個設計決策維度.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-15-Agent-Architecture-Loop-Memory-Caching-三個設計決策維度/"
@@ -6289,10 +6544,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-15-Agent-Tool-Simplicity--單一二進位---笨搜尋",
       "title": "Agent Tool Simplicity: 單一二進位 × 笨搜尋",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-15",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-15-Agent-Tool-Simplicity--單一二進位---笨搜尋.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-15-Agent-Tool-Simplicity--單一二進位---笨搜尋/"
@@ -6300,10 +6558,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-15-Arch-Router--偏好驅動的-LLM-路由",
       "title": "Arch-Router: 偏好驅動的 LLM 路由",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-15",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-15-Arch-Router--偏好驅動的-LLM-路由.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-15-Arch-Router--偏好驅動的-LLM-路由/"
@@ -6325,10 +6586,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-15-Behavior-Cache-for-Agents--Muscle-Mem---Butter-Mystery",
       "title": "Behavior Cache for Agents: Muscle-Mem + Butter Mystery",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-15",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-15-Behavior-Cache-for-Agents--Muscle-Mem---Butter-Mystery.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-15-Behavior-Cache-for-Agents--Muscle-Mem---Butter-Mystery/"
@@ -6336,10 +6600,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-15-CaMeL--Code-Then-Execute-原典深讀",
       "title": "CaMeL: Code-Then-Execute 原典深讀",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-15",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-15-CaMeL--Code-Then-Execute-原典深讀.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-15-CaMeL--Code-Then-Execute-原典深讀/"
@@ -6462,10 +6729,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-15-Voyager--Lifelong-Skill-Learning-for-Agents",
       "title": "Voyager: Lifelong Skill Learning for Agents",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-15",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-15-Voyager--Lifelong-Skill-Learning-for-Agents.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-15-Voyager--Lifelong-Skill-Learning-for-Agents/"
@@ -6473,10 +6743,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-15-mcpc--MCP-CLI---Token-Isolating-Proxy---三個-Hermes-可以直接借鏡的設計",
       "title": "mcpc: MCP CLI × Token-Isolating Proxy — 三個 Hermes 可以直接借鏡的設計",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-15",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-15-mcpc--MCP-CLI---Token-Isolating-Proxy---三個-Hermes-可以直接借鏡的設計.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-15-mcpc--MCP-CLI---Token-Isolating-Proxy---三個-Hermes-可以直接借鏡的設計/"
@@ -6484,10 +6757,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-16-2026-05-16--Coding-Agents--Browser-Protocol--MCP-Observabili",
       "title": "2026-05-16: Coding Agents, Browser Protocol, MCP Observability",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-16",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-16-2026-05-16--Coding-Agents--Browser-Protocol--MCP-Observabili.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-16-2026-05-16--Coding-Agents--Browser-Protocol--MCP-Observabili/"
@@ -6495,10 +6771,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-16-James-Shore--AI-Coding-Agent-必須降低維護成本",
       "title": "James Shore: AI Coding Agent 必須降低維護成本",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-16",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-16-James-Shore--AI-Coding-Agent-必須降低維護成本.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-16-James-Shore--AI-Coding-Agent-必須降低維護成本/"
@@ -6548,10 +6827,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-16-Simon-Willison--Lethal-Trifecta---原典深讀與-Hermes-對標",
       "title": "Simon Willison: Lethal Trifecta — 原典深讀與 Hermes 對標",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-16",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-16-Simon-Willison--Lethal-Trifecta---原典深讀與-Hermes-對標.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-16-Simon-Willison--Lethal-Trifecta---原典深讀與-Hermes-對標/"
@@ -6615,10 +6897,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-17-2026-05-17---AgentKit--Multi-Agent-Networks-in-TypeScript",
       "title": "2026-05-17 — AgentKit: Multi-Agent Networks in TypeScript",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-17",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-17-2026-05-17---AgentKit--Multi-Agent-Networks-in-TypeScript.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-17-2026-05-17---AgentKit--Multi-Agent-Networks-in-TypeScript/"
@@ -7606,10 +7891,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-22-2026-05-22---LLM-Agent-Memory--Production-Patterns---Backtra",
       "title": "2026-05-22 — LLM Agent Memory: Production Patterns & Backtracking",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-22",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-22-2026-05-22---LLM-Agent-Memory--Production-Patterns---Backtra.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-22-2026-05-22---LLM-Agent-Memory--Production-Patterns---Backtra/"
@@ -7617,10 +7905,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-22-2026-05-22---MemoryArena--Agent-Memory-Benchmark-Deep-Dive",
       "title": "2026-05-22 — MemoryArena: Agent Memory Benchmark Deep Dive",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-22",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-22-2026-05-22---MemoryArena--Agent-Memory-Benchmark-Deep-Dive.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-22-2026-05-22---MemoryArena--Agent-Memory-Benchmark-Deep-Dive/"
@@ -7628,10 +7919,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-22-2026-05-22--Agent-Loop-設計---Sketch-dev-的九行核心",
       "title": "2026-05-22: Agent Loop 設計 — Sketch.dev 的九行核心",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-22",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-22-2026-05-22--Agent-Loop-設計---Sketch-dev-的九行核心.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-22-2026-05-22--Agent-Loop-設計---Sketch-dev-的九行核心/"
@@ -7639,10 +7933,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-22-2026-05-22--State-Machine-Guardrails-for-AI-Agents---Statewr",
       "title": "2026-05-22: State Machine Guardrails for AI Agents — Statewright",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-22",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-22-2026-05-22--State-Machine-Guardrails-for-AI-Agents---Statewr.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-22-2026-05-22--State-Machine-Guardrails-for-AI-Agents---Statewr/"
@@ -7692,10 +7989,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-22-Agent-Memory--Memori-Architecture---R²-Mem-Rubric-Scoring",
       "title": "Agent Memory: Memori Architecture + R²-Mem Rubric Scoring",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-20",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-22-Agent-Memory--Memori-Architecture---R²-Mem-Rubric-Scoring.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-22-Agent-Memory--Memori-Architecture---R²-Mem-Rubric-Scoring/"
@@ -7815,10 +8115,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-22-Exploration--Memori-Retrieval---Pure-RAG-vs-MemR3-Closed-Loo",
       "title": "Exploration: Memori Retrieval — Pure RAG vs MemR3 Closed-Loop",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-21",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-22-Exploration--Memori-Retrieval---Pure-RAG-vs-MemR3-Closed-Loo.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-22-Exploration--Memori-Retrieval---Pure-RAG-vs-MemR3-Closed-Loo/"
@@ -7826,10 +8129,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-22-Exploration--Memori-SDK---Triple-Extraction-Implementation",
       "title": "Exploration: Memori SDK — Triple Extraction Implementation",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-21",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-22-Exploration--Memori-SDK---Triple-Extraction-Implementation.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-22-Exploration--Memori-SDK---Triple-Extraction-Implementation/"
@@ -8004,7 +8310,7 @@
     },
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-22-探索--tool---LLM-Agent-运行时规则执行-DSL",
-      "title": "探索：\\tool — LLM Agent 运行时规则执行 DSL",
+      "title": "探索：\tool — LLM Agent 运行时规则执行 DSL",
       "type": "explorations",
       "status": "budding",
       "tags": [
@@ -8674,10 +8980,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-25-2026-05-25---LLM-Agent-Memory-Architecture--Hebbian-Learning",
       "title": "2026-05-25 — LLM Agent Memory Architecture: Hebbian Learning + Dual-Pathway Retrieval",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-25",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-25-2026-05-25---LLM-Agent-Memory-Architecture--Hebbian-Learning.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-25-2026-05-25---LLM-Agent-Memory-Architecture--Hebbian-Learning/"
@@ -8755,10 +9064,10 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-25-a-mem-vs-hela-mem",
       "title": "2026-05-25 — A-Mem vs HeLa-Mem: Two Architectures for Agent Memory",
-      "type": "resource",
-      "status": "seedling",
+      "type": "exploration",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-25",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-25-a-mem-vs-hela-mem.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-25-a-mem-vs-hela-mem/"
@@ -8835,10 +9144,10 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-25-llm-agent-memory-architecture",
       "title": "2026-05-25 — LLM Agent Memory Architecture: Hebbian Learning + Dual-Pathway Retrieval",
-      "type": "resource",
-      "status": "seedling",
+      "type": "exploration",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-25",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-25-llm-agent-memory-architecture.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-25-llm-agent-memory-architecture/"
@@ -8945,10 +9254,10 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-25-multi-agent-when-to-build-langchain",
       "title": "2026-05-25 Multi-Agent Systems: When to Build (LangChain)",
-      "type": "resource",
-      "status": "seedling",
+      "type": "exploration",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-25",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-25-multi-agent-when-to-build-langchain.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-25-multi-agent-when-to-build-langchain/"
@@ -9453,10 +9762,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-28-2026-05-28---MEMO--Memory-as-a-Model",
       "title": "2026-05-28 — MEMO: Memory as a Model",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-28",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-28-2026-05-28---MEMO--Memory-as-a-Model.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-28-2026-05-28---MEMO--Memory-as-a-Model/"
@@ -9696,10 +10008,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-29-AgeMem--Agentic-Memory-via-GRPO---arXiv-2601-01885",
       "title": "AgeMem: Agentic Memory via GRPO — arXiv 2601.01885",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-29",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-29-AgeMem--Agentic-Memory-via-GRPO---arXiv-2601-01885.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-29-AgeMem--Agentic-Memory-via-GRPO---arXiv-2601-01885/"
@@ -9883,10 +10198,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-30---OpenMemory--Local-First-Cognitive-Memory-Engine",
       "title": "2026-05-30 — OpenMemory: Local-First Cognitive Memory Engine",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-30",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-30---OpenMemory--Local-First-Cognitive-Memory-Engine.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-30---OpenMemory--Local-First-Cognitive-Memory-Engine/"
@@ -10045,10 +10363,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-31---GITM--Text-Based-Memory-for-LLM-Agents",
       "title": "2026-05-31 — GITM: Text-Based Memory for LLM Agents",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-31",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-31---GITM--Text-Based-Memory-for-LLM-Agents.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-31---GITM--Text-Based-Memory-for-LLM-Agents/"
@@ -10070,10 +10391,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-31-Exploration--Mnemonic-Sovereignty---Lead-Validation---MemMac",
       "title": "Exploration: Mnemonic Sovereignty — Lead Validation + MemMachine Deep-Dive",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-31",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-31-Exploration--Mnemonic-Sovereignty---Lead-Validation---MemMac.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-31-Exploration--Mnemonic-Sovereignty---Lead-Validation---MemMac/"
@@ -10081,10 +10405,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-31-Exploration--Mnemonic-Sovereignty---arxiv-2604-16548v1",
       "title": "Exploration: Mnemonic Sovereignty — arxiv:2604.16548v1",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-31",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-31-Exploration--Mnemonic-Sovereignty---arxiv-2604-16548v1.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-31-Exploration--Mnemonic-Sovereignty---arxiv-2604-16548v1/"
@@ -10092,10 +10419,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-31-Exploration--OWASP-Agentic-AI---MemMachine-Follow-up",
       "title": "Exploration: OWASP Agentic AI + MemMachine Follow-up",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-31",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-31-Exploration--OWASP-Agentic-AI---MemMachine-Follow-up.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-31-Exploration--OWASP-Agentic-AI---MemMachine-Follow-up/"
@@ -10103,10 +10433,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-05-31-Exploration--OpenCode---AI-Agent-Reputational-Attack-Case-St",
       "title": "Exploration: OpenCode + AI Agent Reputational Attack Case Study",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-05-31",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-05-31-Exploration--OpenCode---AI-Agent-Reputational-Attack-Case-St.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-05-31-Exploration--OpenCode---AI-Agent-Reputational-Attack-Case-St/"
@@ -10254,10 +10587,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-06-01---LLM-Memory-Architecture--Fastpaca---LangMem",
       "title": "2026-06-01 — LLM Memory Architecture: Fastpaca + LangMem",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-06-01",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-01---LLM-Memory-Architecture--Fastpaca---LangMem.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-01---LLM-Memory-Architecture--Fastpaca---LangMem/"
@@ -10265,10 +10601,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-06-01-Agent-Memory--An-Anatomy---2026-06-01",
       "title": "Agent Memory: An Anatomy — 2026-06-01",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-06-01",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-01-Agent-Memory--An-Anatomy---2026-06-01.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-01-Agent-Memory--An-Anatomy---2026-06-01/"
@@ -10276,10 +10615,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-06-01-Agent-Memory-Systems--8-Architecture-Source-Level-Analysis",
       "title": "Agent Memory Systems: 8-Architecture Source-Level Analysis",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-06-01",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-01-Agent-Memory-Systems--8-Architecture-Source-Level-Analysis.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-01-Agent-Memory-Systems--8-Architecture-Source-Level-Analysis/"
@@ -10428,10 +10770,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-06-02-Exploration---2026-06-02--Agentic-Gateway-Implementation-Lan",
       "title": "Exploration — 2026-06-02: Agentic Gateway Implementation Landscape",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-06-02",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-02-Exploration---2026-06-02--Agentic-Gateway-Implementation-Lan.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-02-Exploration---2026-06-02--Agentic-Gateway-Implementation-Lan/"
@@ -10682,10 +11027,10 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-06-04-Exploration---AI-Agent-Architecture--PM-Guide---ProfileGPT",
       "title": "Exploration — AI Agent Architecture: PM Guide + ProfileGPT + Masterman Survey (2026-06-04)",
-      "type": "resource",
-      "status": "seedling",
+      "type": "exploration",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-06-04",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-04-Exploration---AI-Agent-Architecture--PM-Guide---ProfileGPT.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-04-Exploration---AI-Agent-Architecture--PM-Guide---ProfileGPT/"
@@ -10989,10 +11334,10 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-06-08--ECC-2.0-Agent-Harness-+-Hermes-Integration",
       "title": "Exploration: ECC 2.0 Agent Harness + Hermes Integration",
-      "type": "resource",
-      "status": "seedling",
+      "type": "exploration",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-06-08",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-08--ECC-2.0-Agent-Harness-+-Hermes-Integration.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-08--ECC-2.0-Agent-Harness-+-Hermes-Integration/"
@@ -11000,10 +11345,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-06-08-A-Mem--Agentic-Memory-for-LLM-Agents--2026-06-08",
       "title": "A-Mem: Agentic Memory for LLM Agents (2026-06-08)",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-06-08",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-08-A-Mem--Agentic-Memory-for-LLM-Agents--2026-06-08.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-08-A-Mem--Agentic-Memory-for-LLM-Agents--2026-06-08/"
@@ -11047,10 +11395,10 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-06-08-Constraint-Decay--LLM-Agents-in-Backend-Code-Gener",
       "title": "Constraint Decay: LLM Agents in Backend Code Generation",
-      "type": "resource",
-      "status": "seedling",
+      "type": "exploration",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-06-08",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-08-Constraint-Decay--LLM-Agents-in-Backend-Code-Gener.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-08-Constraint-Decay--LLM-Agents-in-Backend-Code-Gener/"
@@ -11058,10 +11406,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-06-08-Constraint-Decay--LLM-Agents-in-Backend-Code-Generation",
       "title": "Constraint Decay: LLM Agents in Backend Code Generation",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-06-08",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-08-Constraint-Decay--LLM-Agents-in-Backend-Code-Generation.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-08-Constraint-Decay--LLM-Agents-in-Backend-Code-Generation/"
@@ -11069,10 +11420,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-06-08-Exploration--ECC-2-0-Agent-Harness---Hermes-Integration",
       "title": "Exploration: ECC 2.0 Agent Harness + Hermes Integration",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-06-08",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-08-Exploration--ECC-2-0-Agent-Harness---Hermes-Integration.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-08-Exploration--ECC-2-0-Agent-Harness---Hermes-Integration/"
@@ -11080,10 +11434,13 @@
     {
       "slug": "40-Resources-_mixed-explorations-2026-06-08-MemTier--Tiered-Memory-Architecture--2026-06-08",
       "title": "MemTier: Tiered Memory Architecture (2026-06-08)",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "explorations",
+      "status": "budding",
+      "tags": [
+        "explorations",
+        "auto-ingested"
+      ],
+      "created": "2026-06-08",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/explorations/2026-06-08-MemTier--Tiered-Memory-Architecture--2026-06-08.md",
       "url": "/notes/40-Resources-_mixed-explorations-2026-06-08-MemTier--Tiered-Memory-Architecture--2026-06-08/"
@@ -11284,10 +11641,10 @@
     {
       "slug": "40-Resources-_mixed-research-2026-05-24-hermes-swimming-vault-structuring",
       "title": "Plan: 游泳 vault 結構化與 skill 規劃",
-      "type": "resource",
-      "status": "seedling",
+      "type": "research",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-24",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/2026-05-24-hermes-swimming-vault-structuring.md",
       "url": "/notes/40-Resources-_mixed-research-2026-05-24-hermes-swimming-vault-structuring/"
@@ -12357,10 +12714,13 @@
     {
       "slug": "40-Resources-_mixed-research-2026-06-06-0024-hermes-consolidated-insight",
       "title": "2026-06-06 Consolidation: 無新筆記可消化",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "research",
+      "status": "budding",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-06-06",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/2026-06-06-0024-hermes-consolidated-insight.md",
       "url": "/notes/40-Resources-_mixed-research-2026-06-06-0024-hermes-consolidated-insight/"
@@ -12368,10 +12728,17 @@
     {
       "slug": "40-Resources-_mixed-research-2026-06-06-0302-hermes-consolidated-insight",
       "title": "2026-06-06 Consolidation: Constraint Decay 二次探索 — 對前次 cross-cutting 結論的獨立再驗證",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "research",
+      "status": "budding",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "re-exploration",
+        "constraint-decay",
+        "tool-scoping",
+        "governance"
+      ],
+      "created": "2026-06-06",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/2026-06-06-0302-hermes-consolidated-insight.md",
       "url": "/notes/40-Resources-_mixed-research-2026-06-06-0302-hermes-consolidated-insight/"
@@ -12379,10 +12746,17 @@
     {
       "slug": "40-Resources-_mixed-research-2026-06-06-0600-hermes-consolidated-insight",
       "title": "2026-06-06 Consolidation: 信任建立 vs 信任 decay 的競賽 — 以及「表面合規 ≠ 責任鏈」的三源收斂",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "research",
+      "status": "budding",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "trust-decay",
+        "responsibility-chain",
+        "phantom-policy",
+        "governance"
+      ],
+      "created": "2026-06-06",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/2026-06-06-0600-hermes-consolidated-insight.md",
       "url": "/notes/40-Resources-_mixed-research-2026-06-06-0600-hermes-consolidated-insight/"
@@ -12390,10 +12764,15 @@
     {
       "slug": "40-Resources-_mixed-research-2026-06-06-0902-hermes-consolidated-insight",
       "title": "2026-06-06 09:02 Consolidation: Idle Cycle — 無新輸入，無可 synthesis",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "research",
+      "status": "budding",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "idle-cycle",
+        "no-input"
+      ],
+      "created": "2026-06-06",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/2026-06-06-0902-hermes-consolidated-insight.md",
       "url": "/notes/40-Resources-_mixed-research-2026-06-06-0902-hermes-consolidated-insight/"
@@ -13453,10 +13832,14 @@
     {
       "slug": "40-Resources-_mixed-research-2026-06-14-0601-hermes-consolidated-insight",
       "title": "2026-06-14 06:01 — Empty batch: 無新筆記可消化",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "research",
+      "status": "budding",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "no-input"
+      ],
+      "created": "2026-06-14",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/2026-06-14-0601-hermes-consolidated-insight.md",
       "url": "/notes/40-Resources-_mixed-research-2026-06-14-0601-hermes-consolidated-insight/"
@@ -13938,17 +14321,6 @@
       "url": "/notes/40-Resources-_mixed-research-insights-2026-05-2026-05-14-hermes-consolidation-step/"
     },
     {
-      "slug": "40-Resources-_mixed-research-insights-2026-05-2026-05-14-hermes-consolidation-synthesis",
-      "title": "Consolidation Synthesis: The Convergence Nobody Is Acting On",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "vault_path": "40-Resources/_mixed/research/insights/2026-05/2026-05-14-hermes-consolidation-synthesis.md",
-      "url": "/notes/40-Resources-_mixed-research-insights-2026-05-2026-05-14-hermes-consolidation-synthesis/"
-    },
-    {
       "slug": "40-Resources-_mixed-research-insights-2026-05-2026-05-14-hermes-cost-visibility",
       "title": "提案：Hermes Token/Cost Visibility（Level 1 觀測層）",
       "type": "research",
@@ -14128,10 +14500,13 @@
     {
       "slug": "40-Resources-_mixed-research-insights-2026-05-2026-05-15-1500-hermes-consolidated-insight",
       "title": "Two Missing Primitives: Deterministic Layer + Runtime Memory",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "research",
+      "status": "budding",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-05-15",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/insights/2026-05/2026-05-15-1500-hermes-consolidated-insight.md",
       "url": "/notes/40-Resources-_mixed-research-insights-2026-05-2026-05-15-1500-hermes-consolidated-insight/"
@@ -14256,10 +14631,10 @@
     {
       "slug": "40-Resources-_mixed-research-insights-2026-05-2026-05-15-hermes-ws013-timestamp-cache-buster",
       "title": "WS-013: Session Timestamp Cache Buster — Implementation Plan",
-      "type": "resource",
-      "status": "seedling",
+      "type": "research",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-15",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/insights/2026-05/2026-05-15-hermes-ws013-timestamp-cache-buster.md",
       "url": "/notes/40-Resources-_mixed-research-insights-2026-05-2026-05-15-hermes-ws013-timestamp-cache-buster/"
@@ -14399,10 +14774,13 @@
     {
       "slug": "40-Resources-_mixed-research-insights-2026-05-2026-05-17-0500-hermes-consolidated-insight",
       "title": "Hermes Knowledge Governance: Immutability Boundaries & Formal Promotion Triggers",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "research",
+      "status": "budding",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-05-17",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/insights/2026-05/2026-05-17-0500-hermes-consolidated-insight.md",
       "url": "/notes/40-Resources-_mixed-research-insights-2026-05-2026-05-17-0500-hermes-consolidated-insight/"
@@ -14480,10 +14858,13 @@
     {
       "slug": "40-Resources-_mixed-research-insights-2026-05-2026-05-17-hermes-consolidated-insight",
       "title": "Hermes Enforcement Architecture: Three Cross-Cutting Patterns",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "research",
+      "status": "budding",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-05-17",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/insights/2026-05/2026-05-17-hermes-consolidated-insight.md",
       "url": "/notes/40-Resources-_mixed-research-insights-2026-05-2026-05-17-hermes-consolidated-insight/"
@@ -14628,10 +15009,10 @@
     {
       "slug": "40-Resources-_mixed-research-insights-2026-05-2026-05-18-hermes-ws005-phase2",
       "title": "WS-005 Phase 2: 環境快照 + 交叉健康檢查 + Shared State",
-      "type": "resource",
-      "status": "seedling",
+      "type": "research",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-18",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/insights/2026-05/2026-05-18-hermes-ws005-phase2.md",
       "url": "/notes/40-Resources-_mixed-research-insights-2026-05-2026-05-18-hermes-ws005-phase2/"
@@ -14681,10 +15062,13 @@
     {
       "slug": "40-Resources-_mixed-research-insights-2026-05-2026-05-19-0909-hermes-consolidated-insight",
       "title": "Cross-Cutting Insights: Governance Layers + Memory Graduation Pipeline",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "research",
+      "status": "budding",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-05-19",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/insights/2026-05/2026-05-19-0909-hermes-consolidated-insight.md",
       "url": "/notes/40-Resources-_mixed-research-insights-2026-05-2026-05-19-0909-hermes-consolidated-insight/"
@@ -14734,10 +15118,13 @@
     {
       "slug": "40-Resources-_mixed-research-insights-2026-05-2026-05-19-1902-hermes-consolidated-insight",
       "title": "Hermes Memory + Integration Architecture: Cross-System Synthesis",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "research",
+      "status": "budding",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-05-19",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/insights/2026-05/2026-05-19-1902-hermes-consolidated-insight.md",
       "url": "/notes/40-Resources-_mixed-research-insights-2026-05-2026-05-19-1902-hermes-consolidated-insight/"
@@ -15300,17 +15687,6 @@
       "url": "/notes/40-Resources-_mixed-research-reports-2026-05-13-研究報告-ai-agent-的自我糾錯與反思機制-2026-年中全景/"
     },
     {
-      "slug": "40-Resources-_mixed-research-reports-2026-05-14-hermes-consolidation-synthesis",
-      "title": "Consolidation Synthesis: The Convergence Nobody Is Acting On",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "vault_path": "40-Resources/_mixed/research/reports/2026-05-14-hermes-consolidation-synthesis.md",
-      "url": "/notes/40-Resources-_mixed-research-reports-2026-05-14-hermes-consolidation-synthesis/"
-    },
-    {
       "slug": "40-Resources-_mixed-research-reports-2026-05-14-hermes-heartbeat-phase4-plan",
       "title": "Heartbeat Phase 4：學習管線整合 Implementation Plan",
       "type": "research",
@@ -15471,10 +15847,10 @@
     {
       "slug": "40-Resources-_mixed-research-reports-2026-05-15-hermes-ws013-timestamp-cache-buster",
       "title": "WS-013: Session Timestamp Cache Buster — Implementation Plan",
-      "type": "resource",
-      "status": "seedling",
+      "type": "research",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-15",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/reports/2026-05-15-hermes-ws013-timestamp-cache-buster.md",
       "url": "/notes/40-Resources-_mixed-research-reports-2026-05-15-hermes-ws013-timestamp-cache-buster/"
@@ -15795,10 +16171,14 @@
     {
       "slug": "40-Resources-_mixed-research-spikes-2026-05-13-shepherd-a-runtime-substrate-for-meta-agents-with-formalized-execution-traces",
       "title": "Shepherd: A Runtime Substrate for Meta-Agents with Formalized Execution Traces",
-      "type": "resource",
-      "status": "seedling",
-      "tags": [],
-      "created": "2026-06-15",
+      "type": "paper",
+      "status": "budding",
+      "tags": [
+        "research",
+        "knowledge",
+        "ai-agent"
+      ],
+      "created": "2026-05-13",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/spikes/2026-05-13-shepherd-a-runtime-substrate-for-meta-agents-with-formalized-execution-traces.md",
       "url": "/notes/40-Resources-_mixed-research-spikes-2026-05-13-shepherd-a-runtime-substrate-for-meta-agents-with-formalized-execution-traces/"
@@ -15806,10 +16186,10 @@
     {
       "slug": "40-Resources-_mixed-research-spikes-2026-05-13-shepherd-meta-agent-substrate",
       "title": "Shepherd: A Runtime Substrate for Meta-Agents with Formalized Execution Traces",
-      "type": "resource",
-      "status": "seedling",
+      "type": "research",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-13",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/spikes/2026-05-13-shepherd-meta-agent-substrate.md",
       "url": "/notes/40-Resources-_mixed-research-spikes-2026-05-13-shepherd-meta-agent-substrate/"
@@ -15817,10 +16197,10 @@
     {
       "slug": "40-Resources-_mixed-research-spikes-2026-05-13-statewright",
       "title": "Statewright: Visual State Machines as Agent Guardrails — Deterministic Enforcement Beats Bigger Models",
-      "type": "resource",
-      "status": "seedling",
+      "type": "research",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-23",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/spikes/2026-05-13-statewright.md",
       "url": "/notes/40-Resources-_mixed-research-spikes-2026-05-13-statewright/"
@@ -15907,10 +16287,10 @@
     {
       "slug": "40-Resources-_mixed-research-spikes-2026-05-14-hermes-pipe-mode-spike",
       "title": "SPIKE Report: Hermes Pipe Mode",
-      "type": "resource",
-      "status": "seedling",
+      "type": "research",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-14",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/spikes/2026-05-14-hermes-pipe-mode-spike.md",
       "url": "/notes/40-Resources-_mixed-research-spikes-2026-05-14-hermes-pipe-mode-spike/"
@@ -15918,10 +16298,10 @@
     {
       "slug": "40-Resources-_mixed-research-spikes-spike-001-worktree-isolation-verdict",
       "title": "001: git-worktree-subagent-isolation",
-      "type": "resource",
-      "status": "seedling",
+      "type": "research",
+      "status": "budding",
       "tags": [],
-      "created": "2026-06-15",
+      "created": "2026-05-13",
       "updated": "2026-06-15",
       "vault_path": "40-Resources/_mixed/research/spikes/spike-001-worktree-isolation-verdict.md",
       "url": "/notes/40-Resources-_mixed-research-spikes-spike-001-worktree-isolation-verdict/"
@@ -15982,6 +16362,105 @@
       "url": "/notes/README/"
     },
     {
+      "slug": "_broken-40-Resources-_mixed-research-insights-2026-05-2026-05-14-hermes-consolidation-synthesis",
+      "title": "Consolidation Synthesis: The Convergence Nobody Is Acting On",
+      "type": "note",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "_broken/40-Resources/_mixed/research/insights/2026-05/2026-05-14-hermes-consolidation-synthesis.md",
+      "url": "/notes/_broken-40-Resources-_mixed-research-insights-2026-05-2026-05-14-hermes-consolidation-synthesis/"
+    },
+    {
+      "slug": "_broken-40-Resources-_mixed-research-reports-2026-05-14-hermes-consolidation-synthesis",
+      "title": "Consolidation Synthesis: The Convergence Nobody Is Acting On",
+      "type": "note",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "_broken/40-Resources/_mixed/research/reports/2026-05-14-hermes-consolidation-synthesis.md",
+      "url": "/notes/_broken-40-Resources-_mixed-research-reports-2026-05-14-hermes-consolidation-synthesis/"
+    },
+    {
+      "slug": "_broken-research-2026-06-15-研究報告-se-agent-self-evolution-trajectory-optimization-for-llm-code-agents",
+      "title": "研究報告：SE-Agent — Self-Evolution Trajectory Optimization for LLM Code Agents",
+      "type": "note",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "_broken/research/2026-06-15-研究報告-se-agent-self-evolution-trajectory-optimization-for-llm-code-agents.md",
+      "url": "/notes/_broken-research-2026-06-15-研究報告-se-agent-self-evolution-trajectory-optimization-for-llm-code-agents/"
+    },
+    {
+      "slug": "_broken-research-2026-06-17-研究報告-agent-執行-trace-的形式化與可觀測性",
+      "title": "研究報告：Agent 執行 Trace 的形式化與可觀測性",
+      "type": "note",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "_broken/research/2026-06-17-研究報告-agent-執行-trace-的形式化與可觀測性.md",
+      "url": "/notes/_broken-research-2026-06-17-研究報告-agent-執行-trace-的形式化與可觀測性/"
+    },
+    {
+      "slug": "_broken-research-2026-06-17-研究報告-freediving-btv-mouthfill-equalization",
+      "title": "研究報告：自由潛水 BTV / Mouthfill 平壓技巧（distilled v1）",
+      "type": "note",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "_broken/research/2026-06-17-研究報告-freediving-btv-mouthfill-equalization.md",
+      "url": "/notes/_broken-research-2026-06-17-研究報告-freediving-btv-mouthfill-equalization/"
+    },
+    {
+      "slug": "_broken-research-2026-06-18-研究報告-speculative-execution-for-llm-agents-損失無-可調加速的最新方法-2025-10-至-2026-06",
+      "title": "研究報告：Speculative Execution for LLM Agents — 損失無／可調加速的最新方法（2025-10 至 2026-06）",
+      "type": "note",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "_broken/research/2026-06-18-研究報告-speculative-execution-for-llm-agents-損失無-可調加速的最新方法-2025-10-至-2026-06.md",
+      "url": "/notes/_broken-research-2026-06-18-研究報告-speculative-execution-for-llm-agents-損失無-可調加速的最新方法-2025-10-至-2026-06/"
+    },
+    {
+      "slug": "_broken-research-2026-06-19-研究報告-agent-memory-2026-從-flat-vector-store-到-programmable-memory-pipeline-governance",
+      "title": "研究報告：Agent Memory 2026 — 從「Flat Vector Store」到「Programmable Memory Pipeline + Governance」",
+      "type": "note",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "_broken/research/2026-06-19-研究報告-agent-memory-2026-從-flat-vector-store-到-programmable-memory-pipeline-governance.md",
+      "url": "/notes/_broken-research-2026-06-19-研究報告-agent-memory-2026-從-flat-vector-store-到-programmable-memory-pipeline-governance/"
+    },
+    {
+      "slug": "_broken-research-2026-06-20-研究報告-dynamic-multi-agent-graph-topology-從靜態-role-編排到-input-conditioned-rl-evolved-的動態拓樸",
+      "title": "研究報告：Dynamic Multi-Agent Graph Topology — 從靜態 role 編排到 input-conditioned + RL-evolved 的動態拓樸",
+      "type": "note",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "_broken/research/2026-06-20-研究報告-dynamic-multi-agent-graph-topology-從靜態-role-編排到-input-conditioned-rl-evolved-的動態拓樸.md",
+      "url": "/notes/_broken-research-2026-06-20-研究報告-dynamic-multi-agent-graph-topology-從靜態-role-編排到-input-conditioned-rl-evolved-的動態拓樸/"
+    },
+    {
+      "slug": "_broken-research-2026-06-22-研究報告-agent-swarm-大規模輕量-agent-的-emergent-coordination",
+      "title": "研究報告：Agent Swarm — 大規模輕量 Agent 的 Emergent Coordination",
+      "type": "note",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "_broken/research/2026-06-22-研究報告-agent-swarm-大規模輕量-agent-的-emergent-coordination.md",
+      "url": "/notes/_broken-research-2026-06-22-研究報告-agent-swarm-大規模輕量-agent-的-emergent-coordination/"
+    },
+    {
       "slug": "exploration-index",
       "title": "Exploration Index",
       "type": "research",
@@ -15993,19 +16472,19 @@
       "url": "/notes/exploration-index/"
     },
     {
-      "slug": "research-2026-06-15-研究報告-se-agent-self-evolution-trajectory-optimization-for-llm-code-agents",
-      "title": "研究報告：SE-Agent — Self-Evolution Trajectory Optimization for LLM Code Agents",
-      "type": "research",
-      "status": "seedling",
+      "slug": "index",
+      "title": "Hangsau 知識庫",
+      "type": "moc",
+      "status": "budding",
       "tags": [
-        "research",
-        "knowledge",
-        "ai-agent"
+        "moc",
+        "index",
+        "home"
       ],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "vault_path": "research/2026-06-15-研究報告-se-agent-self-evolution-trajectory-optimization-for-llm-code-agents.md",
-      "url": "/notes/research-2026-06-15-研究報告-se-agent-self-evolution-trajectory-optimization-for-llm-code-agents/"
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "index.md",
+      "url": "/notes/index/"
     },
     {
       "slug": "research-2026-06-16-0501-hermes-consolidated-insight",
@@ -16020,7 +16499,7 @@
         "staleness-detection"
       ],
       "created": "2026-06-16",
-      "updated": "2026-06-16",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-16-0501-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-16-0501-hermes-consolidated-insight/"
     },
@@ -16035,7 +16514,7 @@
         "memory-architecture"
       ],
       "created": "2026-06-17",
-      "updated": "2026-06-17",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-17-2101-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-17-2101-hermes-consolidated-insight/"
     },
@@ -16050,44 +16529,9 @@
         "no-op"
       ],
       "created": "2026-06-17",
-      "updated": "2026-06-17",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-17-2310-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-17-2310-hermes-consolidated-insight/"
-    },
-    {
-      "slug": "research-2026-06-17-研究報告-agent-執行-trace-的形式化與可觀測性",
-      "title": "研究報告：Agent 執行 Trace 的形式化與可觀測性",
-      "type": "research",
-      "status": "seedling",
-      "tags": [
-        "research",
-        "knowledge",
-        "ai-agent"
-      ],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "vault_path": "research/2026-06-17-研究報告-agent-執行-trace-的形式化與可觀測性.md",
-      "url": "/notes/research-2026-06-17-研究報告-agent-執行-trace-的形式化與可觀測性/"
-    },
-    {
-      "slug": "research-2026-06-17-研究報告-freediving-btv-mouthfill-equalization",
-      "title": "研究報告：自由潛水 BTV / Mouthfill 平壓技巧（distilled v1）",
-      "type": "knowledge-distillation",
-      "status": "seedling",
-      "tags": [
-        "research",
-        "knowledge",
-        "freediving",
-        "equalization",
-        "btv",
-        "mouthfill",
-        "frenzel",
-        "hands-free"
-      ],
-      "created": "2026-06-17",
-      "updated": "2026-06-23",
-      "vault_path": "research/2026-06-17-研究報告-freediving-btv-mouthfill-equalization.md",
-      "url": "/notes/research-2026-06-17-研究報告-freediving-btv-mouthfill-equalization/"
     },
     {
       "slug": "research-2026-06-18-0101-hermes-consolidated-insight",
@@ -16100,7 +16544,7 @@
         "no-op"
       ],
       "created": "2026-06-18",
-      "updated": "2026-06-18",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-18-0101-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-18-0101-hermes-consolidated-insight/"
     },
@@ -16115,7 +16559,7 @@
         "no-op"
       ],
       "created": "2026-06-18",
-      "updated": "2026-06-18",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-18-0802-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-18-0802-hermes-consolidated-insight/"
     },
@@ -16130,7 +16574,7 @@
         "no-op"
       ],
       "created": "2026-06-18",
-      "updated": "2026-06-18",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-18-1701-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-18-1701-hermes-consolidated-insight/"
     },
@@ -16145,7 +16589,7 @@
         "no-op"
       ],
       "created": "2026-06-18",
-      "updated": "2026-06-18",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-18-1801-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-18-1801-hermes-consolidated-insight/"
     },
@@ -16160,7 +16604,7 @@
         "empty-batch"
       ],
       "created": "2026-06-18",
-      "updated": "2026-06-18",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-18-1900-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-18-1900-hermes-consolidated-insight/"
     },
@@ -16176,7 +16620,7 @@
         "meta-pipeline"
       ],
       "created": "2026-06-18",
-      "updated": "2026-06-18",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-18-2100-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-18-2100-hermes-consolidated-insight/"
     },
@@ -16193,24 +16637,9 @@
         "second-order"
       ],
       "created": "2026-06-18",
-      "updated": "2026-06-18",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-18-2202-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-18-2202-hermes-consolidated-insight/"
-    },
-    {
-      "slug": "research-2026-06-18-研究報告-speculative-execution-for-llm-agents-損失無-可調加速的最新方法-2025-10-至-2026-06",
-      "title": "研究報告：Speculative Execution for LLM Agents — 損失無／可調加速的最新方法（2025-10 至 2026-06）",
-      "type": "research",
-      "status": "seedling",
-      "tags": [
-        "research",
-        "knowledge",
-        "ai-agent"
-      ],
-      "created": "2026-06-18",
-      "updated": "2026-06-18",
-      "vault_path": "research/2026-06-18-研究報告-speculative-execution-for-llm-agents-損失無-可調加速的最新方法-2025-10-至-2026-06.md",
-      "url": "/notes/research-2026-06-18-研究報告-speculative-execution-for-llm-agents-損失無-可調加速的最新方法-2025-10-至-2026-06/"
     },
     {
       "slug": "research-2026-06-19-1500-hermes-consolidated-insight",
@@ -16225,7 +16654,7 @@
         "second-order"
       ],
       "created": "2026-06-19",
-      "updated": "2026-06-19",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-19-1500-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-19-1500-hermes-consolidated-insight/"
     },
@@ -16241,24 +16670,9 @@
         "meta-pipeline"
       ],
       "created": "2026-06-19",
-      "updated": "2026-06-19",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-19-1701-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-19-1701-hermes-consolidated-insight/"
-    },
-    {
-      "slug": "research-2026-06-19-研究報告-agent-memory-2026-從-flat-vector-store-到-programmable-memory-pipeline-governance",
-      "title": "研究報告：Agent Memory 2026 — 從「Flat Vector Store」到「Programmable Memory Pipeline + Governance」",
-      "type": "research",
-      "status": "seedling",
-      "tags": [
-        "research",
-        "knowledge",
-        "ai-agent"
-      ],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "vault_path": "research/2026-06-19-研究報告-agent-memory-2026-從-flat-vector-store-到-programmable-memory-pipeline-governance.md",
-      "url": "/notes/research-2026-06-19-研究報告-agent-memory-2026-從-flat-vector-store-到-programmable-memory-pipeline-governance/"
     },
     {
       "slug": "research-2026-06-20-0006-hermes-consolidated-insight",
@@ -16274,7 +16688,7 @@
         "cron-fix"
       ],
       "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-20-0006-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-0006-hermes-consolidated-insight/"
     },
@@ -16293,7 +16707,7 @@
         "saturation-confirmed"
       ],
       "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-20-0301-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-0301-hermes-consolidated-insight/"
     },
@@ -16308,7 +16722,7 @@
         "empty-batch"
       ],
       "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-20-0800-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-0800-hermes-consolidated-insight/"
     },
@@ -16325,7 +16739,7 @@
         "self-evolution"
       ],
       "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-20-0902-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-0902-hermes-consolidated-insight/"
     },
@@ -16341,7 +16755,7 @@
         "skip"
       ],
       "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-20-1001-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-1001-hermes-consolidated-insight/"
     },
@@ -16357,7 +16771,7 @@
         "saturation-confirmed"
       ],
       "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-20-1300-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-1300-hermes-consolidated-insight/"
     },
@@ -16371,7 +16785,7 @@
         "synthesis"
       ],
       "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-20-1501-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-1501-hermes-consolidated-insight/"
     },
@@ -16389,7 +16803,7 @@
         "skip"
       ],
       "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-20-1600-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-1600-hermes-consolidated-insight/"
     },
@@ -16405,7 +16819,7 @@
         "memory-architecture"
       ],
       "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-20-1801-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-1801-hermes-consolidated-insight/"
     },
@@ -16422,24 +16836,9 @@
         "valve-pattern"
       ],
       "created": "2026-06-20",
-      "updated": "2026-06-20",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-20-2200-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-20-2200-hermes-consolidated-insight/"
-    },
-    {
-      "slug": "research-2026-06-20-研究報告-dynamic-multi-agent-graph-topology-從靜態-role-編排到-input-conditioned-rl-evolved-的動態拓樸",
-      "title": "研究報告：Dynamic Multi-Agent Graph Topology — 從靜態 role 編排到 input-conditioned + RL-evolved 的動態拓樸",
-      "type": "research",
-      "status": "seedling",
-      "tags": [
-        "research",
-        "knowledge",
-        "ai-agent"
-      ],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "vault_path": "research/2026-06-20-研究報告-dynamic-multi-agent-graph-topology-從靜態-role-編排到-input-conditioned-rl-evolved-的動態拓樸.md",
-      "url": "/notes/research-2026-06-20-研究報告-dynamic-multi-agent-graph-topology-從靜態-role-編排到-input-conditioned-rl-evolved-的動態拓樸/"
     },
     {
       "slug": "research-2026-06-21-0002-hermes-consolidated-insight",
@@ -16453,7 +16852,7 @@
         "observability"
       ],
       "created": "2026-06-21",
-      "updated": "2026-06-21",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-21-0002-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-21-0002-hermes-consolidated-insight/"
     },
@@ -16470,7 +16869,7 @@
         "re-validation"
       ],
       "created": "2026-06-21",
-      "updated": "2026-06-21",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-21-0701-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-21-0701-hermes-consolidated-insight/"
     },
@@ -16486,7 +16885,7 @@
         "governance"
       ],
       "created": "2026-06-21",
-      "updated": "2026-06-21",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-21-1200-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-21-1200-hermes-consolidated-insight/"
     },
@@ -16504,7 +16903,7 @@
         "skip"
       ],
       "created": "2026-06-21",
-      "updated": "2026-06-21",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-21-1401-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-21-1401-hermes-consolidated-insight/"
     },
@@ -16521,7 +16920,7 @@
         "skip"
       ],
       "created": "2026-06-21",
-      "updated": "2026-06-21",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-21-1500-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-21-1500-hermes-consolidated-insight/"
     },
@@ -16536,7 +16935,7 @@
         "no-op"
       ],
       "created": "2026-06-22",
-      "updated": "2026-06-22",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-22-1702-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-22-1702-hermes-consolidated-insight/"
     },
@@ -16551,7 +16950,7 @@
         "no-op"
       ],
       "created": "2026-06-22",
-      "updated": "2026-06-22",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-22-2100-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-22-2100-hermes-consolidated-insight/"
     },
@@ -16569,24 +16968,9 @@
         "skip"
       ],
       "created": "2026-06-22",
-      "updated": "2026-06-22",
+      "updated": "2026-06-23",
       "vault_path": "research/2026-06-22-2317-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-22-2317-hermes-consolidated-insight/"
-    },
-    {
-      "slug": "research-2026-06-22-研究報告-agent-swarm-大規模輕量-agent-的-emergent-coordination",
-      "title": "研究報告：Agent Swarm — 大規模輕量 Agent 的 Emergent Coordination",
-      "type": "research",
-      "status": "seedling",
-      "tags": [
-        "research",
-        "knowledge",
-        "ai-agent"
-      ],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "vault_path": "research/2026-06-22-研究報告-agent-swarm-大規模輕量-agent-的-emergent-coordination.md",
-      "url": "/notes/research-2026-06-22-研究報告-agent-swarm-大規模輕量-agent-的-emergent-coordination/"
     },
     {
       "slug": "research-2026-06-23-0301-hermes-consolidated-insight",
@@ -16688,6 +17072,22 @@
       "updated": "2026-06-23",
       "vault_path": "research/2026-06-23-1401-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-23-1401-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-23-1600-hermes-consolidated-insight",
+      "title": "四套記憶架構收斂到同一個設計原語：Event-Triggered State Transition",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "agent-memory",
+        "drift-penalty"
+      ],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "research/2026-06-23-1600-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-23-1600-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
@@ -16816,8 +17216,8 @@
       "type": "pubmed",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-18",
-      "updated": "2026-06-18",
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
       "vault_path": "swimming/RAW/PMID-42013467-the-impact-of-aquatic-training-on-athletic-performance-and-p.md",
       "url": "/notes/swimming-RAW-PMID-42013467-the-impact-of-aquatic-training-on-athletic-performance-and-p/"
     },
@@ -16834,8 +17234,8 @@
     },
     {
       "slug": "swimming-RAW-PMID-42228958-multi-modal-aquatic-hexapods-use-hybrid-walking-swimming-gai",
-      "title": "PMID-42228958 — Multi-modal aquatic hexapods use hybrid walking-swimming gaits in shallow water.",
-      "type": "note",
+      "title": "Multi-modal aquatic hexapods use hybrid walking-swimming gaits in shallow water.",
+      "type": "pubmed",
       "status": "seedling",
       "tags": [],
       "created": "2026-06-23",
@@ -16867,12 +17267,12 @@
     },
     {
       "slug": "swimming-RAW-PMID-42276955-understanding-symptoms-of-swimming-induced-pulmonary-oedema-",
-      "title": "PMID-42276955 — Understanding symptoms of swimming-induced pulmonary oedema through the patient's perspective: a qualitative approach.",
-      "type": "note",
+      "title": "Understanding symptoms of swimming-induced pulmonary oedema through the patient's perspective: a qualitative approach.",
+      "type": "pubmed",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-18",
-      "updated": "2026-06-18",
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
       "vault_path": "swimming/RAW/PMID-42276955-understanding-symptoms-of-swimming-induced-pulmonary-oedema-.md",
       "url": "/notes/swimming-RAW-PMID-42276955-understanding-symptoms-of-swimming-induced-pulmonary-oedema-/"
     },

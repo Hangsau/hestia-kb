@@ -8,9 +8,9 @@ tags:
 - ai-agent-handbook
 - m7
 - agent
-created: ''
-updated: ''
+created: ' updated: '
 source: ai-agent-handbook
+updated: '2026-06-23'
 ---
 
 > **type="info" title="為什麼學這個？"**

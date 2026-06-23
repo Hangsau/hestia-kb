@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-06-08-Exploration--ECC-2-0-Agent-Harness---Hermes-Integration
 _vault_path: 40-Resources/_mixed/explorations/2026-06-08-Exploration--ECC-2-0-Agent-Harness---Hermes-Integration.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 19:\n    title: Exploration: ECC 2.0 Agent Harness + Hermes ... \n \
-  \                     ^"
-_raw_fm: '
-
-  title: Exploration: ECC 2.0 Agent Harness + Hermes Integration
-
-  date: 2026-06-08
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, architecture, ecc, external, first, github, harness, hermes,
-  migrate, skills]
-
-  created: 2026-06-08
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Exploration: ECC 2.0 Agent Harness + Hermes Integration'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-06-08
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- architecture
+- ecc
+- external
+- first
+- github
+- harness
+- hermes
+- migrate
+- skills
+created: '2026-06-08'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Exploration: ECC 2.0 Agent Harness + Hermes Integration

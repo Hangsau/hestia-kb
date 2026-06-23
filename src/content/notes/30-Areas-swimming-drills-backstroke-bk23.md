@@ -1,28 +1,12 @@
 ---
 _slug: 30-Areas-swimming-drills-backstroke-bk23
 _vault_path: 30-Areas/swimming/drills/backstroke/bk23.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 12:\n    title: Bk23: Spin\n               ^"
-_raw_fm: '
-
-  title: Bk23: Spin
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  type: swimming
-
-  tags: []
-
-  status: active
-
-  '
 title: 'Bk23: Spin'
-type: area
-status: seedling
-created: '2026-06-15'
+created: '2026-05-24'
 updated: '2026-06-15'
+type: swimming
+tags: []
+status: budding
 ---
 
 # Bk23: Spin

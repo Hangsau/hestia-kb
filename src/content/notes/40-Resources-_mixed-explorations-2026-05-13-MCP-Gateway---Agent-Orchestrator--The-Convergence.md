@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-13-MCP-Gateway---Agent-Orchestrator--The-Convergence
 _vault_path: 40-Resources/_mixed/explorations/2026-05-13-MCP-Gateway---Agent-Orchestrator--The-Convergence.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 40:\n     ... MCP Gateway × Agent Orchestrator: The Convergence\n  \
-  \                                       ^"
-_raw_fm: '
-
-  title: MCP Gateway × Agent Orchestrator: The Convergence
-
-  date: 2026-05-13
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, archestra, casdoor, contextforge, credential, gateway, hermes,
-  identity, mcp, orchestrator]
-
-  created: 2026-05-13
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'MCP Gateway × Agent Orchestrator: The Convergence'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-13
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- archestra
+- casdoor
+- contextforge
+- credential
+- gateway
+- hermes
+- identity
+- mcp
+- orchestrator
+created: '2026-05-13'
 updated: '2026-06-15'
+status: budding
 ---
 
 # MCP Gateway × Agent Orchestrator: The Convergence

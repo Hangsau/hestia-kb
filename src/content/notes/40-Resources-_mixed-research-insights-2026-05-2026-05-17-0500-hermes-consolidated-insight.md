@@ -1,33 +1,16 @@
 ---
 _slug: 40-Resources-_mixed-research-insights-2026-05-2026-05-17-0500-hermes-consolidated-insight
 _vault_path: 40-Resources/_mixed/research/insights/2026-05/2026-05-17-0500-hermes-consolidated-insight.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 6, column 35:\n    title: Hermes Knowledge Governance: Immutability Boundaries\
-  \ & Form ... \n                                      ^"
-_raw_fm: '
-
-  tags: [consolidation, synthesis]
-
-  source: 2026-05-17-wuphf-design-wiki-governance
-
-  created: 2026-05-17
-
-  confidence: medium
-
-  title: Hermes Knowledge Governance: Immutability Boundaries & Formal Promotion Triggers
-
-  updated: 2026-06-15
-
-  type: research
-
-  status: active
-
-  '
+tags:
+- consolidation
+- synthesis
+source: 2026-05-17-wuphf-design-wiki-governance
+created: '2026-05-17'
+confidence: medium
 title: 'Hermes Knowledge Governance: Immutability Boundaries & Formal Promotion Triggers'
-type: resource
-status: seedling
-created: '2026-06-15'
 updated: '2026-06-15'
+type: research
+status: budding
 ---
 
 # Hermes Knowledge Governance: Immutability Boundaries & Formal Promotion Triggers

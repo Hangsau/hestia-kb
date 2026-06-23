@@ -7,8 +7,8 @@ date: 2026-05-23
 weight: 1
 type: resource
 status: seedling
-created: '2026-06-17'
-updated: '2026-06-17'
+created: '2026-06-23'
+updated: '2026-06-23'
 ---
 
 # 2026-05-23 研究報告：從事實萃取到生成式記憶

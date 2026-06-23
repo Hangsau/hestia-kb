@@ -12,7 +12,7 @@ confidence: high
 title: 2026-06-09 記憶 × 治理探索群（re-run）：昨日 synthesis 仍然 valid，新增「metrics gap」觀察
 type: research
 status: seedling
-updated: '2026-06-21'
+updated: '2026-06-23'
 ---
 
 # 2026-06-09 記憶 × 治理探索群（re-run）：昨日 synthesis 仍然 valid，新增「metrics gap」觀察

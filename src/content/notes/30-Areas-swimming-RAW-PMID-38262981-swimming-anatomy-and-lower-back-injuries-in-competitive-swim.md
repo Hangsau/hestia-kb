@@ -1,16 +1,9 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-38262981-swimming-anatomy-and-lower-back-injuries-in-competitive-swim
 _vault_path: 30-Areas/swimming/RAW/PMID-38262981-swimming-anatomy-and-lower-back-injuries-in-competitive-swim.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 72:\n     ... Injuries in Competitive Swimmers: A Narrative        Review.\
-  \ PG  ... \n                                         ^"
-_raw_fm: '
-
-  uid: PMID-38262981
-
-  type: raw
-
-  title: Swimming Anatomy and Lower Back Injuries in Competitive Swimmers: A Narrative        Review.
+uid: PMID-38262981
+type: raw
+title: 'Swimming Anatomy and Lower Back Injuries in Competitive Swimmers: A Narrative        Review.
   PG  - 971-981 LID - 10.1177/19417381231225213 [doi] AB  - CONTEXT: Competitive swimmers
   are at high risk of overuse musculoskeletal        injuries due to their high training
   volumes. Spine injuries are the second most        common musculoskeletal injury
@@ -45,29 +38,16 @@ _raw_fm: '
   and assist in the development of a proper rehabilitation        program aimed at
   correction of any abnormal swimming mechanics, treatment of        pain, and future
   injury prevention. STRENGTH OF RECOMMENDATIONS: B.        Recommendation based on
-  limited quality or inconsistent patient-oriented        evidence.
-
-  date: 2026-05-29
-
-  pmid: 38262981
-
-  year: 2024
-
-  status: 🔴
-
-  source: PubMed
-
-  tags: [swimming, literature]
-
-  created: 2026-05-29
-
-  updated: 2026-06-15
-
-  '
-title: PMID-38262981-swimming-anatomy-and-lower-back-injuries-in-competitive-swim
-type: area
+  limited quality or inconsistent patient-oriented        evidence.'
+date: 2026-05-29
+pmid: 38262981
+year: 2024
 status: seedling
-created: '2026-06-15'
+source: PubMed
+tags:
+- swimming
+- literature
+created: '2026-05-29'
 updated: '2026-06-15'
 ---
 

@@ -8,7 +8,7 @@ authors: Seifert L, Delignieres D, Boulesteix L
 source: J Sports Sci
 date: 2007 Jan 15
 tag: butterfly_coord
-doi: null
+doi: 'null'
 created: '2026-05-24'
 updated: '2026-06-15'
 tags: []

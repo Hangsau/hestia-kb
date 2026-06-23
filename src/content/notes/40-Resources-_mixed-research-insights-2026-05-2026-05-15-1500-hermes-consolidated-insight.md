@@ -1,33 +1,16 @@
 ---
 _slug: 40-Resources-_mixed-research-insights-2026-05-2026-05-15-1500-hermes-consolidated-insight
 _vault_path: 40-Resources/_mixed/research/insights/2026-05/2026-05-15-1500-hermes-consolidated-insight.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 6, column 30:\n    title: Two Missing Primitives: Deterministic Layer + Runtime\
-  \  ... \n                                 ^"
-_raw_fm: '
-
-  tags: [consolidation, synthesis]
-
-  source: multi
-
-  created: 2026-05-15
-
-  confidence: medium
-
-  title: Two Missing Primitives: Deterministic Layer + Runtime Memory
-
-  updated: 2026-06-15
-
-  type: research
-
-  status: active
-
-  '
+tags:
+- consolidation
+- synthesis
+source: multi
+created: '2026-05-15'
+confidence: medium
 title: 'Two Missing Primitives: Deterministic Layer + Runtime Memory'
-type: resource
-status: seedling
-created: '2026-06-15'
 updated: '2026-06-15'
+type: research
+status: budding
 ---
 
 # Two Missing Primitives: Deterministic Layer + Runtime Memory

@@ -1,40 +1,24 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-42150378-breaststroke-kick-intensity
 _vault_path: 30-Areas/swimming/RAW/PMID-42150378-breaststroke-kick-intensity.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 132:\n     ...  in national-level male swimmers: A discrete variable\
-  \ and time-s ... \n                                         ^"
-_raw_fm: '
-
-  uid: PMID-42150378
-
-  type: research-article
-
-  title: Impact of swimming intensity on spatiotemporal kinematics of lower-limb breaststroke
-  actions in national-level male swimmers: A discrete variable and time-series analysis.
-
-  authors: Gourgoulis V, Nikodelis T, Gketzenis P, Kasimatis P, Bekiaris A, Koulexidis
+uid: PMID-42150378
+type: research-article
+title: 'Impact of swimming intensity on spatiotemporal kinematics of lower-limb breaststroke
+  actions in national-level male swimmers: A discrete variable and time-series analysis.'
+authors: Gourgoulis V, Nikodelis T, Gketzenis P, Kasimatis P, Bekiaris A, Koulexidis
   S
-
-  journal: J Biomech
-
-  date: 2026-05-14
-
-  pmid: 42150378
-
-  status: ✅ abstract only
-
-  tags: [swimming, breaststroke, kinematics, kick, intensity, time-series]
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  '
-title: PMID-42150378-breaststroke-kick-intensity
-type: area
+journal: J Biomech
+date: 2026-05-14
+pmid: 42150378
 status: seedling
-created: '2026-06-15'
+tags:
+- swimming
+- breaststroke
+- kinematics
+- kick
+- intensity
+- time-series
+created: '2026-05-24'
 updated: '2026-06-15'
 ---
 

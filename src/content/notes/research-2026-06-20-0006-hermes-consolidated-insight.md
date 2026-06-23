@@ -15,7 +15,7 @@ title: 2026-06-20 00:06 Consolidation Run：第 11 次空跑，yield 預測 0/6 
   論文 × 2026-06-19 外部研究報告）
 type: research
 status: seedling
-updated: '2026-06-20'
+updated: '2026-06-23'
 ---
 
 # 2026-06-20 00:06 Consolidation Run：第 11 次空跑，yield 預測 0/6 兌現；附第二序 cross-cutting（4 論文 × 2026-06-19 外部研究報告）

@@ -14,7 +14,7 @@ title: 2026 記憶+執行系統的雙治理收斂：Memory Governance 與 Execut
   valve pattern
 type: research
 status: seedling
-updated: '2026-06-20'
+updated: '2026-06-23'
 ---
 
 # 2026 記憶+執行系統的雙治理收斂：Memory Governance 與 Execution Governance 仍被當兩個獨立系統發展 — 但兩者本質上是同一個 valve pattern

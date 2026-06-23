@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-13-Agent-Orchestrator--The-CI-Feedback-Loop-Pattern-Hermes-Does
 _vault_path: 40-Resources/_mixed/explorations/2026-05-13-Agent-Orchestrator--The-CI-Feedback-Loop-Pattern-Hermes-Does.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 26:\n    title: Agent Orchestrator: The CI-Feedback-Loop Pattern H ...\
-  \ \n                             ^"
-_raw_fm: '
-
-  title: Agent Orchestrator: The CI-Feedback-Loop Pattern Hermes Doesn''t Have Yet
-
-  date: 2026-05-13
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, agents, claude, code, hermes, isolation, orchestrator, pattern,
-  runtime, worktree]
-
-  created: 2026-05-13
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
-title: 'Agent Orchestrator: The CI-Feedback-Loop Pattern Hermes Doesn''t Have Yet'
-type: resource
-status: seedling
-created: '2026-06-15'
+title: 'Agent Orchestrator: The CI-Feedback-Loop Pattern Hermes Doesn\"\"t Have Yet'
+date: 2026-05-13
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- agents
+- claude
+- code
+- hermes
+- isolation
+- orchestrator
+- pattern
+- runtime
+- worktree
+created: '2026-05-13'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Agent Orchestrator: The CI-Feedback-Loop Pattern Hermes Doesn't Have Yet

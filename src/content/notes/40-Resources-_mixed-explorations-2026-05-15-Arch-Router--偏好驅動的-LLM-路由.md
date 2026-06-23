@@ -1,32 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-15-Arch-Router--偏好驅動的-LLM-路由
 _vault_path: 40-Resources/_mixed/explorations/2026-05-15-Arch-Router--偏好驅動的-LLM-路由.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 19:\n    title: Arch-Router: 偏好驅動的 LLM 路由\n                      ^"
-_raw_fm: '
-
-  title: Arch-Router: 偏好驅動的 LLM 路由
-
-  date: 2026-05-15
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, arch, gateway, hermes, llm, model, plano, proxy, router, routing]
-
-  created: 2026-05-15
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Arch-Router: 偏好驅動的 LLM 路由'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-15
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- arch
+- gateway
+- hermes
+- llm
+- model
+- plano
+- proxy
+- router
+- routing
+created: '2026-05-15'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Arch-Router: 偏好驅動的 LLM 路由

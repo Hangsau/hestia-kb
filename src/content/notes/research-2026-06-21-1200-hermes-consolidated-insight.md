@@ -12,7 +12,7 @@ confidence: high
 title: Agent Memory 收斂的四個獨立軸：Consolidation 觸發 × 架構分離 × Token 預算 × 自我演化閉環
 type: research
 status: seedling
-updated: '2026-06-21'
+updated: '2026-06-23'
 ---
 
 # Agent Memory 收斂的四個獨立軸：Consolidation 觸發 × 架構分離 × Token 預算 × 自我演化閉環

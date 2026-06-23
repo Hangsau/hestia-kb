@@ -1,28 +1,12 @@
 ---
 _slug: 30-Areas-swimming-drills-freestyle-fr21
 _vault_path: 30-Areas/swimming/drills/freestyle/fr21.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 12:\n    title: Fr21: Quiet Hand Entry\n               ^"
-_raw_fm: '
-
-  title: Fr21: Quiet Hand Entry
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  type: swimming
-
-  tags: []
-
-  status: active
-
-  '
 title: 'Fr21: Quiet Hand Entry'
-type: area
-status: seedling
-created: '2026-06-15'
+created: '2026-05-24'
 updated: '2026-06-15'
+type: swimming
+tags: []
+status: budding
 ---
 
 # Fr21: Quiet Hand Entry

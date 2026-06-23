@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-13-MCP-Gateways--The-Missing-Infrastructure-Layer
 _vault_path: 40-Resources/_mixed/explorations/2026-05-13-MCP-Gateways--The-Missing-Infrastructure-Layer.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 20:\n    title: MCP Gateways: The Missing Infrastructure Layer\n   \
-  \                    ^"
-_raw_fm: '
-
-  title: MCP Gateways: The Missing Infrastructure Layer
-
-  date: 2026-05-13
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, agents, api, gateway, gateways, hermes, layer, mcp, servers,
-  tool]
-
-  created: 2026-05-13
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'MCP Gateways: The Missing Infrastructure Layer'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-13
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- agents
+- api
+- gateway
+- gateways
+- hermes
+- layer
+- mcp
+- servers
+- tool
+created: '2026-05-13'
 updated: '2026-06-15'
+status: budding
 ---
 
 # MCP Gateways: The Missing Infrastructure Layer

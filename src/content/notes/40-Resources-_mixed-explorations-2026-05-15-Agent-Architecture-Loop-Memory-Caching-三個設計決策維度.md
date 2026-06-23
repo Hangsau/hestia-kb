@@ -1,31 +1,17 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-15-Agent-Architecture-Loop-Memory-Caching-三個設計決策維度
 _vault_path: 40-Resources/_mixed/explorations/2026-05-15-Agent-Architecture-Loop-Memory-Caching-三個設計決策維度.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 5, column 26:\n    title: Agent Architecture: Loop, Memory, Caching — 三個設計決策維度\n\
-  \                             ^"
-_raw_fm: '
-
-  tags: [agent-architecture, memory-design, prompt-caching, tool-use]
-
-  source: autonomous-notes
-
-  created: 2026-05-15
-
-  title: Agent Architecture: Loop, Memory, Caching — 三個設計決策維度
-
-  updated: 2026-06-15
-
-  type: exploration
-
-  status: active
-
-  '
+tags:
+- agent-architecture
+- memory-design
+- prompt-caching
+- tool-use
+source: autonomous-notes
+created: '2026-05-15'
 title: 'Agent Architecture: Loop, Memory, Caching — 三個設計決策維度'
-type: resource
-status: seedling
-created: '2026-06-15'
 updated: '2026-06-15'
+type: exploration
+status: budding
 ---
 
 # Agent Architecture: Loop, Memory, Caching — 三個設計決策維度

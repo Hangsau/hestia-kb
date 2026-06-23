@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-31-Exploration--Mnemonic-Sovereignty---arxiv-2604-16548v1
 _vault_path: 40-Resources/_mixed/explorations/2026-05-31-Exploration--Mnemonic-Sovereignty---arxiv-2604-16548v1.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 19:\n    title: Exploration: Mnemonic Sovereignty — arxiv:2 ... \n \
-  \                     ^"
-_raw_fm: '
-
-  title: Exploration: Mnemonic Sovereignty — arxiv:2604.16548v1
-
-  date: 2026-05-31
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, arxiv, gate, governance, https, llm, memory, org, section,
-  write]
-
-  created: 2026-05-31
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Exploration: Mnemonic Sovereignty — arxiv:2604.16548v1'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-31
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- arxiv
+- gate
+- governance
+- https
+- llm
+- memory
+- org
+- section
+- write
+created: '2026-05-31'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Exploration: Mnemonic Sovereignty — arxiv:2604.16548v1

@@ -1,42 +1,19 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-34878366-breaststroke_pullout
 _vault_path: 30-Areas/swimming/RAW/PMID-34878366-breaststroke_pullout.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 9, column 9:\n    doi: doi: 10.1080/02640414.2021.1950446\n            ^"
-_raw_fm: '
-
-  type: raw
-
-  pmid: 34878366
-
-  title: Arm - Leg coordination profiling during the dolphin kick and the arm pull-out
-  in elite breaststrokers.
-
-  authors: Seifert L, Conceição A, Gonjo T
-
-  source: J Sports Sci
-
-  date: 2021 Dec
-
-  tag: breaststroke_pullout
-
-  doi: doi: 10.1080/02640414.2021.1950446
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  tags: []
-
-  status: active
-
-  '
+type: raw
+pmid: 34878366
 title: Arm - Leg coordination profiling during the dolphin kick and the arm pull-out
   in elite breaststrokers.
-type: area
-status: seedling
-created: '2026-06-15'
+authors: Seifert L, Conceição A, Gonjo T
+source: J Sports Sci
+date: 2021 Dec
+tag: breaststroke_pullout
+doi: 'doi: 10.1080/02640414.2021.1950446'
+created: '2026-05-24'
 updated: '2026-06-15'
+tags: []
+status: budding
 ---
 
 # Arm - Leg coordination profiling during the dolphin kick and the arm pull-out in elite breaststrokers.

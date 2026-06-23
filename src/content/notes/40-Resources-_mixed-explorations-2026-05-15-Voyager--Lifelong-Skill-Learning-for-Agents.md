@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-15-Voyager--Lifelong-Skill-Learning-for-Agents
 _vault_path: 40-Resources/_mixed/explorations/2026-05-15-Voyager--Lifelong-Skill-Learning-for-Agents.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 15:\n    title: Voyager: Lifelong Skill Learning for Agents\n      \
-  \            ^"
-_raw_fm: '
-
-  title: Voyager: Lifelong Skill Learning for Agents
-
-  date: 2026-05-15
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [action, agent, code, curriculum, embedding, hermes, llm, skill, skills,
-  voyager]
-
-  created: 2026-05-15
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Voyager: Lifelong Skill Learning for Agents'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-15
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- action
+- agent
+- code
+- curriculum
+- embedding
+- hermes
+- llm
+- skill
+- skills
+- voyager
+created: '2026-05-15'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Voyager: Lifelong Skill Learning for Agents

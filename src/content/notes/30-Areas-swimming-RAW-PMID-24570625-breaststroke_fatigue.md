@@ -8,7 +8,7 @@ authors: Conceição A, Silva AJ, Barbosa T
 source: J Sports Sci Med
 date: 2014 Jan
 tag: breaststroke_fatigue
-doi: null
+doi: 'null'
 created: '2026-05-24'
 updated: '2026-06-15'
 tags: []

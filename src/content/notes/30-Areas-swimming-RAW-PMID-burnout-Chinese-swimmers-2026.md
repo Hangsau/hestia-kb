@@ -1,40 +1,24 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-burnout-Chinese-swimmers-2026
 _vault_path: 30-Areas/swimming/RAW/PMID-burnout-Chinese-swimmers-2026.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 161:\n     ...  in Chinese competitive swimmers: a cross-sectional study\n\
-  \                                         ^"
-_raw_fm: '
-
-  uid: PMID-burnout-Chinese-swimmers-2026
-
-  type: research-article
-
-  title: The relationship between diet, sleep, screen time, stress coping strategies
+uid: PMID-burnout-Chinese-swimmers-2026
+type: research-article
+title: 'The relationship between diet, sleep, screen time, stress coping strategies
   with psychological strain and athlete burnout in Chinese competitive swimmers: a
-  cross-sectional study
-
-  authors: Yan Z, Guo Y, Wang L
-
-  journal: BMC Sports Science, Medicine and Rehabilitation
-
-  date: 2026-05
-
-  pmid: 42067892
-
-  status: ✅ abstract only
-
-  tags: [swimming, burnout, psychology, sleep, diet, stress]
-
-  created: 2026-05-23
-
-  updated: 2026-06-15
-
-  '
-title: PMID-burnout-Chinese-swimmers-2026
-type: area
+  cross-sectional study'
+authors: Yan Z, Guo Y, Wang L
+journal: BMC Sports Science, Medicine and Rehabilitation
+date: 2026-05
+pmid: 42067892
 status: seedling
-created: '2026-06-15'
+tags:
+- swimming
+- burnout
+- psychology
+- sleep
+- diet
+- stress
+created: '2026-05-23'
 updated: '2026-06-15'
 ---
 

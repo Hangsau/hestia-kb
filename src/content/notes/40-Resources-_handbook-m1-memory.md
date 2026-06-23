@@ -8,9 +8,9 @@ tags:
 - ai-agent-handbook
 - m1
 - agent
-created: ''
-updated: ''
+created: ' updated: '
 source: ai-agent-handbook
+updated: '2026-06-23'
 ---
 
 # M1 — 我怎麼記得以前學到的事

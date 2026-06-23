@@ -9,7 +9,7 @@ authors: Seifert L, Boulesteix L, Chollet D
 source: Hum Mov Sci
 date: 2008 Feb
 tag: butterfly_coord
-doi: null
+doi: 'null'
 created: '2026-05-24'
 updated: '2026-06-15'
 tags: []

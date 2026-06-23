@@ -13,7 +13,7 @@ confidence: high
 title: Drift Detection 真正缺口：Reader-Writer Closed-Loop 與四信號 Staleness Ensemble
 type: research
 status: seedling
-updated: '2026-06-16'
+updated: '2026-06-23'
 ---
 
 # Drift Detection 真正缺口：Reader-Writer Closed-Loop 與四信號 Staleness Ensemble

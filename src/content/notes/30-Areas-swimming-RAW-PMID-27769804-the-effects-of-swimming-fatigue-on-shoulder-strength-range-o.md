@@ -1,16 +1,9 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-27769804-the-effects-of-swimming-fatigue-on-shoulder-strength-range-o
 _vault_path: 30-Areas/swimming/RAW/PMID-27769804-the-effects-of-swimming-fatigue-on-shoulder-strength-range-o.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 230:\n     ... .2016.08.011 [doi] AB  - PURPOSE: To investigate the\
-  \ effects of  ... \n                                         ^"
-_raw_fm: '
-
-  uid: PMID-27769804
-
-  type: raw
-
-  title: The effects of swimming fatigue on shoulder strength, range of motion, joint        control,
+uid: PMID-27769804
+type: raw
+title: 'The effects of swimming fatigue on shoulder strength, range of motion, joint        control,
   and performance in swimmers. PG  - 118-122 LID - S1466-853X(16)30090-6 [pii] LID
   - 10.1016/j.ptsp.2016.08.011 [doi] AB  - PURPOSE: To investigate the effects of
   training induced fatigue on shoulder        strength, ROM, joint position sense,
@@ -29,29 +22,16 @@ _raw_fm: '
   range and joint position sense was observed in the dominant arm when        fatigued.
   This has highlighted a relationship between fatigue and potential        mechanism
   of shoulder pathology in swimmers. CI  - Copyright (c) 2016 Elsevier Ltd. All rights
-  reserved.
-
-  date: 2026-05-29
-
-  pmid: 27769804
-
-  year: 2017
-
-  status: ✅ (integrated 2026-05-31)
-
-  source: PubMed
-
-  tags: [swimming, literature]
-
-  created: 2026-05-29
-
-  updated: 2026-06-15
-
-  '
-title: PMID-27769804-the-effects-of-swimming-fatigue-on-shoulder-strength-range-o
-type: area
+  reserved.'
+date: 2026-05-29
+pmid: 27769804
+year: 2017
 status: seedling
-created: '2026-06-15'
+source: PubMed
+tags:
+- swimming
+- literature
+created: '2026-05-29'
 updated: '2026-06-15'
 ---
 

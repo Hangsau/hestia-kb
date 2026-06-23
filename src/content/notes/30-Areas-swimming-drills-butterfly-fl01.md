@@ -1,28 +1,12 @@
 ---
 _slug: 30-Areas-swimming-drills-butterfly-fl01
 _vault_path: 30-Areas/swimming/drills/butterfly/fl01.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 12:\n    title: Fl01: Chest Press\n               ^"
-_raw_fm: '
-
-  title: Fl01: Chest Press
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  type: swimming
-
-  tags: []
-
-  status: active
-
-  '
 title: 'Fl01: Chest Press'
-type: area
-status: seedling
-created: '2026-06-15'
+created: '2026-05-24'
 updated: '2026-06-15'
+type: swimming
+tags: []
+status: budding
 ---
 
 # Fl01: Chest Press

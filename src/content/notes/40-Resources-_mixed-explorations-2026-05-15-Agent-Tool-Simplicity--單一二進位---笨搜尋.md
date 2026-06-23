@@ -1,33 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-15-Agent-Tool-Simplicity--單一二進位---笨搜尋
 _vault_path: 40-Resources/_mixed/explorations/2026-05-15-Agent-Tool-Simplicity--單一二進位---笨搜尋.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 29:\n    title: Agent Tool Simplicity: 單一二進位 × 笨搜尋\n               \
-  \                 ^"
-_raw_fm: '
-
-  title: Agent Tool Simplicity: 單一二進位 × 笨搜尋
-
-  date: 2026-05-15
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, antfly, api, binary, doug, gateway, mcp, query, search, tool]
-
-  created: 2026-05-15
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Agent Tool Simplicity: 單一二進位 × 笨搜尋'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-15
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- antfly
+- api
+- binary
+- doug
+- gateway
+- mcp
+- query
+- search
+- tool
+created: '2026-05-15'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Agent Tool Simplicity: 單一二進位 × 笨搜尋

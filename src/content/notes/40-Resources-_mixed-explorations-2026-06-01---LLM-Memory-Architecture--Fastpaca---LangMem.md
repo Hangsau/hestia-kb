@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-06-01---LLM-Memory-Architecture--Fastpaca---LangMem
 _vault_path: 40-Resources/_mixed/explorations/2026-06-01---LLM-Memory-Architecture--Fastpaca---LangMem.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 44:\n     ... -06-01 — LLM Memory Architecture: Fastpaca + LangMem\n\
-  \                                         ^"
-_raw_fm: '
-
-  title: 2026-06-01 — LLM Memory Architecture: Fastpaca + LangMem
-
-  date: 2026-06-01
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, background, facts, langmem, memory, semantic, staleness, tool,
-  user, working]
-
-  created: 2026-06-01
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: '2026-06-01 — LLM Memory Architecture: Fastpaca + LangMem'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-06-01
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- background
+- facts
+- langmem
+- memory
+- semantic
+- staleness
+- tool
+- user
+- working
+created: '2026-06-01'
 updated: '2026-06-15'
+status: budding
 ---
 
 # 2026-06-01 — LLM Memory Architecture: Fastpaca + LangMem

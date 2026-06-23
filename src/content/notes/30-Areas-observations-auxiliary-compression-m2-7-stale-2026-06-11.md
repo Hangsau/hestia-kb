@@ -1,43 +1,28 @@
 ---
 _slug: 30-Areas-observations-auxiliary-compression-m2-7-stale-2026-06-11
 _vault_path: 30-Areas/observations/auxiliary-compression-m2-7-stale-2026-06-11.md
-_parse_error: "while scanning for the next token\nfound character '`' that cannot\
-  \ start any token\n  in \"<unicode string>\", line 9, column 8:\n    title: `auxiliary.*`\
-  \ config block — sta ... \n           ^"
-_raw_fm: '
-
-  type: observation
-
-  tags: [config-mismatch, hermes-ops, model-naming, delegation-pattern, hestia, post-rebirth,
-  12:00-cycle]
-
-  date: 2026-06-11
-
-  cycle: context-distiller (12:00)
-
-  source_session: session_20260611_063957_1aa5ef15 (06:39 Telegram DM, file mtime
-  11:47:08, last block 11:41–11:47)
-
-  follows_from: [agents-md-stratification-2026-06-11-0639]
-
-  related: [hermes-rebirth-2026-06-10]
-
-  title: `auxiliary.*` config block — stale `MiniMax-M2.7` model name across 4 sibling
-  blocks
-
-  created: 2026-06-11
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
+type: observation
+tags:
+- config-mismatch
+- hermes-ops
+- model-naming
+- delegation-pattern
+- hestia
+- post-rebirth
+- 12:00-cycle
+date: 2026-06-11
+cycle: context-distiller (12:00)
+source_session: session_20260611_063957_1aa5ef15 (06:39 Telegram DM, file mtime 11:47:08,
+  last block 11:41–11:47)
+follows_from:
+- agents-md-stratification-2026-06-11-0639
+related:
+- hermes-rebirth-2026-06-10
 title: '`auxiliary.*` config block — stale `MiniMax-M2.7` model name across 4 sibling
   blocks'
-type: area
-status: seedling
-created: '2026-06-15'
+created: '2026-06-11'
 updated: '2026-06-15'
+status: budding
 ---
 
 # `auxiliary.*` config block — stale `MiniMax-M2.7` model name across 4 sibling blocks

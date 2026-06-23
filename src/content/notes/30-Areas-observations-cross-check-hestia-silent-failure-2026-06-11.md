@@ -1,37 +1,22 @@
 ---
 _slug: 30-Areas-observations-cross-check-hestia-silent-failure-2026-06-11
 _vault_path: 30-Areas/observations/cross-check-hestia-silent-failure-2026-06-11.md
-_parse_error: "while scanning for the next token\nfound character '`' that cannot\
-  \ start any token\n  in \"<unicode string>\", line 8, column 8:\n    title: `cross-check-hestia`\
-  \ cron — thir ... \n           ^"
-_raw_fm: '
-
-  type: observation
-
-  tags: [cron, silent-failure, hermes-ops, hestia]
-
-  date: 2026-06-11
-
-  cycle: context-distiller (04:00)
-
-  source_session: session_20260611_012343_e7fa52
-
-  related: [silent-failure-class-2026-06-08, hc-22-architecture]
-
-  title: `cross-check-hestia` cron — third silent-failure instance of the same class
-
-  created: 2026-06-11
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
+type: observation
+tags:
+- cron
+- silent-failure
+- hermes-ops
+- hestia
+date: 2026-06-11
+cycle: context-distiller (04:00)
+source_session: session_20260611_012343_e7fa52
+related:
+- silent-failure-class-2026-06-08
+- hc-22-architecture
 title: '`cross-check-hestia` cron — third silent-failure instance of the same class'
-type: area
-status: seedling
-created: '2026-06-15'
+created: '2026-06-11'
 updated: '2026-06-15'
+status: budding
 ---
 
 # `cross-check-hestia` cron — third silent-failure instance of the same class

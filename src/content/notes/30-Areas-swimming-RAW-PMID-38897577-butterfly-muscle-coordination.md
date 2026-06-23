@@ -1,19 +1,23 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-38897577-butterfly-muscle-coordination
 _vault_path: 30-Areas/swimming/RAW/PMID-38897577-butterfly-muscle-coordination.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 68:\n     ... aximal Butterfly Stroke Swimming: Comparison Between Competitive\
-  \ ... \n                                         ^"
-_raw_fm: "\nstatus: \U0001F7E2\npmid: 38897577\ntitle: Muscle Coordination During\
-  \ Maximal Butterfly Stroke Swimming: Comparison Between Competitive and Recreational\
-  \ Swimmers\ntitle_cn: \ntype: primary-research\ndate: 2024-07\nsource: PubMed\n\
-  stroke: butterfly\nsubtopic: muscle-coordination, muscle-synergy, competitive-vs-recreational\n\
-  tags: [butterfly, muscle-coordination, synergy, competitive, recreational]\ncreated:\
-  \ 2026-05-24\nupdated: 2026-06-15\n"
-title: PMID-38897577-butterfly-muscle-coordination
-type: area
 status: seedling
-created: '2026-06-15'
+pmid: 38897577
+title: 'Muscle Coordination During Maximal Butterfly Stroke Swimming: Comparison Between
+  Competitive and Recreational Swimmers'
+title_cn: null
+type: primary-research
+date: 2024-07
+source: PubMed
+stroke: butterfly
+subtopic: muscle-coordination, muscle-synergy, competitive-vs-recreational
+tags:
+- butterfly
+- muscle-coordination
+- synergy
+- competitive
+- recreational
+created: '2026-05-24'
 updated: '2026-06-15'
 ---
 

@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-06-01-Agent-Memory--An-Anatomy---2026-06-01
 _vault_path: 40-Resources/_mixed/explorations/2026-06-01-Agent-Memory--An-Anatomy---2026-06-01.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 20:\n    title: Agent Memory: An Anatomy — 2026-06-01\n            \
-  \           ^"
-_raw_fm: '
-
-  title: Agent Memory: An Anatomy — 2026-06-01
-
-  date: 2026-06-01
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, com, consolidation, eviction, llm, memory, procedural, prospective,
-  retrieval, semantic]
-
-  created: 2026-06-01
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Agent Memory: An Anatomy — 2026-06-01'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-06-01
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- com
+- consolidation
+- eviction
+- llm
+- memory
+- procedural
+- prospective
+- retrieval
+- semantic
+created: '2026-06-01'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Agent Memory: An Anatomy — 2026-06-01

@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-13-Agent-Evaluation--What-Hermes-Can-Steal-from-Google-ADK
 _vault_path: 40-Resources/_mixed/explorations/2026-05-13-Agent-Evaluation--What-Hermes-Can-Steal-from-Google-ADK.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 24:\n    title: Agent Evaluation: What Hermes Can Steal from Goo ...\
-  \ \n                           ^"
-_raw_fm: '
-
-  title: Agent Evaluation: What Hermes Can Steal from Google ADK
-
-  date: 2026-05-13
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [adk, agent, disk, eval, expected, google, heartbeat, hermes, mem,
-  stuck]
-
-  created: 2026-05-13
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Agent Evaluation: What Hermes Can Steal from Google ADK'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-13
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- adk
+- agent
+- disk
+- eval
+- expected
+- google
+- heartbeat
+- hermes
+- mem
+- stuck
+created: '2026-05-13'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Agent Evaluation: What Hermes Can Steal from Google ADK

@@ -1,33 +1,17 @@
 ---
 _slug: 40-Resources-_mixed-research-2026-06-14-0601-hermes-consolidated-insight
 _vault_path: 40-Resources/_mixed/research/2026-06-14-0601-hermes-consolidated-insight.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 6, column 38:\n     ... : 2026-06-14 06:01 — Empty batch: 無新筆記可消化\n          \
-  \                               ^"
-_raw_fm: '
-
-  tags: [consolidation, synthesis, no-input]
-
-  source: cron-empty-batch
-
-  created: 2026-06-14
-
-  confidence: high
-
-  title: 2026-06-14 06:01 — Empty batch: 無新筆記可消化
-
-  updated: 2026-06-15
-
-  type: research
-
-  status: active
-
-  '
+tags:
+- consolidation
+- synthesis
+- no-input
+source: cron-empty-batch
+created: '2026-06-14'
+confidence: high
 title: '2026-06-14 06:01 — Empty batch: 無新筆記可消化'
-type: resource
-status: seedling
-created: '2026-06-15'
 updated: '2026-06-15'
+type: research
+status: budding
 ---
 
 # 2026-06-14 06:01 — Empty batch: 無新筆記可消化

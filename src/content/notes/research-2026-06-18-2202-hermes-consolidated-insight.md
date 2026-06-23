@@ -14,7 +14,7 @@ title: 2026-06-18 22:02 Consolidation Run：第 8 次空跑，唯一增量是識
   boundary」與前 7 份 no-op 的同構
 type: research
 status: seedling
-updated: '2026-06-18'
+updated: '2026-06-23'
 ---
 
 # 2026-06-18 22:02 Consolidation Run：第 8 次空跑，唯一增量是識別「consolidation as decision boundary」與前 7 份 no-op 的同構

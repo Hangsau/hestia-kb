@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-06-01-Agent-Memory-Systems--8-Architecture-Source-Level-Analysis
 _vault_path: 40-Resources/_mixed/explorations/2026-06-01-Agent-Memory-Systems--8-Architecture-Source-Level-Analysis.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 28:\n    title: Agent Memory Systems: 8-Architecture Source-Level An\
-  \ ... \n                               ^"
-_raw_fm: '
-
-  title: Agent Memory Systems: 8-Architecture Source-Level Analysis
-
-  date: 2026-06-01
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, cognee, hyperspell, letta, mem, memory, source, synix, tacnode,
-  temporal]
-
-  created: 2026-06-01
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Agent Memory Systems: 8-Architecture Source-Level Analysis'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-06-01
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- cognee
+- hyperspell
+- letta
+- mem
+- memory
+- source
+- synix
+- tacnode
+- temporal
+created: '2026-06-01'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Agent Memory Systems: 8-Architecture Source-Level Analysis

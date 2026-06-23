@@ -1,33 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-15-mcpc--MCP-CLI---Token-Isolating-Proxy---三個-Hermes-可以直接借鏡的設計
 _vault_path: 40-Resources/_mixed/explorations/2026-05-15-mcpc--MCP-CLI---Token-Isolating-Proxy---三個-Hermes-可以直接借鏡的設計.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 12:\n    title: mcpc: MCP CLI × Token-Isolating Prox ... \n        \
-  \       ^"
-_raw_fm: '
-
-  title: mcpc: MCP CLI × Token-Isolating Proxy — 三個 Hermes 可以直接借鏡的設計
-
-  date: 2026-05-15
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, apify, cli, hermes, mcp, mcpc, proxy, server, token, tools]
-
-  created: 2026-05-15
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'mcpc: MCP CLI × Token-Isolating Proxy — 三個 Hermes 可以直接借鏡的設計'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-15
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- apify
+- cli
+- hermes
+- mcp
+- mcpc
+- proxy
+- server
+- token
+- tools
+created: '2026-05-15'
 updated: '2026-06-15'
+status: budding
 ---
 
 # mcpc: MCP CLI × Token-Isolating Proxy — 三個 Hermes 可以直接借鏡的設計

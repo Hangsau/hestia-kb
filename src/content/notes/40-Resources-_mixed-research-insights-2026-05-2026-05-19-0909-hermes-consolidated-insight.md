@@ -1,33 +1,16 @@
 ---
 _slug: 40-Resources-_mixed-research-insights-2026-05-2026-05-19-0909-hermes-consolidated-insight
 _vault_path: 40-Resources/_mixed/research/insights/2026-05/2026-05-19-0909-hermes-consolidated-insight.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 6, column 30:\n    title: Cross-Cutting Insights: Governance Layers + Memory Gra\
-  \ ... \n                                 ^"
-_raw_fm: '
-
-  tags: [consolidation, synthesis]
-
-  source: multi
-
-  created: 2026-05-19
-
-  confidence: high
-
-  title: Cross-Cutting Insights: Governance Layers + Memory Graduation Pipeline
-
-  updated: 2026-06-15
-
-  type: research
-
-  status: active
-
-  '
+tags:
+- consolidation
+- synthesis
+source: multi
+created: '2026-05-19'
+confidence: high
 title: 'Cross-Cutting Insights: Governance Layers + Memory Graduation Pipeline'
-type: resource
-status: seedling
-created: '2026-06-15'
 updated: '2026-06-15'
+type: research
+status: budding
 ---
 
 # Cross-Cutting Insights: Governance Layers + Memory Graduation Pipeline

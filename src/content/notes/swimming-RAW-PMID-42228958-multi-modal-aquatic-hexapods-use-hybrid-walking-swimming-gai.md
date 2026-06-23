@@ -1,16 +1,17 @@
 ---
 _slug: swimming-RAW-PMID-42228958-multi-modal-aquatic-hexapods-use-hybrid-walking-swimming-gai
 _vault_path: swimming/RAW/PMID-42228958-multi-modal-aquatic-hexapods-use-hybrid-walking-swimming-gai.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 6, column 9:\n    doi: pii: icag060. 10.1093/icb/icag060\n            ^"
-_raw_fm: "\ndate: 2026-06-23\ntype: pubmed\npmid: 42228958\npmcid: \ndoi: pii: icag060.\
-  \ 10.1093/icb/icag060\njournal: Integr Comp Biol\npub_date: 2026 Jun 2\nrelevance_score:\
-  \ 5\nstatus: \U0001F534\nauthors: Tikader SS, Handwork AM, Byron ML\ntitle: \"Multi-modal\
-  \ aquatic hexapods use hybrid walking-swimming gaits in shallow water.\"\n"
-title: PMID-42228958 — Multi-modal aquatic hexapods use hybrid walking-swimming gaits
-  in shallow water.
-type: note
+date: 2026-06-23
+type: pubmed
+pmid: 42228958
+pmcid: null
+doi: 'pii: icag060. 10.1093/icb/icag060'
+journal: Integr Comp Biol
+pub_date: 2026 Jun 2
+relevance_score: 5
 status: seedling
+authors: Tikader SS, Handwork AM, Byron ML
+title: Multi-modal aquatic hexapods use hybrid walking-swimming gaits in shallow water.
 created: '2026-06-23'
 updated: '2026-06-23'
 ---

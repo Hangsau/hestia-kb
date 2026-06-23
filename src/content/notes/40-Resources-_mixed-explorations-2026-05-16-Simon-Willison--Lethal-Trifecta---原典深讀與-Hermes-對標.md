@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-16-Simon-Willison--Lethal-Trifecta---原典深讀與-Hermes-對標
 _vault_path: 40-Resources/_mixed/explorations/2026-05-16-Simon-Willison--Lethal-Trifecta---原典深讀與-Hermes-對標.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 22:\n    title: Simon Willison: Lethal Trifecta — 原典深讀與 Hermes 對標\n\
-  \                         ^"
-_raw_fm: '
-
-  title: Simon Willison: Lethal Trifecta — 原典深讀與 Hermes 對標
-
-  date: 2026-05-16
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [camel, hermes, mcp, private, prompt, simon, tool, trifecta, untrusted,
-  write]
-
-  created: 2026-05-16
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Simon Willison: Lethal Trifecta — 原典深讀與 Hermes 對標'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-16
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- camel
+- hermes
+- mcp
+- private
+- prompt
+- simon
+- tool
+- trifecta
+- untrusted
+- write
+created: '2026-05-16'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Simon Willison: Lethal Trifecta — 原典深讀與 Hermes 對標

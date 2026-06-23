@@ -1,38 +1,22 @@
 ---
 _slug: 30-Areas-observations-m2-7-migration-23-cycles-overdue-2026-06-15
 _vault_path: 30-Areas/observations/m2-7-migration-23-cycles-overdue-2026-06-15.md
-_parse_error: "while parsing a flow sequence\n  in \"<unicode string>\", line 5, column\
-  \ 24:\n    previous_observations: [auxiliary-compression-m2-7-stal ... \n      \
-  \                     ^\nexpected ',' or ']', but got '<scalar>'\n  in \"<unicode\
-  \ string>\", line 5, column 118:\n     ...  aux blocks, \"wait for handoff\" follow-up)]\n\
-  \                                         ^"
-_raw_fm: '
-
-  date: 2026-06-15 12:13
-
-  type: r7-escalation
-
-  severity: critical
-
-  previous_observations: [auxiliary-compression-m2-7-stale-2026-06-11.md (downstream,
-  4 aux blocks, "wait for handoff" follow-up)]
-
-  status: handoff never landed; 23 cycles deferred
-
-  distilled_by: context-distiller v1.100
-
-  tags: [m2-7, minimax, model-migration, r7-critical, config-yaml, deferred-action]
-
-  title: M2.7 → M3 Migration — 23 Cycles Overdue, CRITICAL
-
-  created: 2026-06-15
-
-  updated: 2026-06-15
-
-  '
-title: M2.7 → M3 Migration — 23 Cycles Overdue, CRITICAL
-type: area
+date: 2026-06-15 12:13
+type: r7-escalation
+severity: critical
+previous_observations:
+- auxiliary-compression-m2-7-stale-2026-06-11.md (downstream, 4 aux blocks, "wait
+  for handoff" follow-up)
 status: seedling
+distilled_by: context-distiller v1.100
+tags:
+- m2-7
+- minimax
+- model-migration
+- r7-critical
+- config-yaml
+- deferred-action
+title: M2.7 → M3 Migration — 23 Cycles Overdue, CRITICAL
 created: '2026-06-15'
 updated: '2026-06-15'
 ---

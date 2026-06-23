@@ -1,42 +1,19 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-34462220-breaststroke_pullout
 _vault_path: 30-Areas/swimming/RAW/PMID-34462220-breaststroke_pullout.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 9, column 9:\n    doi: doi: 10.1016/j.jsams.2021.08.006\n            ^"
-_raw_fm: '
-
-  type: raw
-
-  pmid: 34462220
-
-  title: Arm-leg coordination during the underwater pull-out sequence in the 50, 100
-  and 200 m breaststroke start.
-
-  authors: Olstad BH, Gonjo T, Conceição A
-
-  source: J Sci Med Sport
-
-  date: 2022 Jan
-
-  tag: breaststroke_pullout
-
-  doi: doi: 10.1016/j.jsams.2021.08.006
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  tags: []
-
-  status: active
-
-  '
+type: raw
+pmid: 34462220
 title: Arm-leg coordination during the underwater pull-out sequence in the 50, 100
   and 200 m breaststroke start.
-type: area
-status: seedling
-created: '2026-06-15'
+authors: Olstad BH, Gonjo T, Conceição A
+source: J Sci Med Sport
+date: 2022 Jan
+tag: breaststroke_pullout
+doi: 'doi: 10.1016/j.jsams.2021.08.006'
+created: '2026-05-24'
 updated: '2026-06-15'
+tags: []
+status: budding
 ---
 
 # Arm-leg coordination during the underwater pull-out sequence in the 50, 100 and 200 m breaststroke start.

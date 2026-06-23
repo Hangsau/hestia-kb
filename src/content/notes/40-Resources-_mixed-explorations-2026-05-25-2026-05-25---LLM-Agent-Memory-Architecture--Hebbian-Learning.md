@@ -1,36 +1,27 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-25-2026-05-25---LLM-Agent-Memory-Architecture--Hebbian-Learning
 _vault_path: 40-Resources/_mixed/explorations/2026-05-25-2026-05-25---LLM-Agent-Memory-Architecture--Hebbian-Learning.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 50:\n     ...  — LLM Agent Memory Architecture: Hebbian Learning + Dual-Pathwa\
-  \ ... \n                                         ^"
-_raw_fm: '
-
-  title: 2026-05-25 — LLM Agent Memory Architecture: Hebbian Learning + Dual-Pathway
-  Retrieval
-
-  date: 2026-05-25
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [activation, base, hebbian, hub, learning, mem, memory, pathway, retrieval,
-  semantic]
-
-  created: 2026-05-25
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: '2026-05-25 — LLM Agent Memory Architecture: Hebbian Learning + Dual-Pathway
   Retrieval'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-25
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- activation
+- base
+- hebbian
+- hub
+- learning
+- mem
+- memory
+- pathway
+- retrieval
+- semantic
+created: '2026-05-25'
 updated: '2026-06-15'
+status: budding
 ---
 
 # 2026-05-25 — LLM Agent Memory Architecture: Hebbian Learning + Dual-Pathway Retrieval

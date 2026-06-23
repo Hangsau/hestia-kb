@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-16-James-Shore--AI-Coding-Agent-必須降低維護成本
 _vault_path: 40-Resources/_mixed/explorations/2026-05-16-James-Shore--AI-Coding-Agent-必須降低維護成本.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 19:\n    title: James Shore: AI Coding Agent 必須降低維護成本\n            \
-  \          ^"
-_raw_fm: '
-
-  title: James Shore: AI Coding Agent 必須降低維護成本
-
-  date: 2026-05-16
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, boost, code, codebase, cost, hermes, james, maintenance, review,
-  shore]
-
-  created: 2026-05-16
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'James Shore: AI Coding Agent 必須降低維護成本'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-16
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- boost
+- code
+- codebase
+- cost
+- hermes
+- james
+- maintenance
+- review
+- shore
+created: '2026-05-16'
 updated: '2026-06-15'
+status: budding
 ---
 
 # James Shore: AI Coding Agent 必須降低維護成本

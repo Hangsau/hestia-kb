@@ -12,7 +12,7 @@ confidence: high
 title: 2026-06-20 13:00 批次為空 — 飽和狀態延續，與 0800 / 1001 同
 type: research
 status: seedling
-updated: '2026-06-20'
+updated: '2026-06-23'
 ---
 
 # 2026-06-20 13:00 批次為空 — 飽和狀態延續，與 0800 / 1001 同

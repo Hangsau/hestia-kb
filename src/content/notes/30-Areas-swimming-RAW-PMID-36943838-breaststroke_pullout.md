@@ -1,42 +1,19 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-36943838-breaststroke_pullout
 _vault_path: 30-Areas/swimming/RAW/PMID-36943838-breaststroke_pullout.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 9, column 9:\n    doi: doi: 10.1371/journal.pone.0283234\n            ^"
-_raw_fm: '
-
-  type: raw
-
-  pmid: 36943838
-
-  title: Intra- and inter-individual variability in the underwater pull-out technique
-  in 200 m breaststroke turns.
-
-  authors: Gonjo T, Olstad BH, Šťastný J
-
-  source: PLoS One
-
-  date: 2023
-
-  tag: breaststroke_pullout
-
-  doi: doi: 10.1371/journal.pone.0283234
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  tags: []
-
-  status: active
-
-  '
+type: raw
+pmid: 36943838
 title: Intra- and inter-individual variability in the underwater pull-out technique
   in 200 m breaststroke turns.
-type: area
-status: seedling
-created: '2026-06-15'
+authors: Gonjo T, Olstad BH, Šťastný J
+source: PLoS One
+date: 2023
+tag: breaststroke_pullout
+doi: 'doi: 10.1371/journal.pone.0283234'
+created: '2026-05-24'
 updated: '2026-06-15'
+tags: []
+status: budding
 ---
 
 # Intra- and inter-individual variability in the underwater pull-out technique in 200 m breaststroke turns.

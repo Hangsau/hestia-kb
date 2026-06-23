@@ -11,7 +11,7 @@ confidence: high
 title: 無可 consolidation 的 insight — 2026-06-20 08:00 批次為空
 type: research
 status: seedling
-updated: '2026-06-20'
+updated: '2026-06-23'
 ---
 
 # 無可 consolidation 的 insight — 2026-06-20 08:00 批次為空

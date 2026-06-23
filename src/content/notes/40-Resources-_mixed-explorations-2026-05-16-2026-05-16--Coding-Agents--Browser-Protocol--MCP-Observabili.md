@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-16-2026-05-16--Coding-Agents--Browser-Protocol--MCP-Observabili
 _vault_path: 40-Resources/_mixed/explorations/2026-05-16-2026-05-16--Coding-Agents--Browser-Protocol--MCP-Observabili.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 18:\n    title: 2026-05-16: Coding Agents, Browser Protoco ... \n  \
-  \                   ^"
-_raw_fm: '
-
-  title: 2026-05-16: Coding Agents, Browser Protocol, MCP Observability
-
-  date: 2026-05-16
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [abp, agent, browser, context, hermes, mcp, opencode, otel, server,
-  session]
-
-  created: 2026-05-16
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: '2026-05-16: Coding Agents, Browser Protocol, MCP Observability'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-16
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- abp
+- agent
+- browser
+- context
+- hermes
+- mcp
+- opencode
+- otel
+- server
+- session
+created: '2026-05-16'
 updated: '2026-06-15'
+status: budding
 ---
 
 # 2026-05-16: Coding Agents, Browser Protocol, MCP Observability

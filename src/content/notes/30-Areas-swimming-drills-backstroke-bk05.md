@@ -1,29 +1,12 @@
 ---
 _slug: 30-Areas-swimming-drills-backstroke-bk05
 _vault_path: 30-Areas/swimming/drills/backstroke/bk05.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 12:\n    title: Bk05: Head Lead Balance Kick with Ro ... \n        \
-  \       ^"
-_raw_fm: '
-
-  title: Bk05: Head Lead Balance Kick with Rotation
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  type: swimming
-
-  tags: []
-
-  status: active
-
-  '
 title: 'Bk05: Head Lead Balance Kick with Rotation'
-type: area
-status: seedling
-created: '2026-06-15'
+created: '2026-05-24'
 updated: '2026-06-15'
+type: swimming
+tags: []
+status: budding
 ---
 
 # Bk05: Head Lead Balance Kick with Rotation

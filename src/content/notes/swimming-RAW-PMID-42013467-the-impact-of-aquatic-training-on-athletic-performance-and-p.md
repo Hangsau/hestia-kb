@@ -13,8 +13,8 @@ status: seedling
 authors: Zheng S, Wang S, Cao Q, Li H
 title: 'The Impact of Aquatic Training on Athletic Performance and Physical Recovery
   in Competitive Athletes: A Meta-Analysis.'
-created: '2026-06-18'
-updated: '2026-06-18'
+created: '2026-06-23'
+updated: '2026-06-23'
 ---
 
 # PMID-42013467 — The Impact of Aquatic Training on Athletic Performance and Physical Recovery in Competitive Athletes: A Meta-Analysis.

@@ -1,29 +1,12 @@
 ---
 _slug: 30-Areas-observations-prompt-injection-file-content-as-context-2026-06-11
 _vault_path: 30-Areas/observations/prompt-injection-file-content-as-context-2026-06-11.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 32:\n    title: Prompt Injection Pattern: File Content as \"Subdirectory\
-  \  ... \n                                   ^"
-_raw_fm: '
-
-  title: Prompt Injection Pattern: File Content as "Subdirectory Context"
-
-  created: 2026-06-11
-
-  updated: 2026-06-15
-
-  type: observation
-
-  tags: []
-
-  status: active
-
-  '
-title: 'Prompt Injection Pattern: File Content as "Subdirectory Context"'
-type: area
-status: seedling
-created: '2026-06-15'
+title: 'Prompt Injection Pattern: File Content as "Subdirectory Context'
+created: '2026-06-11'
 updated: '2026-06-15'
+type: observation
+tags: []
+status: budding
 ---
 
 # Prompt Injection Pattern: File Content as "Subdirectory Context"

@@ -1,33 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-14-Context-Mode--MCP-層的-Context-節流
 _vault_path: 40-Resources/_mixed/explorations/2026-05-14-Context-Mode--MCP-層的-Context-節流.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 20:\n    title: Context Mode: MCP 層的 Context 節流\n                  \
-  \     ^"
-_raw_fm: '
-
-  title: Context Mode: MCP 層的 Context 節流
-
-  date: 2026-05-14
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [claude, code, context, fts, hermes, index, mcp, mode, sandbox, tool]
-
-  created: 2026-05-14
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
 title: 'Context Mode: MCP 層的 Context 節流'
-type: resource
-status: seedling
-created: '2026-06-15'
+date: 2026-05-14
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- claude
+- code
+- context
+- fts
+- hermes
+- index
+- mcp
+- mode
+- sandbox
+- tool
+created: '2026-05-14'
 updated: '2026-06-15'
+status: budding
 ---
 
 # Context Mode: MCP 層的 Context 節流

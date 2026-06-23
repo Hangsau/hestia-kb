@@ -1,40 +1,23 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-42131935-SIPE-ultrasound
 _vault_path: 30-Areas/swimming/RAW/PMID-42131935-SIPE-ultrasound.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 112:\n     ...  Athletes at Moderate Elevations: Incidence and Diagnostic\
-  \ Utili ... \n                                         ^"
-_raw_fm: '
-
-  uid: PMID-42131935
-
-  type: research-article
-
-  title: Prospective Assessment of Swimming-Induced Pulmonary Edema in Open-Water
-  Athletes at Moderate Elevations: Incidence and Diagnostic Utility of Point-of-Care
-  Ultrasound.
-
-  authors: Steins H, Patterson B, Payton M, Vidlock K
-
-  journal: Wilderness Environ Med
-
-  date: 2026-05-14
-
-  pmid: 42131935
-
-  status: 🟡 abstract only
-
-  tags: [swimming, open-water, SIPE, pulmonary edema, altitude, ultrasound]
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  '
-title: PMID-42131935-SIPE-ultrasound
-type: area
+uid: PMID-42131935
+type: research-article
+title: 'Prospective Assessment of Swimming-Induced Pulmonary Edema in Open-Water Athletes
+  at Moderate Elevations: Incidence and Diagnostic Utility of Point-of-Care Ultrasound.'
+authors: Steins H, Patterson B, Payton M, Vidlock K
+journal: Wilderness Environ Med
+date: 2026-05-14
+pmid: 42131935
 status: seedling
-created: '2026-06-15'
+tags:
+- swimming
+- open-water
+- SIPE
+- pulmonary edema
+- altitude
+- ultrasound
+created: '2026-05-24'
 updated: '2026-06-15'
 ---
 

@@ -1,31 +1,13 @@
 ---
 _slug: 40-Resources-_mixed-research-spikes-2026-05-13-statewright
 _vault_path: 40-Resources/_mixed/research/spikes/2026-05-13-statewright.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 19:\n    title: Statewright: Visual State Machines as Agent ... \n \
-  \                     ^"
-_raw_fm: '
-
-  title: Statewright: Visual State Machines as Agent Guardrails — Deterministic Enforcement
-  Beats Bigger Models
-
-  created: 2026-05-23
-
-  updated: 2026-06-15
-
-  type: research
-
-  tags: []
-
-  status: active
-
-  '
 title: 'Statewright: Visual State Machines as Agent Guardrails — Deterministic Enforcement
   Beats Bigger Models'
-type: resource
-status: seedling
-created: '2026-06-15'
+created: '2026-05-23'
 updated: '2026-06-15'
+type: research
+tags: []
+status: budding
 ---
 
 # Statewright: Visual State Machines as Agent Guardrails — Deterministic Enforcement Beats Bigger Models

@@ -13,7 +13,7 @@ confidence: high
 title: 2026-06-09 記憶 × 治理探索群 — 第六次：無新 insight，標記 fed
 type: research
 status: seedling
-updated: '2026-06-21'
+updated: '2026-06-23'
 ---
 
 # 2026-06-09 記憶 × 治理探索群 — 第六次：無新 insight，標記 fed

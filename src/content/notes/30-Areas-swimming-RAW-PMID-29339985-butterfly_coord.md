@@ -1,42 +1,19 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-29339985-butterfly_coord
 _vault_path: 30-Areas/swimming/RAW/PMID-29339985-butterfly_coord.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 9, column 9:\n    doi: doi: 10.1515/hukin-2017-0089\n            ^"
-_raw_fm: '
-
-  type: raw
-
-  pmid: 29339985
-
-  title: Butterfly Sprint Swimming Technique, Analysis of Somatic and Spatial-Temporal
-  Coordination Variables.
-
-  authors: Strzała M, Stanula A, Krężałek P
-
-  source: J Hum Kinet
-
-  date: 2017 Dec
-
-  tag: butterfly_coord
-
-  doi: doi: 10.1515/hukin-2017-0089
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  tags: []
-
-  status: active
-
-  '
+type: raw
+pmid: 29339985
 title: Butterfly Sprint Swimming Technique, Analysis of Somatic and Spatial-Temporal
   Coordination Variables.
-type: area
-status: seedling
-created: '2026-06-15'
+authors: Strzała M, Stanula A, Krężałek P
+source: J Hum Kinet
+date: 2017 Dec
+tag: butterfly_coord
+doi: 'doi: 10.1515/hukin-2017-0089'
+created: '2026-05-24'
 updated: '2026-06-15'
+tags: []
+status: budding
 ---
 
 # Butterfly Sprint Swimming Technique, Analysis of Somatic and Spatial-Temporal Coordination Variables.

@@ -1,41 +1,24 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-42142372-underwater-swimming-physiology
 _vault_path: 30-Areas/swimming/RAW/PMID-42142372-underwater-swimming-physiology.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 104:\n     ... rameters in Competitive Swimmers: A Comparison With Surface\
-  \ Swim ... \n                                         ^"
-_raw_fm: '
-
-  uid: PMID-42142372
-
-  type: research-article
-
-  title: Effect of Underwater Swimming on Physiological and Perceptual Parameters
-  in Competitive Swimmers: A Comparison With Surface Swimming.
-
-  authors: Segovia-SanBenito C, Guimard A, Fuente B, González-Frutos P, Veiga S
-
-  journal: Eur J Sport Sci
-
-  date: 2026-06
-
-  pmid: 42142372
-
-  open_access: true (PMC13179830)
-
-  status: 🟢 open access
-
-  tags: [swimming, underwater, apnea, lactate, physiological, perceptual]
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  '
-title: PMID-42142372-underwater-swimming-physiology
-type: area
+uid: PMID-42142372
+type: research-article
+title: 'Effect of Underwater Swimming on Physiological and Perceptual Parameters in
+  Competitive Swimmers: A Comparison With Surface Swimming.'
+authors: Segovia-SanBenito C, Guimard A, Fuente B, González-Frutos P, Veiga S
+journal: Eur J Sport Sci
+date: 2026-06
+pmid: 42142372
+open_access: true (PMC13179830)
 status: seedling
-created: '2026-06-15'
+tags:
+- swimming
+- underwater
+- apnea
+- lactate
+- physiological
+- perceptual
+created: '2026-05-24'
 updated: '2026-06-15'
 ---
 

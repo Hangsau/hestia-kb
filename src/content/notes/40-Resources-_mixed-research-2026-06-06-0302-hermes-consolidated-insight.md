@@ -1,34 +1,20 @@
 ---
 _slug: 40-Resources-_mixed-research-2026-06-06-0302-hermes-consolidated-insight
 _vault_path: 40-Resources/_mixed/research/2026-06-06-0302-hermes-consolidated-insight.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 6, column 32:\n    title: 2026-06-06 Consolidation: Constraint Decay 二次探索 — 對前次\
-  \ cr ... \n                                   ^"
-_raw_fm: '
-
-  tags: [consolidation, synthesis, re-exploration, constraint-decay, tool-scoping,
-  governance]
-
-  source: multi
-
-  created: 2026-06-06
-
-  confidence: medium
-
-  title: 2026-06-06 Consolidation: Constraint Decay 二次探索 — 對前次 cross-cutting 結論的獨立再驗證
-
-  updated: 2026-06-15
-
-  type: research
-
-  status: active
-
-  '
+tags:
+- consolidation
+- synthesis
+- re-exploration
+- constraint-decay
+- tool-scoping
+- governance
+source: multi
+created: '2026-06-06'
+confidence: medium
 title: '2026-06-06 Consolidation: Constraint Decay 二次探索 — 對前次 cross-cutting 結論的獨立再驗證'
-type: resource
-status: seedling
-created: '2026-06-15'
 updated: '2026-06-15'
+type: research
+status: budding
 ---
 
 # 2026-06-06 Consolidation: Constraint Decay 二次探索 — 對前次 cross-cutting 結論的獨立再驗證

@@ -1,34 +1,21 @@
 ---
 _slug: 30-Areas-swimming-digests-PMID-34831663-start-key-determinants-block-flight-digest
 _vault_path: 30-Areas/swimming/digests/PMID-34831663-start-key-determinants-block-flight-digest.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 73:\n     ... t Performance in Elite Sprinters: Block and Flight Phase\
-  \ Analysis\n                                         ^"
-_raw_fm: '
-
-  title: Key Determinants of Swimming Start Performance in Elite Sprinters: Block
-  and Flight Phase Analysis
-
-  source: J Sports Sci 2021 · PMID 34831663
-
-  tags: [起跳, block-phase, flight-phase, 後腿膝角, 精英, 衝刺]
-
-  date: 2026-05-24
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  type: swimming
-
-  status: active
-
-  '
-title: 起跳關鍵因子：Block phase 64% + Flight phase 65%
-type: area
-status: seedling
-created: '2026-06-15'
+title: 'Key Determinants of Swimming Start Performance in Elite Sprinters: Block and
+  Flight Phase Analysis'
+source: J Sports Sci 2021 · PMID 34831663
+tags:
+- 起跳
+- block-phase
+- flight-phase
+- 後腿膝角
+- 精英
+- 衝刺
+date: 2026-05-24
+created: '2026-05-24'
 updated: '2026-06-15'
+type: swimming
+status: budding
 ---
 
 # 起跳關鍵因子：Block phase 64% + Flight phase 65%

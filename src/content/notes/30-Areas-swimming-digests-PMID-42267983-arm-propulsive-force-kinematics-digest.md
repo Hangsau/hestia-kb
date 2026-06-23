@@ -1,35 +1,21 @@
 ---
 _slug: 30-Areas-swimming-digests-PMID-42267983-arm-propulsive-force-kinematics-digest
 _vault_path: 30-Areas/swimming/digests/PMID-42267983-arm-propulsive-force-kinematics-digest.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 4, column 80:\n     ... e and arm kinematics in swimming: experimental and numerical\
-  \ study.\n                                         ^"
-_raw_fm: '
-
-  uid: PMID-42267983
-
-  type: digest
-
-  title: Relationship between arm propulsive force and arm kinematics in swimming:
-  experimental and numerical study.
-
-  date: 2026-06-13
-
-  pmid: 42267983
-
-  status: completed
-
-  tags: [swimming, freestyle, biomechanics, propulsion, CFD, robotic]
-
-  created: 2026-06-13
-
-  updated: 2026-06-15
-
-  '
-title: PMID-42267983-arm-propulsive-force-kinematics-digest
-type: area
+uid: PMID-42267983
+type: digest
+title: 'Relationship between arm propulsive force and arm kinematics in swimming:
+  experimental and numerical study.'
+date: 2026-06-13
+pmid: 42267983
 status: seedling
-created: '2026-06-15'
+tags:
+- swimming
+- freestyle
+- biomechanics
+- propulsion
+- CFD
+- robotic
+created: '2026-06-13'
 updated: '2026-06-15'
 ---
 

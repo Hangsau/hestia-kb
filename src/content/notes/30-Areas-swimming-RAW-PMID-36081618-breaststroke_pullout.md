@@ -1,40 +1,18 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-36081618-breaststroke_pullout
 _vault_path: 30-Areas/swimming/RAW/PMID-36081618-breaststroke_pullout.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 9, column 9:\n    doi: doi: 10.3389/fspor.2022.963578\n            ^"
-_raw_fm: '
-
-  type: raw
-
-  pmid: 36081618
-
-  title: The characteristics of the breaststroke pullout in elite swimming.
-
-  authors: McCabe C, Mosscrop E, Hodierne R
-
-  source: Front Sports Act Living
-
-  date: 2022
-
-  tag: breaststroke_pullout
-
-  doi: doi: 10.3389/fspor.2022.963578
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  tags: []
-
-  status: active
-
-  '
+type: raw
+pmid: 36081618
 title: The characteristics of the breaststroke pullout in elite swimming.
-type: area
-status: seedling
-created: '2026-06-15'
+authors: McCabe C, Mosscrop E, Hodierne R
+source: Front Sports Act Living
+date: 2022
+tag: breaststroke_pullout
+doi: 'doi: 10.3389/fspor.2022.963578'
+created: '2026-05-24'
 updated: '2026-06-15'
+tags: []
+status: budding
 ---
 
 # The characteristics of the breaststroke pullout in elite swimming.

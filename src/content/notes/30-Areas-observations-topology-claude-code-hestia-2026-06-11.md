@@ -1,37 +1,25 @@
 ---
 _slug: 30-Areas-observations-topology-claude-code-hestia-2026-06-11
 _vault_path: 30-Areas/observations/topology-claude-code-hestia-2026-06-11.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 8, column 30:\n    title: System topology change: Talos 暫停, Claude Code 在 VM 內\n\
-  \                                 ^"
-_raw_fm: '
-
-  type: observation
-
-  tags: [architecture, topology, claude-code, hestia, talos]
-
-  date: 2026-06-11
-
-  cycle: context-distiller (04:00)
-
-  source_session: session_20260611_012343_e7fa52
-
-  related: [hermes-rebirth-2026-06-10, hc-21, hc-22, cross-check-hestia-silent-failure-2026-06-11]
-
-  title: System topology change: Talos 暫停, Claude Code 在 VM 內
-
-  created: 2026-06-11
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
+type: observation
+tags:
+- architecture
+- topology
+- claude-code
+- hestia
+- talos
+date: 2026-06-11
+cycle: context-distiller (04:00)
+source_session: session_20260611_012343_e7fa52
+related:
+- hermes-rebirth-2026-06-10
+- hc-21
+- hc-22
+- cross-check-hestia-silent-failure-2026-06-11
 title: 'System topology change: Talos 暫停, Claude Code 在 VM 內'
-type: area
-status: seedling
-created: '2026-06-15'
+created: '2026-06-11'
 updated: '2026-06-15'
+status: budding
 ---
 
 # System topology change: Talos 暫停, Claude Code 在 VM 內

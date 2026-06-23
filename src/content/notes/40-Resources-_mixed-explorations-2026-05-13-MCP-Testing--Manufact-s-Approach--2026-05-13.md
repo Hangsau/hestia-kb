@@ -1,34 +1,26 @@
 ---
 _slug: 40-Resources-_mixed-explorations-2026-05-13-MCP-Testing--Manufact-s-Approach--2026-05-13
 _vault_path: 40-Resources/_mixed/explorations/2026-05-13-MCP-Testing--Manufact-s-Approach--2026-05-13.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 19:\n    title: MCP Testing: Manufact's Approach (2026-05-13)\n    \
-  \                  ^"
-_raw_fm: '
-
-  title: MCP Testing: Manufact''s Approach (2026-05-13)
-
-  date: 2026-05-13
-
-  type: explorations
-
-  tags: [explorations, auto-ingested]
-
-  fingerprint: [agent, clients, com, hmr, inspector, manufact, mcp, testing, tool,
-  via]
-
-  created: 2026-05-13
-
-  updated: 2026-06-15
-
-  status: active
-
-  '
-title: 'MCP Testing: Manufact''s Approach (2026-05-13)'
-type: resource
-status: seedling
-created: '2026-06-15'
+title: 'MCP Testing: Manufact\"\"s Approach (2026-05-13)'
+date: 2026-05-13
+type: explorations
+tags:
+- explorations
+- auto-ingested
+fingerprint:
+- agent
+- clients
+- com
+- hmr
+- inspector
+- manufact
+- mcp
+- testing
+- tool
+- via
+created: '2026-05-13'
 updated: '2026-06-15'
+status: budding
 ---
 
 # MCP Testing: Manufact's Approach (2026-05-13)

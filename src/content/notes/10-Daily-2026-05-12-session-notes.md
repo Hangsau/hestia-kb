@@ -1,33 +1,18 @@
 ---
 _slug: 10-Daily-2026-05-12-session-notes
 _vault_path: 10-Daily/2026-05-12-session-notes.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 5, column 21:\n    title: Session Notes: Obsidian Vault Integration\n        \
-  \                ^"
-_raw_fm: '
-
-  date: 2026-05-12
-
-  tags: [obsidian, vault, memory, architecture]
-
-  session_id: 2026-05-12-23-24
-
-  title: Session Notes: Obsidian Vault Integration
-
-  created: 2026-05-13
-
-  updated: 2026-06-15
-
-  type: daily
-
-  status: active
-
-  '
+date: 2026-05-12
+tags:
+- obsidian
+- vault
+- memory
+- architecture
+session_id: 2026-05-12-23-24
 title: 'Session Notes: Obsidian Vault Integration'
-type: daily
-status: seedling
-created: '2026-06-15'
+created: '2026-05-13'
 updated: '2026-06-15'
+type: daily
+status: budding
 ---
 
 # Session Notes: Obsidian Vault Integration

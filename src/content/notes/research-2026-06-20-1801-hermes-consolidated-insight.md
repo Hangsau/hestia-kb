@@ -12,7 +12,7 @@ confidence: high
 title: 2026 記憶系統的兩條隱含主線：Reader-Driven Writer + Token Economics 作為架構約束
 type: research
 status: seedling
-updated: '2026-06-20'
+updated: '2026-06-23'
 ---
 
 # 2026 記憶系統的兩條隱含主線：Reader-Driven Writer + Token Economics 作為架構約束

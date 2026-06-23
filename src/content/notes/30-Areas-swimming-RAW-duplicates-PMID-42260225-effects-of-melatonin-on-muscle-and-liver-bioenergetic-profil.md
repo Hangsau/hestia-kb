@@ -1,48 +1,22 @@
 ---
 _slug: 30-Areas-swimming-RAW-duplicates-PMID-42260225-effects-of-melatonin-on-muscle-and-liver-bioenergetic-profil
 _vault_path: 30-Areas/swimming/RAW/duplicates/PMID-42260225-effects-of-melatonin-on-muscle-and-liver-bioenergetic-profil.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 12, column 70:\n     ...  and liver bioenergetic profiles: focus on acylcarnitines\
-  \ follow ... \n                                         ^"
-_raw_fm: '
-
-  date: 2026-06-11
-
-  type: pubmed
-
-  pmid: 42260225
-
-  pmcid: []
-
-  doi: 10.1007/s42000-026-00796-x
-
-  journal: Hormones (Athens)
-
-  pub_date: 2026 Jun 8
-
-  relevance_score: 7
-
-  status: 🔴
-
-  authors: Cipriano AE, Rosini Silva AA, Bertolucci V, de Melo Porcari A, Messias
-  LHD, Beck WR
-
-  title: Effects of melatonin on muscle and liver bioenergetic profiles: focus on
-  acylcarnitines following endurance swimming exercise in rats.
-
-  created: 2026-06-11
-
-  updated: 2026-06-15
-
-  tags: []
-
-  '
-title: 'PMID-42260225 — Effects of melatonin on muscle and liver bioenergetic profiles:
-  focus on acylcarnitines following endurance swimming exercise in rats.'
-type: area
+date: 2026-06-11
+type: pubmed
+pmid: 42260225
+pmcid: []
+doi: 10.1007/s42000-026-00796-x
+journal: Hormones (Athens)
+pub_date: 2026 Jun 8
+relevance_score: 7
 status: seedling
-created: '2026-06-15'
+authors: Cipriano AE, Rosini Silva AA, Bertolucci V, de Melo Porcari A, Messias LHD,
+  Beck WR
+title: 'Effects of melatonin on muscle and liver bioenergetic profiles: focus on acylcarnitines
+  following endurance swimming exercise in rats.'
+created: '2026-06-11'
 updated: '2026-06-15'
+tags: []
 ---
 
 # PMID-42260225 — Effects of melatonin on muscle and liver bioenergetic profiles: focus on acylcarnitines following endurance swimming exercise in rats.

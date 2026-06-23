@@ -1,47 +1,27 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-42245083-the-role-of-core-strength-in-front-crawl-performance-a-quali
 _vault_path: 30-Areas/swimming/RAW/PMID-42245083-the-role-of-core-strength-in-front-crawl-performance-a-quali.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 12, column 60:\n     ... ength in front crawl performance: a qualitative analysis\
-  \ of expe ... \n                                         ^"
-_raw_fm: '
-
-  date: 2026-06-15
-
-  type: pubmed
-
-  pmid: 42245083
-
-  pmcid: []
-
-  doi: 10.3389/fspor.2026.1748612
-
-  journal: Front Sports Act Living
-
-  pub_date: 2026
-
-  relevance_score: 5
-
-  status: ✅ full abstract
-
-  authors: Dai J, Xu J, Dai Z
-
-  title: The role of core strength in front crawl performance: a qualitative analysis
-  of expert coaches'' perspectives.
-
-  created: 2026-06-15
-
-  updated: 2026-06-15
-
-  tags: [swimming, freestyle, core-strength, qualitative, coach-perspective, threshold-effect]
-
-  '
-title: 'PMID-42245083 — The role of core strength in front crawl performance: a qualitative
-  analysis of expert coaches'' perspectives.'
-type: area
+date: 2026-06-15
+type: pubmed
+pmid: 42245083
+pmcid: []
+doi: 10.3389/fspor.2026.1748612
+journal: Front Sports Act Living
+pub_date: 2026
+relevance_score: 5
 status: seedling
-created: '2026-06-20'
-updated: '2026-06-20'
+authors: Dai J, Xu J, Dai Z
+title: 'The role of core strength in front crawl performance: a qualitative analysis
+  of expert coaches\"\" perspectives.'
+created: '2026-06-15'
+updated: '2026-06-15'
+tags:
+- swimming
+- freestyle
+- core-strength
+- qualitative
+- coach-perspective
+- threshold-effect
 ---
 
 # PMID-42245083 — The role of core strength in front crawl performance: a qualitative analysis of expert coaches' perspectives.

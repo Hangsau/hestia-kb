@@ -1,31 +1,13 @@
 ---
 _slug: 30-Areas-swimming-RAW-PMID-35935061-tumble-turn-wall-contact-tuck-index
 _vault_path: 30-Areas/swimming/RAW/PMID-35935061-tumble-turn-wall-contact-tuck-index.md
-_parse_error: "mapping values are not allowed here\n  in \"<unicode string>\", line\
-  \ 2, column 69:\n     ... ble turn performance in swimming: the impact of wall contact\
-  \ tim ... \n                                         ^"
-_raw_fm: '
-
-  title: PMID-35935061 — Improving tumble turn performance in swimming: the impact
-  of wall contact time and tuck index
-
-  created: 2026-05-24
-
-  updated: 2026-06-15
-
-  type: swimming
-
-  tags: []
-
-  status: active
-
-  '
 title: 'PMID-35935061 — Improving tumble turn performance in swimming: the impact
   of wall contact time and tuck index'
-type: area
-status: seedling
-created: '2026-06-15'
+created: '2026-05-24'
 updated: '2026-06-15'
+type: swimming
+tags: []
+status: budding
 ---
 
 # PMID-35935061 — Improving tumble turn performance in swimming: the impact of wall contact time and tuck index
