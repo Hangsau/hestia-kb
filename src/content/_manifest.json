@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-23T21:00:02",
+  "generated_at": "2026-06-23T21:30:03",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1272,
+  "count": 1273,
   "type_breakdown": {
     "daily": 10,
-    "research": 394,
+    "research": 395,
     "project-plan": 1,
     "project": 1,
     "learning": 17,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1072,
-    "seedling": 190,
+    "seedling": 191,
     "evergreen": 10
   },
   "notes": [
@@ -17088,6 +17088,20 @@
       "updated": "2026-06-23",
       "vault_path": "research/2026-06-23-1600-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-23-1600-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-23-2100-hermes-consolidated-insight",
+      "title": "無可 consolidation 的 insight（空批次）",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "research/2026-06-23-2100-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-23-2100-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
