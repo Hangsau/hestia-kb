@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-23T15:04:24",
+  "generated_at": "2026-06-23T15:30:52",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1268,
+  "count": 1270,
   "type_breakdown": {
     "daily": 10,
     "research": 381,
@@ -15,7 +15,7 @@
     "architecture-observation": 1,
     "reliability-concern": 1,
     "swimming": 108,
-    "forum-digest": 17,
+    "forum-digest": 18,
     "raw": 5,
     "research-article": 22,
     "primary-research": 13,
@@ -35,11 +35,12 @@
     "digest-report": 1,
     "template": 2,
     "knowledge-distillation": 1,
+    "top100-hot-digest": 1,
     "note": 4
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 397,
+    "seedling": 399,
     "evergreen": 10
   },
   "notes": [
@@ -2557,6 +2558,17 @@
       "updated": "2026-06-15",
       "vault_path": "30-Areas/swimming/RAW/vortex-recovery.md",
       "url": "/notes/30-Areas-swimming-RAW-vortex-recovery/"
+    },
+    {
+      "slug": "30-Areas-swimming-digests-2026-06-21-top100-reddit-multireddit",
+      "title": "Top 100 游泳論壇熱門討論",
+      "type": "forum-digest",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "30-Areas/swimming/digests/2026-06-21-top100-reddit-multireddit.md",
+      "url": "/notes/30-Areas-swimming-digests-2026-06-21-top100-reddit-multireddit/"
     },
     {
       "slug": "30-Areas-swimming-digests-PMID-11733166-computational-hydrodynamics-animal-swimming-bem-3d-vortex-digest",
@@ -16753,6 +16765,17 @@
       "updated": "2026-06-21",
       "vault_path": "swimming/RAW/2026-06-21-forum-reddit-r-swimming.md",
       "url": "/notes/swimming-RAW-2026-06-21-forum-reddit-r-swimming/"
+    },
+    {
+      "slug": "swimming-RAW-2026-06-21-forum-top100-multireddit",
+      "title": "游泳論壇 Top 熱門討論（去重） — 2026-06-21",
+      "type": "top100-hot-digest",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-06-23",
+      "updated": "2026-06-23",
+      "vault_path": "swimming/RAW/2026-06-21-forum-top100-multireddit.md",
+      "url": "/notes/swimming-RAW-2026-06-21-forum-top100-multireddit/"
     },
     {
       "slug": "swimming-RAW-2026-06-22-forum-reddit-r-swimming",
