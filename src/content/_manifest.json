@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-23T12:00:23",
+  "generated_at": "2026-06-23T12:30:52",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1265,
+  "count": 1266,
   "type_breakdown": {
     "daily": 10,
     "research": 379,
@@ -34,11 +34,12 @@
     "core-concepts": 7,
     "digest-report": 1,
     "template": 2,
+    "knowledge-distillation": 1,
     "note": 4
   },
   "status_breakdown": {
     "budding": 861,
-    "seedling": 394,
+    "seedling": 395,
     "evergreen": 10
   },
   "notes": [
@@ -16055,6 +16056,26 @@
       "updated": "2026-06-17",
       "vault_path": "research/2026-06-17-研究報告-agent-執行-trace-的形式化與可觀測性.md",
       "url": "/notes/research-2026-06-17-研究報告-agent-執行-trace-的形式化與可觀測性/"
+    },
+    {
+      "slug": "research-2026-06-17-研究報告-freediving-btv-mouthfill-equalization",
+      "title": "研究報告：自由潛水 BTV / Mouthfill 平壓技巧（distilled v1）",
+      "type": "knowledge-distillation",
+      "status": "seedling",
+      "tags": [
+        "research",
+        "knowledge",
+        "freediving",
+        "equalization",
+        "btv",
+        "mouthfill",
+        "frenzel",
+        "hands-free"
+      ],
+      "created": "2026-06-17",
+      "updated": "2026-06-23",
+      "vault_path": "research/2026-06-17-研究報告-freediving-btv-mouthfill-equalization.md",
+      "url": "/notes/research-2026-06-17-研究報告-freediving-btv-mouthfill-equalization/"
     },
     {
       "slug": "research-2026-06-18-0101-hermes-consolidated-insight",
