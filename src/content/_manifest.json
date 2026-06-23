@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-24T04:00:03",
+  "generated_at": "2026-06-24T04:30:02",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1274,
+  "count": 1276,
   "type_breakdown": {
     "daily": 10,
     "research": 396,
     "project-plan": 1,
     "project": 1,
-    "learning": 17,
+    "learning": 19,
     "feeding-report": 1,
     "meta-preference": 1,
     "observation": 9,
@@ -41,7 +41,7 @@
     "top100-hot-digest": 1
   },
   "status_breakdown": {
-    "budding": 1072,
+    "budding": 1074,
     "seedling": 192,
     "evergreen": 10
   },
@@ -656,6 +656,44 @@
       "url": "/notes/30-Areas-learnings-2026-05-28-Psyche-Cron-Filesystem-View-Mismatch/"
     },
     {
+      "slug": "30-Areas-learnings-2026-06-21-0526-curator-skill-library-consolidation",
+      "title": "Curator Skill-Library Consolidation Pass (2026-06-21)",
+      "type": "learning",
+      "status": "budding",
+      "tags": [
+        "curator",
+        "skill-library",
+        "consolidation",
+        "umbrella-skill",
+        "archival",
+        "hermes-ops",
+        "learnings"
+      ],
+      "created": "2026-06-24",
+      "updated": "2026-06-24",
+      "vault_path": "30-Areas/learnings/2026-06-21-0526-curator-skill-library-consolidation.md",
+      "url": "/notes/30-Areas-learnings-2026-06-21-0526-curator-skill-library-consolidation/"
+    },
+    {
+      "slug": "30-Areas-learnings-2026-06-24-0400-context-distiller-v1.150-curator-session",
+      "title": "2026-06-21 Curator Skill-Library Consolidation Pass — Vault Gap Closed (v1.150 distiller)",
+      "type": "learning",
+      "status": "budding",
+      "tags": [
+        "context-distiller",
+        "curator",
+        "skill-library",
+        "skill-consolidation",
+        "skill-architecture",
+        "cron-operations",
+        "skill-umbrella"
+      ],
+      "created": "2026-06-24",
+      "updated": "2026-06-24",
+      "vault_path": "30-Areas/learnings/2026-06-24-0400-context-distiller-v1.150-curator-session.md",
+      "url": "/notes/30-Areas-learnings-2026-06-24-0400-context-distiller-v1.150-curator-session/"
+    },
+    {
       "slug": "30-Areas-learnings-cron-one-shot-restart-loop-fix",
       "title": "Cron One-Shot Restart Loop Fix — 2026-05-17",
       "type": "learning",
@@ -733,7 +771,7 @@
         "map"
       ],
       "created": "2026-05-13",
-      "updated": "2026-05-27",
+      "updated": "2026-06-24",
       "vault_path": "30-Areas/learnings/learnings-map.md",
       "url": "/notes/30-Areas-learnings-learnings-map/"
     },

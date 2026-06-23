@@ -5,7 +5,7 @@ tags:
 - learnings
 - index
 - map
-updated: '2026-05-27'
+updated: '2026-06-24'
 fingerprint_version: 1
 title: 學習地圖
 created: '2026-05-13'
@@ -28,6 +28,7 @@ status: budding
 | Forge/Preflight 弱模型補償機制 | [[2026-05-23-1600-context-distiller]] | 1 | forge, preflight, validate, iteration_state, triage, stagnation, weak-model, scaffolding | 2026-05-23 | 2026-05-23 |
 | Hermes M6 系統缺口 | [[2026-05-23-1600-context-distiller]] | 1 | hermes-gaps, M6, heartbeat, subagent-traceability, looptrap, token-budget, bm25, architect-executive | 2026-05-23 | 2026-05-23 |
 | Psyche AIAgent Expertise + Session Integrity | [[2026-05-27-Psyche-AIAgent-Expertise-Session-Integrity]] | 1 | psyhe, session-integrity, source-of-truth, hermes-architecture, self-awareness | 2026-05-27 | 2026-05-27 |
+| Curator Skill-Library Consolidation Pass | [[2026-06-21-0526-curator-skill-library-consolidation]] | 1 | curator, skill-library, consolidation, umbrella-skill, archival, cron-operations, hermes-ops | 2026-06-21 | 2026-06-24 |
 
 ## 去重規則
 
