@@ -1,7 +1,7 @@
 ---
 _slug: swimming-RAW-PMID-42243273-acute-effects-of-an-individually-timed-lower-limb-post-activ
 _vault_path: swimming/RAW/PMID-42243273-acute-effects-of-an-individually-timed-lower-limb-post-activ.md
-date: 2026-06-23
+date: 2026-06-24
 type: pubmed
 pmid: 42243273
 pmcid: null
@@ -15,8 +15,8 @@ authors: Stanula A, Strzała M, Sadowski W, Rejdych W, Weiss K, Karpiński J, Wi
 title: Acute effects of an individually timed lower-limb post-activation performance
   enhancement protocol on 50 m front crawl performance and race kinematics in national-level
   swimmers.
-created: '2026-06-23'
-updated: '2026-06-23'
+created: '2026-06-24'
+updated: '2026-06-24'
 ---
 
 # PMID-42243273 — Acute effects of an individually timed lower-limb post-activation performance enhancement protocol on 50 m front crawl performance and race kinematics in national-level swimmers.
