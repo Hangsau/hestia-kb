@@ -4,7 +4,7 @@ _vault_path: research/research-index.md
 title: research-index
 type: research
 status: seedling
-created: '2026-06-22'
-updated: '2026-06-22'
+created: '2026-06-24'
+updated: '2026-06-24'
 ---
 
