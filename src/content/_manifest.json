@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-25T06:00:04",
+  "generated_at": "2026-06-25T06:30:04",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1284,
+  "count": 1285,
   "type_breakdown": {
     "daily": 10,
-    "research": 403,
+    "research": 404,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 200,
+    "seedling": 201,
     "evergreen": 10
   },
   "notes": [
@@ -17258,6 +17258,23 @@
       "updated": "2026-06-25",
       "vault_path": "research/2026-06-25-0201-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-25-0201-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-25-0601-hermes-consolidated-insight",
+      "title": "記憶生命週期缺少 Reader→Writer 反饋迴路；Hermes 必須以多訊號 staleness + 分層 router 統一處理",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-governance",
+        "ws-035",
+        "drift-penalty"
+      ],
+      "created": "2026-06-25",
+      "updated": "2026-06-25",
+      "vault_path": "research/2026-06-25-0601-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-25-0601-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
