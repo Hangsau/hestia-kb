@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-25T02:00:05",
+  "generated_at": "2026-06-25T02:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1283,
+  "count": 1284,
   "type_breakdown": {
     "daily": 10,
-    "research": 402,
+    "research": 403,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 199,
+    "seedling": 200,
     "evergreen": 10
   },
   "notes": [
@@ -17244,6 +17244,20 @@
       "updated": "2026-06-25",
       "vault_path": "research/2026-06-25-0000-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-25-0000-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-25-0201-hermes-consolidated-insight",
+      "title": "四套記憶系統的隱形經驗常數：5±2 是工作記憶容量的工程湧現",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-06-25",
+      "updated": "2026-06-25",
+      "vault_path": "research/2026-06-25-0201-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-25-0201-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
