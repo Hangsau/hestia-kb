@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-26T04:00:05",
+  "generated_at": "2026-06-26T04:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1294,
+  "count": 1295,
   "type_breakdown": {
     "daily": 10,
-    "research": 409,
+    "research": 410,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 210,
+    "seedling": 211,
     "evergreen": 10
   },
   "notes": [
@@ -17358,6 +17358,20 @@
       "updated": "2026-06-26",
       "vault_path": "research/2026-06-26-0202-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-26-0202-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-26-0400-hermes-consolidated-insight",
+      "title": "失效信號閉環 + 飽和容量：四篇記憶架構論文的隱性收斂",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-06-26",
+      "updated": "2026-06-26",
+      "vault_path": "research/2026-06-26-0400-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-26-0400-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
