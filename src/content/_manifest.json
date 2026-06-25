@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-26T02:00:05",
+  "generated_at": "2026-06-26T02:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1293,
+  "count": 1294,
   "type_breakdown": {
     "daily": 10,
-    "research": 408,
+    "research": 409,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 209,
+    "seedling": 210,
     "evergreen": 10
   },
   "notes": [
@@ -17341,6 +17341,23 @@
       "updated": "2026-06-25",
       "vault_path": "research/2026-06-25-研究報告-agentic-benchmark-2026-saturation-contamination-reliability-cliff.md",
       "url": "/notes/research-2026-06-25-研究報告-agentic-benchmark-2026-saturation-contamination-reliability-cliff/"
+    },
+    {
+      "slug": "research-2026-06-26-0202-hermes-consolidated-insight",
+      "title": "讀取即寫入的指令：四套系統共有的 Reader-Writer 閉環 + 兩條治理光譜上的 Hermes 缺位",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "closed-loop-feedback",
+        "execution-governance",
+        "reader-writer-coupling"
+      ],
+      "created": "2026-06-26",
+      "updated": "2026-06-26",
+      "vault_path": "research/2026-06-26-0202-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-26-0202-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
