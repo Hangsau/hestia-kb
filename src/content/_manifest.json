@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-26T05:00:06",
+  "generated_at": "2026-06-26T05:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1295,
+  "count": 1296,
   "type_breakdown": {
     "daily": 10,
-    "research": 410,
+    "research": 411,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 211,
+    "seedling": 212,
     "evergreen": 10
   },
   "notes": [
@@ -17372,6 +17372,22 @@
       "updated": "2026-06-26",
       "vault_path": "research/2026-06-26-0400-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-26-0400-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-26-0501-hermes-consolidated-insight",
+      "title": "補述：Trigger 設計 > 結構設計、Token 成本是硬約束（接續昨日 insight 的未覆蓋面）",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "trigger-design"
+      ],
+      "created": "2026-06-26",
+      "updated": "2026-06-26",
+      "vault_path": "research/2026-06-26-0501-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-26-0501-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
