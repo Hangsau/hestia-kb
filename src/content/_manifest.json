@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-25T21:00:05",
+  "generated_at": "2026-06-25T21:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1291,
+  "count": 1292,
   "type_breakdown": {
     "daily": 10,
-    "research": 406,
+    "research": 407,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 207,
+    "seedling": 208,
     "evergreen": 10
   },
   "notes": [
@@ -17309,6 +17309,23 @@
       "updated": "2026-06-25",
       "vault_path": "research/2026-06-25-0906-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-25-0906-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-25-2101-hermes-consolidated-insight",
+      "title": "「沒被記住的東西」才是關鍵：四套系統共同擁有 Tier-0 原始緩衝區與漸進式成本升級",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "subconscious-buffer",
+        "progressive-cost",
+        "personalization-substrate"
+      ],
+      "created": "2026-06-25",
+      "updated": "2026-06-25",
+      "vault_path": "research/2026-06-25-2101-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-25-2101-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
