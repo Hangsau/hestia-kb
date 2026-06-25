@@ -1,7 +1,7 @@
 ---
 _slug: swimming-RAW-PMID-42218755-selected-immunoendocrine-and-performance-adaptations-to-uppe
 _vault_path: swimming/RAW/PMID-42218755-selected-immunoendocrine-and-performance-adaptations-to-uppe.md
-date: 2026-06-23
+date: 2026-06-25
 type: pubmed
 pmid: 42218755
 pmcid: null
@@ -13,8 +13,8 @@ status: seedling
 authors: Gao H, Yu X, Guo Z
 title: Selected immunoendocrine and performance adaptations to upper-body plyometric
   training and β-alanine supplementation in male swimmers.
-created: '2026-06-23'
-updated: '2026-06-23'
+created: '2026-06-25'
+updated: '2026-06-25'
 ---
 
 # PMID-42218755 — Selected immunoendocrine and performance adaptations to upper-body plyometric training and β-alanine supplementation in male swimmers.

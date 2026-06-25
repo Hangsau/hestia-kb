@@ -4,12 +4,13 @@ _vault_path: swimming/references/search-log.md
 title: Search Log
 type: note
 status: seedling
-created: '2026-06-24'
-updated: '2026-06-24'
+created: '2026-06-25'
+updated: '2026-06-25'
 ---
 
 # Search Log
 
+- **2026-06-25**: `swimming AND technique` → 4 papers fetched
 - **2026-06-24**: `swimming AND warm-up` → 1 papers fetched
 - **2026-06-23**: `swimming AND recovery` → 5 papers fetched
 - **2026-06-22**: `swimming AND motor learning` → 0 papers fetched
