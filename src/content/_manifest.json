@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-26T20:00:05",
+  "generated_at": "2026-06-26T20:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1302,
+  "count": 1303,
   "type_breakdown": {
     "daily": 10,
-    "research": 415,
+    "research": 416,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 218,
+    "seedling": 219,
     "evergreen": 10
   },
   "notes": [
@@ -17453,6 +17453,23 @@
       "updated": "2026-06-26",
       "vault_path": "research/2026-06-26-1901-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-26-1901-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-26-2001-hermes-consolidated-insight",
+      "title": "記憶架構的四論文收斂：Reader 失敗信號 × 雙軌記憶",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "drift-penalty",
+        "ws-035"
+      ],
+      "created": "2026-06-26",
+      "updated": "2026-06-26",
+      "vault_path": "research/2026-06-26-2001-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-26-2001-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
