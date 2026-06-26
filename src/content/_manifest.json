@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-26T23:00:05",
+  "generated_at": "2026-06-26T23:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1303,
+  "count": 1304,
   "type_breakdown": {
     "daily": 10,
-    "research": 416,
+    "research": 417,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 219,
+    "seedling": 220,
     "evergreen": 10
   },
   "notes": [
@@ -17472,6 +17472,21 @@
       "url": "/notes/research-2026-06-26-2001-hermes-consolidated-insight/"
     },
     {
+      "slug": "research-2026-06-26-研究報告-production-agent-safety-2026-h1-governance-by-architecture-policy-as-code-scalable-oversight-三條主軸",
+      "title": "研究報告：Production Agent Safety 2026 H1 — Governance-by-Architecture, Policy-as-Code, Scalable Oversight 三條主軸",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "research",
+        "knowledge",
+        "ai-agent"
+      ],
+      "created": "2026-06-26",
+      "updated": "2026-06-26",
+      "vault_path": "research/2026-06-26-研究報告-production-agent-safety-2026-h1-governance-by-architecture-policy-as-code-scalable-oversight-三條主軸.md",
+      "url": "/notes/research-2026-06-26-研究報告-production-agent-safety-2026-h1-governance-by-architecture-policy-as-code-scalable-oversight-三條主軸/"
+    },
+    {
       "slug": "research-index",
       "title": "Research Index",
       "type": "research",
@@ -17488,8 +17503,8 @@
       "type": "research",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
+      "created": "2026-06-26",
+      "updated": "2026-06-26",
       "vault_path": "research/research-index.md",
       "url": "/notes/research-research-index/"
     },
