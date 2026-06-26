@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-27T04:00:07",
+  "generated_at": "2026-06-27T04:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1304,
+  "count": 1305,
   "type_breakdown": {
     "daily": 10,
-    "research": 417,
+    "research": 418,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 220,
+    "seedling": 221,
     "evergreen": 10
   },
   "notes": [
@@ -17485,6 +17485,23 @@
       "updated": "2026-06-26",
       "vault_path": "research/2026-06-26-研究報告-production-agent-safety-2026-h1-governance-by-architecture-policy-as-code-scalable-oversight-三條主軸.md",
       "url": "/notes/research-2026-06-26-研究報告-production-agent-safety-2026-h1-governance-by-architecture-policy-as-code-scalable-oversight-三條主軸/"
+    },
+    {
+      "slug": "research-2026-06-27-0400-hermes-consolidated-insight",
+      "title": "2026-06-09 記憶架構探索綜合：四篇論文共同指向 Hermes 三個結構性缺口",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "governance",
+        "ws-035"
+      ],
+      "created": "2026-06-27",
+      "updated": "2026-06-27",
+      "vault_path": "research/2026-06-27-0400-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-27-0400-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
