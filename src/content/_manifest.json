@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-26T19:00:05",
+  "generated_at": "2026-06-26T19:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1301,
+  "count": 1302,
   "type_breakdown": {
     "daily": 10,
-    "research": 414,
+    "research": 415,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 217,
+    "seedling": 218,
     "evergreen": 10
   },
   "notes": [
@@ -17439,6 +17439,20 @@
       "updated": "2026-06-26",
       "vault_path": "research/2026-06-26-1700-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-26-1700-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-26-1901-hermes-consolidated-insight",
+      "title": "2026-06-09 LLM Agent 記憶架構浪潮：四個 cross-cutting insight",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-06-26",
+      "updated": "2026-06-26",
+      "vault_path": "research/2026-06-26-1901-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-26-1901-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
