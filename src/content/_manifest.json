@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-29T09:00:05",
+  "generated_at": "2026-06-29T09:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1308,
+  "count": 1309,
   "type_breakdown": {
     "daily": 10,
-    "research": 418,
+    "research": 419,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 224,
+    "seedling": 225,
     "evergreen": 10
   },
   "notes": [
@@ -17502,6 +17502,23 @@
       "updated": "2026-06-27",
       "vault_path": "research/2026-06-27-0400-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-27-0400-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-29-0903-hermes-consolidated-insight",
+      "title": "2026-06-09 記憶群（第七輪消化）：consolidation 硬飽和，無新 cross-cutting theme",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "redigestion-confirmation",
+        "saturation",
+        "agent-memory"
+      ],
+      "created": "2026-06-29",
+      "updated": "2026-06-29",
+      "vault_path": "research/2026-06-29-0903-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-29-0903-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
