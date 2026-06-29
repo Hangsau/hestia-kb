@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-30T00:00:05",
+  "generated_at": "2026-06-30T00:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1315,
+  "count": 1316,
   "type_breakdown": {
     "daily": 10,
-    "research": 425,
+    "research": 426,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 231,
+    "seedling": 232,
     "evergreen": 10
   },
   "notes": [
@@ -17619,6 +17619,22 @@
       "updated": "2026-06-29",
       "vault_path": "research/2026-06-29-研究報告-code-as-action-agents-2026-h1-從-json-function-calling-到-可執行程式即動作空間-的典範轉移.md",
       "url": "/notes/research-2026-06-29-研究報告-code-as-action-agents-2026-h1-從-json-function-calling-到-可執行程式即動作空間-的典範轉移/"
+    },
+    {
+      "slug": "research-2026-06-30-0001-hermes-consolidated-insight",
+      "title": "無可 consolidation 的 insight — 飽和第 12 輪，state reset 揭露系統本身缺 bounded process",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "saturation",
+        "meta"
+      ],
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
+      "vault_path": "research/2026-06-30-0001-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-30-0001-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
