@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-29T11:00:05",
+  "generated_at": "2026-06-29T11:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1309,
+  "count": 1310,
   "type_breakdown": {
     "daily": 10,
-    "research": 419,
+    "research": 420,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 225,
+    "seedling": 226,
     "evergreen": 10
   },
   "notes": [
@@ -17519,6 +17519,24 @@
       "updated": "2026-06-29",
       "vault_path": "research/2026-06-29-0903-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-29-0903-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-29-1100-hermes-consolidated-insight",
+      "title": "2026-06-09 記憶群（第九輪消化）：樣本飽和已硬確認 × 發現 1 個跨輪 angle × state-tracking 失效可觀察",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "redigestion-confirmation",
+        "saturation",
+        "agent-memory",
+        "meta-failure"
+      ],
+      "created": "2026-06-29",
+      "updated": "2026-06-29",
+      "vault_path": "research/2026-06-29-1100-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-29-1100-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
