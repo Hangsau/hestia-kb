@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-29T16:00:04",
+  "generated_at": "2026-06-29T16:30:04",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1311,
+  "count": 1312,
   "type_breakdown": {
     "daily": 10,
-    "research": 421,
+    "research": 422,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 227,
+    "seedling": 228,
     "evergreen": 10
   },
   "notes": [
@@ -17554,6 +17554,22 @@
       "updated": "2026-06-29",
       "vault_path": "research/2026-06-29-1501-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-29-1501-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-29-1601-hermes-consolidated-insight",
+      "title": "Reader-Writer 分離原則 + 容量飽和點：跨四篇 2026-06-09 記憶系統文獻的收斂",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "agent-memory",
+        "governance"
+      ],
+      "created": "2026-06-29",
+      "updated": "2026-06-29",
+      "vault_path": "research/2026-06-29-1601-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-29-1601-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
