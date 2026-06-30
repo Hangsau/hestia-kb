@@ -1,7 +1,7 @@
 ---
 _slug: swimming-RAW-PMID-42337127-sex-dependent-responses-to-moderate-low-intensity-swimming-a
 _vault_path: swimming/RAW/PMID-42337127-sex-dependent-responses-to-moderate-low-intensity-swimming-a.md
-date: 2026-06-26
+date: 2026-06-30
 type: pubmed
 pmid: 42337127
 pmcid: null
@@ -14,8 +14,8 @@ authors: da Silva LLR, de Souza TGPB, Cassini JLS, Nascimento BG, Dos Reis LFC, 
   Sousa Máximo T, de Almeida Hermes T
 title: Sex-dependent responses to moderate/low-intensity swimming and loaded ladder-climbing
   resistance exercise in mdx mice.
-created: '2026-06-26'
-updated: '2026-06-26'
+created: '2026-06-30'
+updated: '2026-06-30'
 ---
 
 # PMID-42337127 — Sex-dependent responses to moderate/low-intensity swimming and loaded ladder-climbing resistance exercise in mdx mice.
