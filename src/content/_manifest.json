@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-30T09:00:05",
+  "generated_at": "2026-06-30T09:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1321,
+  "count": 1322,
   "type_breakdown": {
     "daily": 10,
-    "research": 428,
+    "research": 429,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 237,
+    "seedling": 238,
     "evergreen": 10
   },
   "notes": [
@@ -17668,6 +17668,20 @@
       "updated": "2026-06-30",
       "vault_path": "research/2026-06-30-0803-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-30-0803-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-30-0909-hermes-consolidated-insight",
+      "title": "記憶系統的「觸發條件」收斂 — 2026 記憶架構共同語言浮現",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
+      "vault_path": "research/2026-06-30-0909-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-30-0909-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
