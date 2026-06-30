@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-30T23:00:05",
+  "generated_at": "2026-06-30T23:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1325,
+  "count": 1327,
   "type_breakdown": {
     "daily": 10,
-    "research": 432,
+    "research": 434,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 241,
+    "seedling": 243,
     "evergreen": 10
   },
   "notes": [
@@ -17730,6 +17730,37 @@
       "url": "/notes/research-2026-06-30-1900-hermes-consolidated-insight/"
     },
     {
+      "slug": "research-2026-06-30-2304-hermes-consolidated-insight",
+      "title": "第二次消化同批 4 篇 Memory Architecture 筆記：Architecture Separation 跨域同構 + Token Cost 是隱藏決策變量",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "governance"
+      ],
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
+      "vault_path": "research/2026-06-30-2304-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-30-2304-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-30-研究報告-self-evolution-protocol-layer-autogenesis-rspl-sepl",
+      "title": "研究報告：Self-Evolution Protocol Layer — Autogenesis / RSPL / SEPL",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "research",
+        "knowledge",
+        "ai-agent"
+      ],
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
+      "vault_path": "research/2026-06-30-研究報告-self-evolution-protocol-layer-autogenesis-rspl-sepl.md",
+      "url": "/notes/research-2026-06-30-研究報告-self-evolution-protocol-layer-autogenesis-rspl-sepl/"
+    },
+    {
       "slug": "research-index",
       "title": "Research Index",
       "type": "research",
@@ -17746,8 +17777,8 @@
       "type": "research",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
       "vault_path": "research/research-index.md",
       "url": "/notes/research-research-index/"
     },
