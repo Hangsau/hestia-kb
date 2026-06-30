@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-30T19:00:05",
+  "generated_at": "2026-06-30T19:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1324,
+  "count": 1325,
   "type_breakdown": {
     "daily": 10,
-    "research": 431,
+    "research": 432,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 240,
+    "seedling": 241,
     "evergreen": 10
   },
   "notes": [
@@ -17714,6 +17714,20 @@
       "updated": "2026-06-30",
       "vault_path": "research/2026-06-30-1718-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-06-30-1718-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-06-30-1900-hermes-consolidated-insight",
+      "title": "2026-06-09 記憶系統探索日的收斂模式：五種觸發信號、Reader-Writer 閉環、Token 成本底線",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
+      "vault_path": "research/2026-06-30-1900-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-06-30-1900-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
