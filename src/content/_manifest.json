@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-01T02:00:05",
+  "generated_at": "2026-07-01T02:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1328,
+  "count": 1329,
   "type_breakdown": {
     "daily": 10,
-    "research": 435,
+    "research": 436,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 244,
+    "seedling": 245,
     "evergreen": 10
   },
   "notes": [
@@ -17776,6 +17776,23 @@
       "updated": "2026-07-01",
       "vault_path": "research/2026-07-01-0001-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-01-0001-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-01-0200-hermes-consolidated-insight",
+      "title": "Drift Penalty 的正確設計：Multi-Signal Reader→Writer 閉環 + Trigger-Based 共識",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "ws-035",
+        "drift-penalty"
+      ],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "vault_path": "research/2026-07-01-0200-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-01-0200-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
