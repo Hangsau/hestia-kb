@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-01T00:00:05",
+  "generated_at": "2026-07-01T00:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1327,
+  "count": 1328,
   "type_breakdown": {
     "daily": 10,
-    "research": 434,
+    "research": 435,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 243,
+    "seedling": 244,
     "evergreen": 10
   },
   "notes": [
@@ -17759,6 +17759,23 @@
       "updated": "2026-06-30",
       "vault_path": "research/2026-06-30-研究報告-self-evolution-protocol-layer-autogenesis-rspl-sepl.md",
       "url": "/notes/research-2026-06-30-研究報告-self-evolution-protocol-layer-autogenesis-rspl-sepl/"
+    },
+    {
+      "slug": "research-2026-07-01-0001-hermes-consolidated-insight",
+      "title": "Memory Architectures (2026) 跨四篇探索的非顯然收斂",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "drift-penalty",
+        "heartbeat-learning"
+      ],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "vault_path": "research/2026-07-01-0001-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-01-0001-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
