@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-01T08:00:05",
+  "generated_at": "2026-07-01T08:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1333,
+  "count": 1335,
   "type_breakdown": {
     "daily": 10,
-    "research": 440,
+    "research": 441,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -15,7 +15,7 @@
     "r7-escalation": 1,
     "reliability-concern": 1,
     "swimming": 237,
-    "forum-digest": 23,
+    "forum-digest": 24,
     "raw": 13,
     "research-article": 28,
     "primary-research": 21,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 249,
+    "seedling": 251,
     "evergreen": 10
   },
   "notes": [
@@ -17861,6 +17861,22 @@
       "url": "/notes/research-2026-07-01-0700-hermes-consolidated-insight/"
     },
     {
+      "slug": "research-2026-07-01-0800-hermes-consolidated-insight",
+      "title": "No-op：本次 08:00 觸發為 06-09 批次第五輪重複消化",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "noop",
+        "fifth-pass"
+      ],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "vault_path": "research/2026-07-01-0800-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-01-0800-hermes-consolidated-insight/"
+    },
+    {
       "slug": "research-index",
       "title": "Research Index",
       "type": "research",
@@ -18024,6 +18040,17 @@
       "updated": "2026-06-30",
       "vault_path": "swimming/RAW/2026-06-30-forum-reddit-r-swimming.md",
       "url": "/notes/swimming-RAW-2026-06-30-forum-reddit-r-swimming/"
+    },
+    {
+      "slug": "swimming-RAW-2026-07-01-forum-reddit-r-swimming",
+      "title": "Reddit r/swimming — 2026-07-01",
+      "type": "forum-digest",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "vault_path": "swimming/RAW/2026-07-01-forum-reddit-r-swimming.md",
+      "url": "/notes/swimming-RAW-2026-07-01-forum-reddit-r-swimming/"
     },
     {
       "slug": "swimming-RAW-PMID-41780505-key-contributors-to-top-elite-swimming-performance-differenc",
