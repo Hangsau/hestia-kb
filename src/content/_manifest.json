@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-02T12:00:05",
+  "generated_at": "2026-07-02T12:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1348,
+  "count": 1349,
   "type_breakdown": {
     "daily": 10,
-    "research": 450,
+    "research": 451,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 264,
+    "seedling": 265,
     "evergreen": 10
   },
   "notes": [
@@ -18020,6 +18020,23 @@
       "updated": "2026-07-02",
       "vault_path": "research/2026-07-02-0601-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-02-0601-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-02-1200-hermes-consolidated-insight",
+      "title": "2026-07-02 1200 批次：Agent 記憶架構的二階模式 — 0601 已涵蓋 trigger/feedback/gap 三主題，本批補三個沒被點出的二階模式",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "agent-governance",
+        "follow-up"
+      ],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "vault_path": "research/2026-07-02-1200-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-02-1200-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
