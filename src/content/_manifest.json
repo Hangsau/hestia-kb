@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-03T16:00:05",
+  "generated_at": "2026-07-03T16:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1354,
+  "count": 1355,
   "type_breakdown": {
     "daily": 10,
-    "research": 455,
+    "research": 456,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 270,
+    "seedling": 271,
     "evergreen": 10
   },
   "notes": [
@@ -18098,6 +18098,23 @@
       "updated": "2026-07-03",
       "vault_path": "research/2026-07-03-0902-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-03-0902-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-03-1601-hermes-consolidated-insight",
+      "title": "2026-06-09 Memory Architecture Quartet 的隱藏軸線：為何 WS-035 應設計成「read→write 反饋閉環」而非「trigger 選擇題」",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "ws-035",
+        "governance"
+      ],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "vault_path": "research/2026-07-03-1601-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-03-1601-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
