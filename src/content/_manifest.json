@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-05T02:00:06",
+  "generated_at": "2026-07-05T02:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1365,
+  "count": 1366,
   "type_breakdown": {
     "daily": 10,
-    "research": 464,
+    "research": 465,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 281,
+    "seedling": 282,
     "evergreen": 10
   },
   "notes": [
@@ -18239,6 +18239,20 @@
       "updated": "2026-07-04",
       "vault_path": "research/2026-07-04-研究報告-tool-synthesis-code-as-action-2026-h1-ai-agent-從-呼叫工具-演化到-自己生成工具.md",
       "url": "/notes/research-2026-07-04-研究報告-tool-synthesis-code-as-action-2026-h1-ai-agent-從-呼叫工具-演化到-自己生成工具/"
+    },
+    {
+      "slug": "research-2026-07-05-0200-hermes-consolidated-insight",
+      "title": "2026-06-09 Memory Architecture 探索浪潮：四個觸發模型其實是同一個抽象",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "vault_path": "research/2026-07-05-0200-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-05-0200-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
