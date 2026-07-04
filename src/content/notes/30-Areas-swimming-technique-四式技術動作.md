@@ -1228,6 +1228,13 @@ status: budding
   - PMID-42264178：SIPE 側位與依賴姿勢顯著相關（Cramér's V=0.41）→ 開放水域換邊策略值得測試 → 綜合表 🆕
   - **領域排除 3 篇**（移至 duplicates/）：PMID-42154743（zebrafish 飼養）、PMID-42224790（zebrafish 儀器）、PMID-42260225（rat 褪黑素）— 對教練技術框架無轉化價值
   - **累計**：85 篇 PMID 整合（+4），RAW 92 篇（−3 排除），digests 93 篇（+4）
+- 2026-07-04（Hestia 週六 cron，Mode A 維護輪）：本週 RAW 空轉，無新 PubMed/forum 入庫
+  - 系統驗證：`find -newermt` 受 git checkout 影響，須以 `git log --since` 為準（git log 比對結果顯示本週曾有 7 個新 PMID + 7 個 forum 檔案被加入，後續 auto-cleanup commit 已清掉，最終磁碟狀態乾淨）
+  - 補跑 Limbo 審計（庫存表 L1101-1184 vs 全文對照表）：0 limbo ✅
+  - RAW 內部重複清理：PMID-41990406 兩 slug（額外滾動 + swim-bench），保留 `swim-bench-freestyle-kinematics`（內容較豐富 2244B vs 806B），短版 `git mv` 至 duplicates/
+  - Body 95 PMIDs 拆解：85 來自 RAW 主目錄（全部有對應 digest）、10 為 duplicates 內動植物/機器人 papers（含 digestive、cuttlefish、jellyfish、microrobot、vortex ring 等，已領域排除）
+  - Body 另有 8 PMIDs 為文獻回顧引用或編輯日誌提及（PMID-18214521 能量成本、PMID-41981191/41986577 替換記錄、PMID-37390763/42150980/42154743/42224790/42260225 領域排除提及），均非未整合
+  - **累計**：Body 95 PMIDs、RAW 85 + duplicates 15（含 PMID-41990406 短版剛移入）、digests 95（10 為預期內 animal/robot orphans）
 > - 2026-05-24（Hestia 第二輪迭代）：+10 篇新 RAW + 消化筆記
 > - 2026-05-24（Hestia 第三輪迭代）：+10 篇 P0 缺口文獻（呼吸技術×5、轉身×2、划手推進×1、蝶式呼吸×2）
 > - 2026-05-24（Hestia 第四輪迭代）：+10 篇未整合 RAW（起跳×4、仰泳轉身×3、蛙泳×1、划手掌×1）
