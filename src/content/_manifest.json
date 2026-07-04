@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-04T23:00:05",
+  "generated_at": "2026-07-04T23:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1363,
+  "count": 1365,
   "type_breakdown": {
     "daily": 10,
-    "research": 462,
+    "research": 464,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 279,
+    "seedling": 281,
     "evergreen": 10
   },
   "notes": [
@@ -18208,6 +18208,39 @@
       "url": "/notes/research-2026-07-04-1601-hermes-consolidated-insight/"
     },
     {
+      "slug": "research-2026-07-04-2306-hermes-consolidated-insight",
+      "title": "6/9 Memory Quartet 第二輪消化：主題已窮盡，僅補一個 meta-pipeline 信號",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "ws-035",
+        "redundant-round",
+        "meta-pipeline"
+      ],
+      "created": "2026-07-04",
+      "updated": "2026-07-04",
+      "vault_path": "research/2026-07-04-2306-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-04-2306-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-04-研究報告-tool-synthesis-code-as-action-2026-h1-ai-agent-從-呼叫工具-演化到-自己生成工具",
+      "title": "研究報告：Tool Synthesis & Code-as-Action — 2026 H1 AI Agent 從「呼叫工具」演化到「自己生成工具」",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "research",
+        "knowledge",
+        "ai-agent"
+      ],
+      "created": "2026-07-04",
+      "updated": "2026-07-04",
+      "vault_path": "research/2026-07-04-研究報告-tool-synthesis-code-as-action-2026-h1-ai-agent-從-呼叫工具-演化到-自己生成工具.md",
+      "url": "/notes/research-2026-07-04-研究報告-tool-synthesis-code-as-action-2026-h1-ai-agent-從-呼叫工具-演化到-自己生成工具/"
+    },
+    {
       "slug": "research-index",
       "title": "Research Index",
       "type": "research",
@@ -18224,8 +18257,8 @@
       "type": "research",
       "status": "seedling",
       "tags": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
+      "created": "2026-07-04",
+      "updated": "2026-07-04",
       "vault_path": "research/research-index.md",
       "url": "/notes/research-research-index/"
     },
