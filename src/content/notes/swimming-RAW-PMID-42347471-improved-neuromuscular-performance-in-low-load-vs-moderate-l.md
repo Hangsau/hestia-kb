@@ -1,7 +1,7 @@
 ---
 _slug: swimming-RAW-PMID-42347471-improved-neuromuscular-performance-in-low-load-vs-moderate-l
 _vault_path: swimming/RAW/PMID-42347471-improved-neuromuscular-performance-in-low-load-vs-moderate-l.md
-date: 2026-07-02
+date: 2026-07-04
 type: pubmed
 pmid: 42347471
 pmcid: null
@@ -14,8 +14,8 @@ authors: Rodríguez-Rosell D, Neiva HP, Marinho DA, Yáñez-García JM, Rojas-Ja
   A, González-Badillo JJ, Marques MC
 title: Improved Neuromuscular Performance in Low-Load vs. Moderate-Load Resistance
   Training Among Young Elite Swimmers.
-created: '2026-07-02'
-updated: '2026-07-02'
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # PMID-42347471 — Improved Neuromuscular Performance in Low-Load vs. Moderate-Load Resistance Training Among Young Elite Swimmers.
