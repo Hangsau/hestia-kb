@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-07T01:00:05",
+  "generated_at": "2026-07-07T01:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1372,
+  "count": 1373,
   "type_breakdown": {
     "daily": 10,
-    "research": 470,
+    "research": 471,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 288,
+    "seedling": 289,
     "evergreen": 10
   },
   "notes": [
@@ -18335,6 +18335,21 @@
       "updated": "2026-07-06",
       "vault_path": "research/2026-07-06-研究報告-ai-agent-inference-cost-economics-2026-h1-從-砸-gpu-到-聰明花錢.md",
       "url": "/notes/research-2026-07-06-研究報告-ai-agent-inference-cost-economics-2026-h1-從-砸-gpu-到-聰明花錢/"
+    },
+    {
+      "slug": "research-2026-07-07-0101-hermes-consolidated-insight",
+      "title": "2026-06-09 Memory Architecture 批次：第三輪消化—synthesis exhaustion 確認",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "synthesis-exhaustion"
+      ],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "vault_path": "research/2026-07-07-0101-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-07-0101-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
