@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-06T15:00:05",
+  "generated_at": "2026-07-06T15:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1369,
+  "count": 1370,
   "type_breakdown": {
     "daily": 10,
-    "research": 467,
+    "research": 468,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 285,
+    "seedling": 286,
     "evergreen": 10
   },
   "notes": [
@@ -18286,6 +18286,23 @@
       "updated": "2026-07-06",
       "vault_path": "research/2026-07-06-1401-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-06-1401-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-06-1501-hermes-consolidated-insight",
+      "title": "6/9 Memory Quartet 第三輪消化：批次已徹底耗盡",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "exhausted-batch",
+        "redundancy-detection",
+        "meta-pipeline"
+      ],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "vault_path": "research/2026-07-06-1501-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-06-1501-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
