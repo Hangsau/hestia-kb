@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-06T18:00:05",
+  "generated_at": "2026-07-06T18:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1370,
+  "count": 1371,
   "type_breakdown": {
     "daily": 10,
-    "research": 468,
+    "research": 469,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 286,
+    "seedling": 287,
     "evergreen": 10
   },
   "notes": [
@@ -18303,6 +18303,23 @@
       "updated": "2026-07-06",
       "vault_path": "research/2026-07-06-1501-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-06-1501-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-06-1801-hermes-consolidated-insight",
+      "title": "6/9 Memory Quartet 第四輪：無新 theme，執行前輪提出的 idempotency 修復",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "idempotency-gap",
+        "no-new-theme",
+        "execute-prior-action"
+      ],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "vault_path": "research/2026-07-06-1801-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-06-1801-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
