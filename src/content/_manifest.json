@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-07T09:00:05",
+  "generated_at": "2026-07-07T09:30:05",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1377,
+  "count": 1378,
   "type_breakdown": {
     "daily": 10,
-    "research": 473,
+    "research": 474,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 293,
+    "seedling": 294,
     "evergreen": 10
   },
   "notes": [
@@ -18380,6 +18380,21 @@
       "updated": "2026-07-07",
       "vault_path": "research/2026-07-07-0501-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-07-0501-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-07-0901-hermes-consolidated-insight",
+      "title": "2026-06-09 Memory Architecture 批次：第四輪消化—exhaustion 再確認（無新 insight）",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "synthesis-exhaustion"
+      ],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "vault_path": "research/2026-07-07-0901-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-07-0901-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
