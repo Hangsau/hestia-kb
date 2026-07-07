@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-07T08:00:05",
+  "generated_at": "2026-07-07T08:30:03",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1375,
+  "count": 1377,
   "type_breakdown": {
     "daily": 10,
     "research": 473,
@@ -15,13 +15,13 @@
     "r7-escalation": 1,
     "reliability-concern": 1,
     "swimming": 237,
-    "forum-digest": 28,
+    "forum-digest": 29,
     "raw": 13,
     "research-article": 28,
     "primary-research": 21,
     "systematic-review": 4,
     "observational-study": 2,
-    "pubmed": 31,
+    "pubmed": 32,
     "scoping-review": 1,
     "literature-review": 4,
     "digest": 31,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 291,
+    "seedling": 293,
     "evergreen": 10
   },
   "notes": [
@@ -18602,6 +18602,17 @@
       "url": "/notes/swimming-RAW-2026-07-06-forum-reddit-r-swimming/"
     },
     {
+      "slug": "swimming-RAW-2026-07-07-forum-reddit-r-swimming",
+      "title": "Reddit r/swimming — 2026-07-07",
+      "type": "forum-digest",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "vault_path": "swimming/RAW/2026-07-07-forum-reddit-r-swimming.md",
+      "url": "/notes/swimming-RAW-2026-07-07-forum-reddit-r-swimming/"
+    },
+    {
       "slug": "swimming-RAW-PMID-41780505-key-contributors-to-top-elite-swimming-performance-differenc",
       "title": "Key Contributors to Top-Elite Swimming Performance: Differences Between Junior and Adult Female Freestyle Swimmers.",
       "type": "pubmed",
@@ -18644,6 +18655,17 @@
       "updated": "2026-06-23",
       "vault_path": "swimming/RAW/PMID-42013467-the-impact-of-aquatic-training-on-athletic-performance-and-p.md",
       "url": "/notes/swimming-RAW-PMID-42013467-the-impact-of-aquatic-training-on-athletic-performance-and-p/"
+    },
+    {
+      "slug": "swimming-RAW-PMID-42150378-impact-of-swimming-intensity-on-spatiotemporal-kinematics-of",
+      "title": "Impact of swimming intensity on spatiotemporal kinematics of lower-limb breaststroke actions in national-level male swimmers: A discrete variable and time-series analysis.",
+      "type": "pubmed",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "vault_path": "swimming/RAW/PMID-42150378-impact-of-swimming-intensity-on-spatiotemporal-kinematics-of.md",
+      "url": "/notes/swimming-RAW-PMID-42150378-impact-of-swimming-intensity-on-spatiotemporal-kinematics-of/"
     },
     {
       "slug": "swimming-RAW-PMID-42218755-selected-immunoendocrine-and-performance-adaptations-to-uppe",
@@ -18761,8 +18783,8 @@
       "type": "pubmed",
       "status": "seedling",
       "tags": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
       "vault_path": "swimming/RAW/PMID-42343075-individually-timed-upper-limb-post-activation-performance-en.md",
       "url": "/notes/swimming-RAW-PMID-42343075-individually-timed-upper-limb-post-activation-performance-en/"
     },
@@ -18805,8 +18827,8 @@
       "type": "pubmed",
       "status": "seedling",
       "tags": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-04",
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
       "vault_path": "swimming/RAW/PMID-42394842-physiological-load-and-breath-holding-in-artistic-swimming-a.md",
       "url": "/notes/swimming-RAW-PMID-42394842-physiological-load-and-breath-holding-in-artistic-swimming-a/"
     },

@@ -1,7 +1,7 @@
 ---
 _slug: swimming-RAW-PMID-42394842-physiological-load-and-breath-holding-in-artistic-swimming-a
 _vault_path: swimming/RAW/PMID-42394842-physiological-load-and-breath-holding-in-artistic-swimming-a.md
-date: 2026-07-04
+date: 2026-07-07
 type: pubmed
 pmid: 42394842
 pmcid: null
@@ -14,8 +14,8 @@ authors: Zhou Q, Xiang Y, Wong SP, Wong UK, Zhao Y, Fan W
 title: 'Physiological load and breath-holding in artistic swimming: a scoping review
   establishing historical baselines and evidence gaps in the context of the 2022-2025
   rule changes.'
-created: '2026-07-04'
-updated: '2026-07-04'
+created: '2026-07-07'
+updated: '2026-07-07'
 ---
 
 # PMID-42394842 — Physiological load and breath-holding in artistic swimming: a scoping review establishing historical baselines and evidence gaps in the context of the 2022-2025 rule changes.

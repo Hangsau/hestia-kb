@@ -1,7 +1,7 @@
 ---
 _slug: swimming-RAW-PMID-42343075-individually-timed-upper-limb-post-activation-performance-en
 _vault_path: swimming/RAW/PMID-42343075-individually-timed-upper-limb-post-activation-performance-en.md
-date: 2026-06-30
+date: 2026-07-07
 type: pubmed
 pmid: 42343075
 pmcid: null
@@ -14,8 +14,8 @@ authors: Stanula A, Sadowski W, Rejdych W, Wilk R, Karpiński J, Strzała M, Wei
   Rosemann T, Knechtle B
 title: Individually timed upper-limb post-activation performance enhancement improves
   50 m front crawl performance in national-level swimmers.
-created: '2026-06-30'
-updated: '2026-06-30'
+created: '2026-07-07'
+updated: '2026-07-07'
 ---
 
 # PMID-42343075 — Individually timed upper-limb post-activation performance enhancement improves 50 m front crawl performance in national-level swimmers.
