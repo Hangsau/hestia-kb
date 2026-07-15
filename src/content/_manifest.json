@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-16T03:00:27",
+  "generated_at": "2026-07-16T03:30:21",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1387,
+  "count": 1388,
   "type_breakdown": {
     "daily": 10,
-    "research": 483,
+    "research": 484,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 303,
+    "seedling": 304,
     "evergreen": 10
   },
   "notes": [
@@ -18533,6 +18533,20 @@
       "updated": "2026-07-16",
       "vault_path": "research/2026-07-16-0000-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-16-0000-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-16-0301-hermes-consolidated-insight",
+      "title": "Re-digestion：2026-06-09 記憶架構四件組已無新 insight",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "vault_path": "research/2026-07-16-0301-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-16-0301-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
