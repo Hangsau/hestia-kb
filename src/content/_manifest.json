@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-15T19:00:25",
+  "generated_at": "2026-07-15T19:30:28",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1383,
+  "count": 1384,
   "type_breakdown": {
     "daily": 10,
-    "research": 479,
+    "research": 480,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 299,
+    "seedling": 300,
     "evergreen": 10
   },
   "notes": [
@@ -18474,6 +18474,22 @@
       "updated": "2026-07-15",
       "vault_path": "research/2026-07-15-1801-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-15-1801-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-15-1900-hermes-consolidated-insight",
+      "title": "2026-06-09 Memory Governance 研究日：四篇筆記的 cross-cutting 收斂",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-governance",
+        "ws-035"
+      ],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "vault_path": "research/2026-07-15-1900-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-15-1900-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
