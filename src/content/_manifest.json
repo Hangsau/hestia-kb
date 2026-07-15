@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-16T06:00:34",
+  "generated_at": "2026-07-16T06:30:36",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1389,
+  "count": 1390,
   "type_breakdown": {
     "daily": 10,
-    "research": 485,
+    "research": 486,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 305,
+    "seedling": 306,
     "evergreen": 10
   },
   "notes": [
@@ -18561,6 +18561,20 @@
       "updated": "2026-07-16",
       "vault_path": "research/2026-07-16-0501-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-16-0501-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-16-0600-hermes-consolidated-insight",
+      "title": "從重複消化到可驗證的記憶治理：下一個瓶頸是狀態機，不是更多架構論文",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "vault_path": "research/2026-07-16-0600-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-16-0600-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
