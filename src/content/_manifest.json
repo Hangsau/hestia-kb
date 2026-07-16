@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-16T23:00:40",
+  "generated_at": "2026-07-16T23:30:12",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1401,
+  "count": 1403,
   "type_breakdown": {
     "daily": 10,
-    "research": 494,
+    "research": 496,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 317,
+    "seedling": 319,
     "evergreen": 10
   },
   "notes": [
@@ -18709,6 +18709,37 @@
       "url": "/notes/research-2026-07-16-1900-hermes-consolidated-insight/"
     },
     {
+      "slug": "research-2026-07-16-2306-hermes-consolidated-insight",
+      "title": "無新 cross-cutting insight：cluster 已飽和，且 saturation gate 正在生效",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "saturation",
+        "honest-skip"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "vault_path": "research/2026-07-16-2306-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-16-2306-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-16-研究報告-agent-sandbox-與-runtime-isolation-2026-h1-的-讓-coding-agent-自由跑-的系統化方案",
+      "title": "研究報告：Agent Sandbox 與 Runtime Isolation — 2026 H1 的「讓 Coding Agent 自由跑」的系統化方案",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "research",
+        "knowledge",
+        "ai-agent"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "vault_path": "research/2026-07-16-研究報告-agent-sandbox-與-runtime-isolation-2026-h1-的-讓-coding-agent-自由跑-的系統化方案.md",
+      "url": "/notes/research-2026-07-16-研究報告-agent-sandbox-與-runtime-isolation-2026-h1-的-讓-coding-agent-自由跑-的系統化方案/"
+    },
+    {
       "slug": "research-index",
       "title": "Research Index",
       "type": "research",
@@ -18725,8 +18756,8 @@
       "type": "research",
       "status": "seedling",
       "tags": [],
-      "created": "2026-07-15",
-      "updated": "2026-07-15",
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
       "vault_path": "research/research-index.md",
       "url": "/notes/research-research-index/"
     },
