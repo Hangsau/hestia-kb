@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-16T08:00:32",
+  "generated_at": "2026-07-16T08:30:45",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1390,
+  "count": 1394,
   "type_breakdown": {
     "daily": 10,
-    "research": 486,
+    "research": 487,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -15,13 +15,13 @@
     "r7-escalation": 1,
     "reliability-concern": 1,
     "swimming": 237,
-    "forum-digest": 29,
+    "forum-digest": 30,
     "raw": 13,
     "research-article": 28,
     "primary-research": 21,
     "systematic-review": 4,
     "observational-study": 2,
-    "pubmed": 32,
+    "pubmed": 34,
     "scoping-review": 1,
     "literature-review": 4,
     "digest": 31,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 306,
+    "seedling": 310,
     "evergreen": 10
   },
   "notes": [
@@ -18577,6 +18577,23 @@
       "url": "/notes/research-2026-07-16-0600-hermes-consolidated-insight/"
     },
     {
+      "slug": "research-2026-07-16-0800-hermes-consolidated-insight",
+      "title": "記憶系統的「Reader-as-Governor」收斂 — Hermes 該補的單一抽象層",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "ws-035",
+        "heartbeat-learning"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "vault_path": "research/2026-07-16-0800-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-16-0800-hermes-consolidated-insight/"
+    },
+    {
       "slug": "research-index",
       "title": "Research Index",
       "type": "research",
@@ -18808,6 +18825,17 @@
       "url": "/notes/swimming-RAW-2026-07-07-forum-reddit-r-swimming/"
     },
     {
+      "slug": "swimming-RAW-2026-07-16-forum-reddit-r-swimming",
+      "title": "Reddit r/swimming — 2026-07-16",
+      "type": "forum-digest",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "vault_path": "swimming/RAW/2026-07-16-forum-reddit-r-swimming.md",
+      "url": "/notes/swimming-RAW-2026-07-16-forum-reddit-r-swimming/"
+    },
+    {
       "slug": "swimming-RAW-PMID-41780505-key-contributors-to-top-elite-swimming-performance-differenc",
       "title": "Key Contributors to Top-Elite Swimming Performance: Differences Between Junior and Adult Female Freestyle Swimmers.",
       "type": "pubmed",
@@ -19026,6 +19054,28 @@
       "updated": "2026-07-07",
       "vault_path": "swimming/RAW/PMID-42394842-physiological-load-and-breath-holding-in-artistic-swimming-a.md",
       "url": "/notes/swimming-RAW-PMID-42394842-physiological-load-and-breath-holding-in-artistic-swimming-a/"
+    },
+    {
+      "slug": "swimming-RAW-PMID-42402594-automated-vision-language-framework-for-kinematic-profiling-",
+      "title": "Automated vision-language framework for kinematic profiling and performance diagnostics in competitive swimming.",
+      "type": "pubmed",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "vault_path": "swimming/RAW/PMID-42402594-automated-vision-language-framework-for-kinematic-profiling-.md",
+      "url": "/notes/swimming-RAW-PMID-42402594-automated-vision-language-framework-for-kinematic-profiling-/"
+    },
+    {
+      "slug": "swimming-RAW-PMID-42431036-differential-regulation-of-exercise-fatigue-by-spirulina-pep",
+      "title": "Differential regulation of exercise fatigue by Spirulina peptides: energy metabolism and antioxidant defense mechanisms mediated in a comparative swimming model.",
+      "type": "pubmed",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "vault_path": "swimming/RAW/PMID-42431036-differential-regulation-of-exercise-fatigue-by-spirulina-pep.md",
+      "url": "/notes/swimming-RAW-PMID-42431036-differential-regulation-of-exercise-fatigue-by-spirulina-pep/"
     },
     {
       "slug": "swimming-references-search-log",
