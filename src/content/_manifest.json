@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-17T00:00:27",
+  "generated_at": "2026-07-17T00:30:42",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1403,
+  "count": 1404,
   "type_breakdown": {
     "daily": 10,
-    "research": 496,
+    "research": 497,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 319,
+    "seedling": 320,
     "evergreen": 10
   },
   "notes": [
@@ -18720,7 +18720,7 @@
         "honest-skip"
       ],
       "created": "2026-07-16",
-      "updated": "2026-07-16",
+      "updated": "2026-07-17",
       "vault_path": "research/2026-07-16-2306-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-16-2306-hermes-consolidated-insight/"
     },
@@ -18738,6 +18738,20 @@
       "updated": "2026-07-16",
       "vault_path": "research/2026-07-16-研究報告-agent-sandbox-與-runtime-isolation-2026-h1-的-讓-coding-agent-自由跑-的系統化方案.md",
       "url": "/notes/research-2026-07-16-研究報告-agent-sandbox-與-runtime-isolation-2026-h1-的-讓-coding-agent-自由跑-的系統化方案/"
+    },
+    {
+      "slug": "research-2026-07-17-0000-hermes-consolidated-insight",
+      "title": "無可 consolidation 的 insight — 4 篇記憶治理筆記皆已徹底消化",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "vault_path": "research/2026-07-17-0000-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-17-0000-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
