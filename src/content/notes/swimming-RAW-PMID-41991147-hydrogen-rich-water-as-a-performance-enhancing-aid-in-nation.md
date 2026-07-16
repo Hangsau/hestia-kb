@@ -1,7 +1,7 @@
 ---
 _slug: swimming-RAW-PMID-41991147-hydrogen-rich-water-as-a-performance-enhancing-aid-in-nation
 _vault_path: swimming/RAW/PMID-41991147-hydrogen-rich-water-as-a-performance-enhancing-aid-in-nation.md
-date: 2026-07-02
+date: 2026-07-16
 type: pubmed
 pmid: 41991147
 pmcid: null
@@ -13,8 +13,8 @@ status: seedling
 authors: Sládečková B, Krejčí J, McKune A, Pyne DB, Bajgar R, Botek M
 title: 'Hydrogen-Rich Water as a Performance-Enhancing Aid in National-Level Finswimmers:
   A Randomized, Double-Blind, Placebo-Controlled Crossover Study.'
-created: '2026-07-02'
-updated: '2026-07-02'
+created: '2026-07-16'
+updated: '2026-07-16'
 ---
 
 # PMID-41991147 — Hydrogen-Rich Water as a Performance-Enhancing Aid in National-Level Finswimmers: A Randomized, Double-Blind, Placebo-Controlled Crossover Study.
