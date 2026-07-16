@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-16T12:00:39",
+  "generated_at": "2026-07-16T12:30:06",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1397,
+  "count": 1398,
   "type_breakdown": {
     "daily": 10,
-    "research": 490,
+    "research": 491,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 313,
+    "seedling": 314,
     "evergreen": 10
   },
   "notes": [
@@ -18645,6 +18645,22 @@
       "updated": "2026-07-16",
       "vault_path": "research/2026-07-16-1100-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-16-1100-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-16-1200-hermes-consolidated-insight",
+      "title": "2026-06-09 記憶架構群第七次消化：持續 exhausted（skip，無新 insight）",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "skip",
+        "redundant-batch"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "vault_path": "research/2026-07-16-1200-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-16-1200-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
