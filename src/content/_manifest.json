@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-16T10:00:03",
+  "generated_at": "2026-07-16T10:30:34",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1395,
+  "count": 1396,
   "type_breakdown": {
     "daily": 10,
-    "research": 488,
+    "research": 489,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -42,7 +42,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 311,
+    "seedling": 312,
     "evergreen": 10
   },
   "notes": [
@@ -18610,6 +18610,25 @@
       "updated": "2026-07-16",
       "vault_path": "research/2026-07-16-0902-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-16-0902-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-16-1000-hermes-consolidated-insight",
+      "title": "2026-06-09 記憶架構群第五次消化：量化基準線與 trigger 信號維度",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "ws-035",
+        "heartbeat-learning",
+        "quantitative-baseline",
+        "trigger-design"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "vault_path": "research/2026-07-16-1000-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-16-1000-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
