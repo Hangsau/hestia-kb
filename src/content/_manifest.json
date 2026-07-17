@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17T14:00:46",
+  "generated_at": "2026-07-17T14:30:46",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1407,
+  "count": 1408,
   "type_breakdown": {
     "daily": 10,
     "research": 500,
@@ -38,11 +38,12 @@
     "template": 2,
     "note": 12,
     "moc": 1,
+    "sentinel": 1,
     "top100-hot-digest": 1
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 323,
+    "seedling": 324,
     "evergreen": 10
   },
   "notes": [
@@ -18798,6 +18799,22 @@
       "updated": "2026-07-17",
       "vault_path": "research/2026-07-17-1300-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-17-1300-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-17-1400-hermes-consolidated-insight",
+      "title": "2026-07-17 14:00 — 第 4 輪消化仍無新 insight，第 4 篇哨兵記錄",
+      "type": "sentinel",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "sentinel",
+        "exhausted"
+      ],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "vault_path": "research/2026-07-17-1400-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-17-1400-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
