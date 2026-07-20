@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-20T14:00:23",
+  "generated_at": "2026-07-20T14:30:15",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1411,
+  "count": 1412,
   "type_breakdown": {
     "daily": 10,
     "research": 500,
@@ -40,11 +40,12 @@
     "moc": 1,
     "sentinel": 2,
     "final-pass": 1,
+    "closure-confirmation": 1,
     "top100-hot-digest": 1
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 327,
+    "seedling": 328,
     "evergreen": 10
   },
   "notes": [
@@ -18848,6 +18849,22 @@
       "updated": "2026-07-20",
       "vault_path": "research/2026-07-20-1200-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-20-1200-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-20-1400-hermes-consolidated-insight",
+      "title": "2026-07-20 14:00 — Cluster closure 確認：無新 insight，第六輪 final-pass 已飽和",
+      "type": "closure-confirmation",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "no-insight",
+        "cluster-closure-confirmed"
+      ],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "vault_path": "research/2026-07-20-1400-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-20-1400-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
