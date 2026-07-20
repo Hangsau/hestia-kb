@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-20T12:00:44",
+  "generated_at": "2026-07-20T12:30:16",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1410,
+  "count": 1411,
   "type_breakdown": {
     "daily": 10,
     "research": 500,
@@ -39,11 +39,12 @@
     "note": 12,
     "moc": 1,
     "sentinel": 2,
+    "final-pass": 1,
     "top100-hot-digest": 1
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 326,
+    "seedling": 327,
     "evergreen": 10
   },
   "notes": [
@@ -18831,6 +18832,22 @@
       "updated": "2026-07-20",
       "vault_path": "research/2026-07-20-1100-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-20-1100-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-20-1200-hermes-consolidated-insight",
+      "title": "2026-07-20 12:00 — 第六輪 final-pass：兩條只在四件組齊看時才浮現的 cross-cutting 修正",
+      "type": "final-pass",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "final-pass",
+        "supersede-recommendation"
+      ],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "vault_path": "research/2026-07-20-1200-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-20-1200-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
