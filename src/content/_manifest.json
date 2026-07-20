@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-20T19:00:46",
+  "generated_at": "2026-07-20T19:30:12",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1412,
+  "count": 1413,
   "type_breakdown": {
     "daily": 10,
-    "research": 500,
+    "research": 501,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 328,
+    "seedling": 329,
     "evergreen": 10
   },
   "notes": [
@@ -18865,6 +18865,20 @@
       "updated": "2026-07-20",
       "vault_path": "research/2026-07-20-1400-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-20-1400-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-20-1901-hermes-consolidated-insight",
+      "title": "記憶的「寫入時機」比「儲存結構」更關鍵：四篇 2026-06-09 探索的收斂點",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "vault_path": "research/2026-07-20-1901-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-20-1901-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
