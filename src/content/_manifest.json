@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-21T07:00:46",
+  "generated_at": "2026-07-21T07:30:46",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1414,
+  "count": 1415,
   "type_breakdown": {
     "daily": 10,
-    "research": 502,
+    "research": 503,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 330,
+    "seedling": 331,
     "evergreen": 10
   },
   "notes": [
@@ -18894,6 +18894,23 @@
       "updated": "2026-07-20",
       "vault_path": "research/2026-07-20-研究報告-human-in-the-loop-agent-patterns-2026-從-interrupt-原語到-action-firewall.md",
       "url": "/notes/research-2026-07-20-研究報告-human-in-the-loop-agent-patterns-2026-從-interrupt-原語到-action-firewall/"
+    },
+    {
+      "slug": "research-2026-07-21-0701-hermes-consolidated-insight",
+      "title": "四份記憶系統論文都拒絕了「單一信號驅動」—— Hermes 的 staleness 函數目前就是單一信號",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-governance",
+        "drift-penalty",
+        "heartbeat-learning"
+      ],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "vault_path": "research/2026-07-21-0701-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-21-0701-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
