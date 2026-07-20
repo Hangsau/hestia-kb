@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-20T23:00:46",
+  "generated_at": "2026-07-20T23:30:44",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1413,
+  "count": 1414,
   "type_breakdown": {
     "daily": 10,
-    "research": 501,
+    "research": 502,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 329,
+    "seedling": 330,
     "evergreen": 10
   },
   "notes": [
@@ -18881,6 +18881,21 @@
       "url": "/notes/research-2026-07-20-1901-hermes-consolidated-insight/"
     },
     {
+      "slug": "research-2026-07-20-研究報告-human-in-the-loop-agent-patterns-2026-從-interrupt-原語到-action-firewall",
+      "title": "研究報告：Human-in-the-Loop Agent Patterns 2026 — 從 Interrupt 原語到 Action Firewall",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "research",
+        "knowledge",
+        "ai-agent"
+      ],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "vault_path": "research/2026-07-20-研究報告-human-in-the-loop-agent-patterns-2026-從-interrupt-原語到-action-firewall.md",
+      "url": "/notes/research-2026-07-20-研究報告-human-in-the-loop-agent-patterns-2026-從-interrupt-原語到-action-firewall/"
+    },
+    {
       "slug": "research-index",
       "title": "Research Index",
       "type": "research",
@@ -18897,8 +18912,8 @@
       "type": "research",
       "status": "seedling",
       "tags": [],
-      "created": "2026-07-16",
-      "updated": "2026-07-16",
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
       "vault_path": "research/research-index.md",
       "url": "/notes/research-research-index/"
     },
