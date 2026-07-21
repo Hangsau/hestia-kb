@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-21T11:00:30",
+  "generated_at": "2026-07-21T11:30:42",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1419,
+  "count": 1420,
   "type_breakdown": {
     "daily": 10,
-    "research": 505,
+    "research": 506,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 335,
+    "seedling": 336,
     "evergreen": 10
   },
   "notes": [
@@ -18939,6 +18939,22 @@
       "updated": "2026-07-21",
       "vault_path": "research/2026-07-21-0901-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-21-0901-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-21-1101-hermes-consolidated-insight",
+      "title": "4 篇 Memory Architecture 研究的收斂訊號：Reader→Writer 失效信號回饋是 WS-035 的真正缺口",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "drift-penalty"
+      ],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "vault_path": "research/2026-07-21-1101-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-21-1101-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
