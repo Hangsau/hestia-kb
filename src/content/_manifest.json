@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-21T09:00:47",
+  "generated_at": "2026-07-21T09:30:13",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1418,
+  "count": 1419,
   "type_breakdown": {
     "daily": 10,
-    "research": 504,
+    "research": 505,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 334,
+    "seedling": 335,
     "evergreen": 10
   },
   "notes": [
@@ -18925,6 +18925,20 @@
       "updated": "2026-07-21",
       "vault_path": "research/2026-07-21-0800-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-21-0800-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-21-0901-hermes-consolidated-insight",
+      "title": "記憶治理的下一個瓶頸：從「多軸訊號」走向可評估的回饋控制",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "vault_path": "research/2026-07-21-0901-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-21-0901-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
