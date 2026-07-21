@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-22T02:00:47",
+  "generated_at": "2026-07-22T02:30:42",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1424,
+  "count": 1425,
   "type_breakdown": {
     "daily": 10,
-    "research": 510,
+    "research": 511,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 340,
+    "seedling": 341,
     "evergreen": 10
   },
   "notes": [
@@ -19017,6 +19017,23 @@
       "updated": "2026-07-21",
       "vault_path": "research/2026-07-21-研究報告-agent-state-recovery-idempotency-crash-consistency-in-long-horizon-workflows.md",
       "url": "/notes/research-2026-07-21-研究報告-agent-state-recovery-idempotency-crash-consistency-in-long-horizon-workflows/"
+    },
+    {
+      "slug": "research-2026-07-22-0200-hermes-consolidated-insight",
+      "title": "Synthesis exhaustion 已達，本批為 fed-to-exhaustion 第 3 次 cron 觸發",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "redundant-batch",
+        "fed-to-exhaustion"
+      ],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "vault_path": "research/2026-07-22-0200-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-22-0200-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
