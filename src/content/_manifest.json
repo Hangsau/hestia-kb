@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-21T20:00:46",
+  "generated_at": "2026-07-21T20:30:46",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1421,
+  "count": 1422,
   "type_breakdown": {
     "daily": 10,
-    "research": 507,
+    "research": 508,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 337,
+    "seedling": 338,
     "evergreen": 10
   },
   "notes": [
@@ -18971,6 +18971,23 @@
       "updated": "2026-07-21",
       "vault_path": "research/2026-07-21-1801-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-21-1801-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-21-2000-hermes-consolidated-insight",
+      "title": "Redundant batch re-confirmation：4 篇 Memory Architecture 素材本日已達 synthesis exhaustion，cron 在 18:01 後仍重複觸發",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "redundant-batch",
+        "cron-storm"
+      ],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "vault_path": "research/2026-07-21-2000-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-21-2000-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
