@@ -1,7 +1,7 @@
 ---
 _slug: swimming-RAW-PMID-42150378-impact-of-swimming-intensity-on-spatiotemporal-kinematics-of
 _vault_path: swimming/RAW/PMID-42150378-impact-of-swimming-intensity-on-spatiotemporal-kinematics-of.md
-date: 2026-07-07
+date: 2026-07-21
 type: pubmed
 pmid: 42150378
 pmcid: null
@@ -14,8 +14,8 @@ authors: Gourgoulis V, Nikodelis T, Gketzenis P, Kasimatis P, Bekiaris A, Koulex
   S
 title: 'Impact of swimming intensity on spatiotemporal kinematics of lower-limb breaststroke
   actions in national-level male swimmers: A discrete variable and time-series analysis.'
-created: '2026-07-07'
-updated: '2026-07-07'
+created: '2026-07-21'
+updated: '2026-07-21'
 ---
 
 # PMID-42150378 — Impact of swimming intensity on spatiotemporal kinematics of lower-limb breaststroke actions in national-level male swimmers: A discrete variable and time-series analysis.
