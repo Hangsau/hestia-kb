@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-21T08:00:14",
+  "generated_at": "2026-07-21T08:30:27",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1415,
+  "count": 1418,
   "type_breakdown": {
     "daily": 10,
-    "research": 503,
+    "research": 504,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -15,13 +15,13 @@
     "r7-escalation": 1,
     "reliability-concern": 1,
     "swimming": 237,
-    "forum-digest": 31,
+    "forum-digest": 32,
     "raw": 13,
     "research-article": 28,
     "primary-research": 21,
     "systematic-review": 4,
     "observational-study": 2,
-    "pubmed": 34,
+    "pubmed": 35,
     "scoping-review": 1,
     "literature-review": 4,
     "digest": 31,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 331,
+    "seedling": 334,
     "evergreen": 10
   },
   "notes": [
@@ -18913,6 +18913,20 @@
       "url": "/notes/research-2026-07-21-0701-hermes-consolidated-insight/"
     },
     {
+      "slug": "research-2026-07-21-0800-hermes-consolidated-insight",
+      "title": "Memory 系統的雙軸收斂：Reader→Writer 閉環 + Pre-Execution Governance",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "vault_path": "research/2026-07-21-0800-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-21-0800-hermes-consolidated-insight/"
+    },
+    {
       "slug": "research-index",
       "title": "Research Index",
       "type": "research",
@@ -19166,6 +19180,17 @@
       "url": "/notes/swimming-RAW-2026-07-20-forum-reddit-r-swimming/"
     },
     {
+      "slug": "swimming-RAW-2026-07-21-forum-reddit-r-swimming",
+      "title": "Reddit r/swimming — 2026-07-21",
+      "type": "forum-digest",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "vault_path": "swimming/RAW/2026-07-21-forum-reddit-r-swimming.md",
+      "url": "/notes/swimming-RAW-2026-07-21-forum-reddit-r-swimming/"
+    },
+    {
       "slug": "swimming-RAW-PMID-41780505-key-contributors-to-top-elite-swimming-performance-differenc",
       "title": "Key Contributors to Top-Elite Swimming Performance: Differences Between Junior and Adult Female Freestyle Swimmers.",
       "type": "pubmed",
@@ -19175,6 +19200,17 @@
       "updated": "2026-06-29",
       "vault_path": "swimming/RAW/PMID-41780505-key-contributors-to-top-elite-swimming-performance-differenc.md",
       "url": "/notes/swimming-RAW-PMID-41780505-key-contributors-to-top-elite-swimming-performance-differenc/"
+    },
+    {
+      "slug": "swimming-RAW-PMID-41915057-dose-dependent-effects-of-apilarnil-on-muscle-damage-and-end",
+      "title": "Dose-dependent effects of apilarnil on muscle damage and endurance performance during exhaustive swimming exercise in rats: translational ınsights for sports physiology.",
+      "type": "pubmed",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "vault_path": "swimming/RAW/PMID-41915057-dose-dependent-effects-of-apilarnil-on-muscle-damage-and-end.md",
+      "url": "/notes/swimming-RAW-PMID-41915057-dose-dependent-effects-of-apilarnil-on-muscle-damage-and-end/"
     },
     {
       "slug": "swimming-RAW-PMID-41990406-additional-shoulder-roll-may-not-augment-the-simulation-of-f",
