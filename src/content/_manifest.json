@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-21T21:00:23",
+  "generated_at": "2026-07-21T21:30:46",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1422,
+  "count": 1423,
   "type_breakdown": {
     "daily": 10,
-    "research": 508,
+    "research": 509,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 338,
+    "seedling": 339,
     "evergreen": 10
   },
   "notes": [
@@ -18988,6 +18988,20 @@
       "updated": "2026-07-21",
       "vault_path": "research/2026-07-21-2000-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-21-2000-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-21-2100-hermes-consolidated-insight",
+      "title": "記憶系統的共同收斂：先分診，再以失敗訊號閉環治理",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "vault_path": "research/2026-07-21-2100-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-21-2100-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
