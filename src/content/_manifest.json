@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-22T05:00:46",
+  "generated_at": "2026-07-22T05:30:15",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1425,
+  "count": 1426,
   "type_breakdown": {
     "daily": 10,
-    "research": 511,
+    "research": 512,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 341,
+    "seedling": 342,
     "evergreen": 10
   },
   "notes": [
@@ -19034,6 +19034,25 @@
       "updated": "2026-07-22",
       "vault_path": "research/2026-07-22-0200-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-22-0200-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-22-0500-hermes-consolidated-insight",
+      "title": "Synthesis 已完全 exhaustion：fed_count 達 3 後 cron 仍強行觸發，無可提煉的 cross-cutting insight",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "redundant-batch",
+        "fed-to-exhaustion",
+        "cron-storm",
+        "fifth-run"
+      ],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "vault_path": "research/2026-07-22-0500-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-22-0500-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
