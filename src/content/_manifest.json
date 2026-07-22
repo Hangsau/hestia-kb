@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-22T07:30:27",
+  "generated_at": "2026-07-22T08:00:44",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1427,
+  "count": 1428,
   "type_breakdown": {
     "daily": 10,
     "research": 513,
@@ -15,7 +15,7 @@
     "r7-escalation": 1,
     "reliability-concern": 1,
     "swimming": 237,
-    "forum-digest": 32,
+    "forum-digest": 33,
     "raw": 13,
     "research-article": 28,
     "primary-research": 21,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 343,
+    "seedling": 344,
     "evergreen": 10
   },
   "notes": [
@@ -19336,6 +19336,17 @@
       "updated": "2026-07-21",
       "vault_path": "swimming/RAW/2026-07-21-forum-reddit-r-swimming.md",
       "url": "/notes/swimming-RAW-2026-07-21-forum-reddit-r-swimming/"
+    },
+    {
+      "slug": "swimming-RAW-2026-07-22-forum-reddit-r-swimming",
+      "title": "Reddit r/swimming — 2026-07-22",
+      "type": "forum-digest",
+      "status": "seedling",
+      "tags": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "vault_path": "swimming/RAW/2026-07-22-forum-reddit-r-swimming.md",
+      "url": "/notes/swimming-RAW-2026-07-22-forum-reddit-r-swimming/"
     },
     {
       "slug": "swimming-RAW-PMID-41780505-key-contributors-to-top-elite-swimming-performance-differenc",
