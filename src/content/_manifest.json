@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-22T17:00:46",
+  "generated_at": "2026-07-22T17:30:42",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1434,
+  "count": 1435,
   "type_breakdown": {
     "daily": 10,
-    "research": 519,
+    "research": 520,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 350,
+    "seedling": 351,
     "evergreen": 10
   },
   "notes": [
@@ -19171,6 +19171,22 @@
       "updated": "2026-07-22",
       "vault_path": "research/2026-07-22-1601-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-22-1601-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-22-1702-hermes-consolidated-insight",
+      "title": "6/9 Memory Quartet 第六輪：redundant-skip 生效，無新 insight，執行 --mark-fed 收尾",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "no-new-theme",
+        "idempotent-skip"
+      ],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "vault_path": "research/2026-07-22-1702-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-22-1702-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
