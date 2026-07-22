@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-23T05:00:22",
+  "generated_at": "2026-07-23T05:30:08",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1439,
+  "count": 1440,
   "type_breakdown": {
     "daily": 10,
-    "research": 524,
+    "research": 525,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 355,
+    "seedling": 356,
     "evergreen": 10
   },
   "notes": [
@@ -19256,6 +19256,23 @@
       "updated": "2026-07-23",
       "vault_path": "research/2026-07-23-0200-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-23-0200-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-23-0500-hermes-consolidated-insight",
+      "title": "2026-06-09 記憶架構探索的跨論文收斂：三個 hidden design axes 與 WS-035 的可行路徑",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "memory-architecture",
+        "ws-035",
+        "drift-penalty"
+      ],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "vault_path": "research/2026-07-23-0500-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-23-0500-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
