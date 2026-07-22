@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-22T14:00:46",
+  "generated_at": "2026-07-22T14:30:23",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1432,
+  "count": 1433,
   "type_breakdown": {
     "daily": 10,
-    "research": 517,
+    "research": 518,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 348,
+    "seedling": 349,
     "evergreen": 10
   },
   "notes": [
@@ -19140,6 +19140,20 @@
       "updated": "2026-07-22",
       "vault_path": "research/2026-07-22-1301-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-22-1301-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-22-1401-hermes-consolidated-insight",
+      "title": "Trigger-Gated Ingestion 與 Reader→Writer 閉環:四篇記憶系統論文的共同軸線",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "vault_path": "research/2026-07-22-1401-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-22-1401-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
