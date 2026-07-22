@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-22T21:00:46",
+  "generated_at": "2026-07-22T21:30:30",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1435,
+  "count": 1436,
   "type_breakdown": {
     "daily": 10,
-    "research": 520,
+    "research": 521,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 351,
+    "seedling": 352,
     "evergreen": 10
   },
   "notes": [
@@ -19187,6 +19187,25 @@
       "updated": "2026-07-22",
       "vault_path": "research/2026-07-22-1702-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-22-1702-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-22-2100-hermes-consolidated-insight",
+      "title": "無可 consolidation 的 insight：unconsolidated = 0，第十次 cron 觸發確認",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis",
+        "no-insight",
+        "redundant-batch",
+        "fed-to-exhaustion",
+        "tenth-run",
+        "cron-storm"
+      ],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "vault_path": "research/2026-07-22-2100-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-22-2100-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
