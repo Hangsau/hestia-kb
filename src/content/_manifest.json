@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-24T04:00:46",
+  "generated_at": "2026-07-24T04:30:32",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1450,
+  "count": 1451,
   "type_breakdown": {
     "daily": 10,
-    "research": 531,
+    "research": 532,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 366,
+    "seedling": 367,
     "evergreen": 10
   },
   "notes": [
@@ -19360,6 +19360,20 @@
       "updated": "2026-07-23",
       "vault_path": "research/2026-07-23-研究報告-llm-context-rot-與長時程推理-long-horizon-reasoning.md",
       "url": "/notes/research-2026-07-23-研究報告-llm-context-rot-與長時程推理-long-horizon-reasoning/"
+    },
+    {
+      "slug": "research-2026-07-24-0400-hermes-consolidated-insight",
+      "title": "無可 consolidation 的 insight：本輪沒有未消化筆記（結構性停滯，非偶發空 batch）",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "vault_path": "research/2026-07-24-0400-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-24-0400-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
