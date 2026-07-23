@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-23T20:00:29",
+  "generated_at": "2026-07-23T20:30:46",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1447,
+  "count": 1448,
   "type_breakdown": {
     "daily": 10,
-    "research": 528,
+    "research": 529,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 363,
+    "seedling": 364,
     "evergreen": 10
   },
   "notes": [
@@ -19317,6 +19317,20 @@
       "updated": "2026-07-23",
       "vault_path": "research/2026-07-23-1200-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-23-1200-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-23-2001-hermes-consolidated-insight",
+      "title": "Memory Architecture 收斂於「讀寫反饋閉環 + 結構化索引」",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "vault_path": "research/2026-07-23-2001-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-23-2001-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
