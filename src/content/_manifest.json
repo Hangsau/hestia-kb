@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-23T10:00:20",
+  "generated_at": "2026-07-23T10:30:13",
   "vault_root": "/home/hangsau/obsidian-vault",
-  "count": 1444,
+  "count": 1445,
   "type_breakdown": {
     "daily": 10,
-    "research": 525,
+    "research": 526,
     "project-plan": 1,
     "project": 1,
     "learning": 19,
@@ -45,7 +45,7 @@
   },
   "status_breakdown": {
     "budding": 1074,
-    "seedling": 360,
+    "seedling": 361,
     "evergreen": 10
   },
   "notes": [
@@ -19273,6 +19273,20 @@
       "updated": "2026-07-23",
       "vault_path": "research/2026-07-23-0500-hermes-consolidated-insight.md",
       "url": "/notes/research-2026-07-23-0500-hermes-consolidated-insight/"
+    },
+    {
+      "slug": "research-2026-07-23-1000-hermes-consolidated-insight",
+      "title": "研究批次已飽和：consolidation 應轉向新證據，而非重寫舊結論",
+      "type": "research",
+      "status": "seedling",
+      "tags": [
+        "consolidation",
+        "synthesis"
+      ],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "vault_path": "research/2026-07-23-1000-hermes-consolidated-insight.md",
+      "url": "/notes/research-2026-07-23-1000-hermes-consolidated-insight/"
     },
     {
       "slug": "research-index",
