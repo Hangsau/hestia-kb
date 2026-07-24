@@ -1,7 +1,7 @@
 ---
 _slug: swimming-RAW-PMID-42431036-differential-regulation-of-exercise-fatigue-by-spirulina-pep
 _vault_path: swimming/RAW/PMID-42431036-differential-regulation-of-exercise-fatigue-by-spirulina-pep.md
-date: 2026-07-21
+date: 2026-07-24
 type: pubmed
 pmid: 42431036
 pmcid: null
@@ -15,8 +15,8 @@ authors: Ding T, Li Z, Duan R, Zhang J, Xing L, Sun X, Zhang F, Wang Q, Qie S, Y
 title: 'Differential regulation of exercise fatigue by Spirulina peptides: energy
   metabolism and antioxidant defense mechanisms mediated in a comparative swimming
   model.'
-created: '2026-07-21'
-updated: '2026-07-21'
+created: '2026-07-24'
+updated: '2026-07-24'
 ---
 
 # PMID-42431036 — Differential regulation of exercise fatigue by Spirulina peptides: energy metabolism and antioxidant defense mechanisms mediated in a comparative swimming model.
